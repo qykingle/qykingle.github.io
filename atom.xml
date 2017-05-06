@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kingle.online/"/>
-  <updated>2017-05-06T05:05:56.000Z</updated>
+  <updated>2017-05-03T16:36:54.000Z</updated>
   <id>http://kingle.online/</id>
   
   <author>
@@ -16,11 +16,805 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hello World</title>
+    <link href="http://kingle.online/2017/05/04/hello-world/"/>
+    <id>http://kingle.online/2017/05/04/hello-world/</id>
+    <published>2017-05-03T16:31:26.000Z</published>
+    <updated>2017-05-03T16:36:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>iTerm2快捷键</title>
+    <link href="http://kingle.online/2017/05/01/iTerm2%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <id>http://kingle.online/2017/05/01/iTerm2快捷键/</id>
+    <published>2017-05-01T14:12:17.000Z</published>
+    <updated>2017-05-06T06:15:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a><a href="#标签" title="标签"></a>标签</h2><p>新建标签：<strong>command + t</strong></p>
+<p>关闭标签：<strong>command + w</strong></p>
+<p>切换标签：<br><strong>command + 数字</strong> <strong>command + 左右方向键</strong></p>
+<p>切换全屏：<strong>command + enter</strong></p>
+<p>查找：<strong>command + f</strong><br><a id="more"></a></p>
+<h2 id="分屏"><a href="#分屏" class="headerlink" title="分屏"></a><a href="#分屏" title="分屏"></a>分屏</h2><p>垂直分屏：<strong>command + d</strong></p>
+<p>水平分屏：<strong>command + shift + d</strong></p>
+<p>切换屏幕：<br><strong>command + option + 方向键</strong><br><strong>command + [</strong>  或 <strong>command + ]</strong></p>
+<p>查看历史命令：<strong>command + ;</strong></p>
+<p>查看剪贴板历史：<strong>command + shift + h</strong></p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a><a href="#其他" title="其他"></a>其他</h2><p>清除当前行：<strong>ctrl + u</strong></p>
+<p>到行首：<strong>ctrl + a</strong></p>
+<p>到行尾：<strong>ctrl + e</strong></p>
+<p>前进后退：<strong>ctrl + f/b</strong> (相当于左右方向键)</p>
+<p>上一条命令：<strong>ctrl + p</strong></p>
+<p>搜索命令历史：<strong>ctrl + r</strong></p>
+<p>删除当前光标的字符：<strong>ctrl + d</strong></p>
+<p>删除光标之前的字符：<strong>ctrl + h</strong></p>
+<p>删除光标之前的单词：<strong>ctrl + w</strong></p>
+<p>删除到文本末尾：<strong>ctrl + k</strong></p>
+<p>交换光标处文本：<strong>ctrl + t</strong></p>
+<p>清屏1：<strong>command + r</strong></p>
+<p>清屏2：<strong>ctrl + l</strong></p>
+<h2 id="自带有哪些很实用的功能-快捷键"><a href="#自带有哪些很实用的功能-快捷键" class="headerlink" title="自带有哪些很实用的功能/快捷键"></a><a href="#自带有哪些很实用的功能-快捷键" title="自带有哪些很实用的功能/快捷键"></a>自带有哪些很实用的功能/快捷键</h2><p><strong>⌘ + 数字</strong> 在各 tab 标签直接来回切换</p>
+<p>选择即复制 + 鼠标中键粘贴，这个很实用</p>
+<p><strong>⌘ + f</strong> 所查找的内容会被自动复制</p>
+<p><strong>⌘ + d</strong> 横着分屏 /<br><strong>⌘ + shift + d</strong> 竖着分屏</p>
+<p><strong>⌘ + r = clear</strong>，而且只是换到新一屏，不会想 clear 一样创建一个空屏</p>
+<p><strong>ctrl + u</strong> 清空当前行，无论光标在什么位置</p>
+<p>输入开头命令后 按 <strong>⌘ + ;</strong> 会自动列出输入过的命令</p>
+<p><strong>⌘ + shift + h</strong> 会列出剪切板历史</p>
+<p>可以在 Preferences &gt; keys 设置全局快捷键调出 iterm，这个也可以用过 Alfred 实现</p>
+<h2 id="常用的一些快捷键"><a href="#常用的一些快捷键" class="headerlink" title="常用的一些快捷键"></a><a href="#常用的一些快捷键" title="常用的一些快捷键"></a>常用的一些快捷键</h2><p><strong>⌘ + 1 / 2</strong> 左右 tab 之间来回切换，这个在 前面 已经介绍过了</p>
+<p><strong>⌘←</strong> / <strong>⌘→</strong> 到一行命令最左边/最右边 ，这个功能同 <strong>C+a</strong> / <strong>C+e</strong></p>
+<p><strong>⌥←</strong> / <strong>⌥→</strong>按单词前移/后移，相当与 <strong>C+f</strong> / <strong>C+b</strong>，其实这个功能在Iterm中已经预定义好了，<strong>⌥f</strong> / <strong>⌥b</strong>，看个人习惯了</p>
+<p>好像就这几个</p>
+<p>设置方法如下</p>
+<p>当然除了这些可以自定义的也不能忘了 linux 下那些好用的组合</p>
+<p><strong>C+a</strong> / <strong>C+e</strong> 这个几乎在哪都可以使用</p>
+<p><strong>C+p</strong> / <strong>!!</strong> 上一条命令</p>
+<p><strong>C+k</strong> 从光标处删至命令行尾 (本来 C+u 是删至命令行首，但iterm中是删掉整行)</p>
+<p><strong>C+w</strong> <strong>A+d</strong> 从光标处删至字首/尾</p>
+<p><strong>C+h</strong> <strong>C+d</strong> 删掉光标前后的字符</p>
+<p><strong>C+y</strong> 粘贴至光标后</p>
+<p><strong>C+r</strong> 搜索命令历史，这个较常用</p>
+<h2 id="选中即复制"><a href="#选中即复制" class="headerlink" title="选中即复制"></a><a href="#选中即复制" title="选中即复制"></a>选中即复制</h2><p>iterm2 有 2 种好用的选中即复制模式。</p>
+<p>一种是用鼠标，在 iterm2 中，选中某个路径或者某个词汇，那么，iterm2 就自 动复制了。  </p>
+<p>另一种是无鼠标模式，command+f,弹出 iterm2 的查找模式，输入要查找并复制的内容的前几个字母，确认找到的是自己的内容之后，输入 tab，查找窗口将自动变化内容，并将其复制。如果输入的是 shift+tab，则自动将查找内容的左边选中并复制。</p>
+<p>自动完成<br>输入打头几个字母，然后输入 <strong>command+;</strong> iterm2 将自动列出之前输入过的类似命令。 　　</p>
+<h2 id="剪切历史"><a href="#剪切历史" class="headerlink" title="剪切历史"></a><a href="#剪切历史" title="剪切历史"></a>剪切历史</h2><p>输入 command+shift+h，iterm2 将自动列出剪切板的历史记录。如果需要将剪切板的历史记录保存到磁盘，在 Preferences &gt; General &gt; Save copy/paste history to disk 中设置。</p>
+<blockquote>
+<p>转载自<a href="https://microzz.com/2017/04/22/iterm2/" target="_blank" rel="external">https://microzz.com/2017/04/22/iterm2/</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;标签&quot;&gt;&lt;a href=&quot;#标签&quot; class=&quot;headerlink&quot; title=&quot;标签&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#标签&quot; title=&quot;标签&quot;&gt;&lt;/a&gt;标签&lt;/h2&gt;&lt;p&gt;新建标签：&lt;strong&gt;command + t&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+    
+    </summary>
+    
+    
+      <category term="iTerm2" scheme="http://kingle.online/tags/iTerm2/"/>
+    
+      <category term="快捷键" scheme="http://kingle.online/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Numpy数据存取与函数</title>
+    <link href="http://kingle.online/2017/04/29/Numpy%E6%95%B0%E6%8D%AE%E5%AD%98%E5%8F%96%E4%B8%8E%E5%87%BD%E6%95%B0/"/>
+    <id>http://kingle.online/2017/04/29/Numpy数据存取与函数/</id>
+    <published>2017-04-29T14:07:43.000Z</published>
+    <updated>2017-05-06T06:08:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="数据的CSV文件存取"><a href="#数据的CSV文件存取" class="headerlink" title="数据的CSV文件存取"></a><a href="#数据的CSV文件存取" title="数据的CSV文件存取"></a>数据的CSV文件存取</h2><p>CSV (Comma‐Separated Value, 逗号分隔值) CSV是一种常见的文件格式，用来存储批量数据</p>
+<ul>
+<li>frame : 文件、字符串或产生器，可以是.gz或.bz2的压缩文件</li>
+<li>array : 存入文件的数组</li>
+<li>array : 存入文件的数组</li>
+<li><p>array : 存入文件的数组</p>
+</li>
+<li><p>frame : 文件、字符串或产生器，可以是.gz或.bz2的压缩文件</p>
+</li>
+<li>dtype : 数据类型，可选</li>
+<li>delimiter : 分割字符串，默认是任何空格</li>
+<li>unpack : 如果True，读入属性将分别写入不同变量</li>
+</ul>
+<blockquote>
+<p>CSV只能有效存储一维和二维数组 np.savetxt() np.loadtxt()只能有效存取一维和二维数组</p>
+</blockquote>
+<hr>
+<h2 id="任意维度如何存取呢？"><a href="#任意维度如何存取呢？" class="headerlink" title="任意维度如何存取呢？"></a><a href="#任意维度如何存取呢？" title="任意维度如何存取呢？"></a>任意维度如何存取呢？</h2><ul>
+<li>frame : 文件、字符串</li>
+<li>dtype : 读取的数据类型</li>
+<li>count : 读入元素个数，‐1表示读入整个文件</li>
+<li>sep : 数据分割字符串，如果是空串，写入文件为二进制</li>
+</ul>
+<blockquote>
+<p>该方法需要读取时知道存入文件时数组的维度和元素类型 a.tofile()和np.fromfile()需要配合使用 可以通过元数据文件来存储额外信息</p>
+</blockquote>
+<h2 id="Numpy的便捷文件存取"><a href="#Numpy的便捷文件存取" class="headerlink" title="Numpy的便捷文件存取"></a><a href="#Numpy的便捷文件存取" title="Numpy的便捷文件存取"></a>Numpy的便捷文件存取</h2><ul>
+<li>fname: 文件名，以.npy为扩展名，压缩扩展名为.npz</li>
+<li><p>array: 数组变量</p>
+</li>
+<li><p>fname: 文件名，以.npy为扩展名，压缩扩展名为.npz</p>
+</li>
+</ul>
+<h2 id="NumPy的随机函数子库"><a href="#NumPy的随机函数子库" class="headerlink" title="NumPy的随机函数子库"></a><a href="#NumPy的随机函数子库" title="NumPy的随机函数子库"></a>NumPy的随机函数子库</h2><p>np.random</p>
+<ul>
+<li>rand(do, d1, …, dn): 根据d0‐dn创建随机数数组，浮点数，[0,1)，均匀分布</li>
+<li>randn(do, d1, .., dn): 根据d0‐dn创建随机数数组，标准正态分布</li>
+<li>randint(low[, high, shape]): 根据shape创建随机整数或整数数组，范围是[low, high)</li>
+<li><p>sdde(s): 随机数种子，s是给定的种子值</p>
+</li>
+<li><p>shuffle(a): 根据数组a的第1轴进行随排列，改变数组x</p>
+</li>
+<li><p>permutation(a): 根据数组a的第1轴产生一个新的乱序数组，不改变数组x</p>
+</li>
+<li><p>choice(a[, size, replace, p]): 从一维数组a中以概率p抽取元素，形成size形状新数组 replace表示是否可以重用元素，默认为False</p>
+</li>
+<li><p>uniform(low, high, size): 产生具有均匀分布的数组,low起始值,high结束值,size形状</p>
+</li>
+<li><p>normal(loc, scale, size): 产生具有正态分布的数组,loc均值,scale标准差,size形状</p>
+</li>
+<li>poisson(lam, size): 产生具有泊松分布的数组,lam随机事件发生率,size形状</li>
+</ul>
+<h2 id="NumPy的统计函数"><a href="#NumPy的统计函数" class="headerlink" title="NumPy的统计函数"></a><a href="#NumPy的统计函数" title="NumPy的统计函数"></a>NumPy的统计函数</h2><ul>
+<li>sum(a, axis = None): 根据给定轴axis计算数组a相关元素之和， axis整数或元组</li>
+<li>mean(a, axis = None): 根据给定轴axis计算数组a相关元素的期望， axis整数或元组</li>
+<li>average(a, axis = None, weights=None): 根据给定轴axis计算数组a相关元素的加权平均值</li>
+<li>std(a, axis = None): 根据给定轴axis计算数组a相关元素的标准差</li>
+<li><p>var(a, axis = None): 根据给定轴axis计算数组a相关元素的方差</p>
+</li>
+<li><p>min(a) max(a):计算数组a中元素的最小值、最大值</p>
+</li>
+<li><p>argmin(a) argmax(a): 计算数组a中元素最小值、最大值的降一维后下标</p>
+</li>
+<li>unravel_index(index, shape): 根据shape将一维下标index转换成多维下标</li>
+<li>ptp(a): 计算数组a中元素最大值与最小值的差</li>
+<li><p>median(a): 计算数组a中元素的中位数（中值）</p>
+</li>
+<li><p>np.gradient(f): 计算数组f中元素的梯度，当f为多维时，返回每个维度梯度</p>
+<blockquote>
+<p>梯度：连续值之间的变化率，即斜率XY坐标轴连续三个X坐标对应的Y轴值：a, b, c，其中，b的梯度是： (c‐a)/2</p>
+</blockquote>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;数据的CSV文件存取&quot;&gt;&lt;a href=&quot;#数据的CSV文件存取&quot; class=&quot;headerlink&quot; title=&quot;数据的CSV文件存取&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#数据的CSV文件存取&quot; title=&quot;数据的CSV文件存取&quot;&gt;&lt;/a&gt;数据的CSV文件存取&lt;
+    
+    </summary>
+    
+    
+      <category term="numpy" scheme="http://kingle.online/tags/numpy/"/>
+    
+      <category term="python" scheme="http://kingle.online/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python-numpy库</title>
+    <link href="http://kingle.online/2017/04/17/Python-numpy%E5%BA%93/"/>
+    <id>http://kingle.online/2017/04/17/Python-numpy库/</id>
+    <published>2017-04-17T13:43:15.000Z</published>
+    <updated>2017-05-06T05:44:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="列表和数组"><a href="#列表和数组" class="headerlink" title="列表和数组"></a>列表和数组</h2><p>区别:</p>
+<ul>
+<li>列表：数据类型可以不同</li>
+<li>数组：数据类型相同<h2 id="NumPy简介"><a href="#NumPy简介" class="headerlink" title="NumPy简介"></a>NumPy简介</h2>NumPy是一个开源的Python科学计算基础库，包含：<br>一个强大的N维数组对象 ndarray</li>
+<li>广播功能函数</li>
+<li>整合C/C++/Fortran代码的工具</li>
+<li>线性代数、傅里叶变换、随机数生成等功能</li>
+</ul>
+<h3 id="ndarray对象的属性"><a href="#ndarray对象的属性" class="headerlink" title="ndarray对象的属性"></a>ndarray对象的属性</h3><ul>
+<li>.ndim: 秩，即轴的数量或纬度的数量</li>
+<li>.shape: ndarray对象的尺度，对于矩阵，n行m列</li>
+<li>.size : ndarray对象的个数，相当于.shape中n*m的值</li>
+<li>dtype: ndarray对象的元素类型</li>
+<li>itemsize: ndarray对象中每个元素的大小，以字节为单位</li>
+</ul>
+<hr>
+<h3 id="ndarray的元素类型"><a href="#ndarray的元素类型" class="headerlink" title="ndarray的元素类型"></a>ndarray的元素类型</h3><ul>
+<li>bool: 布尔类型，True或False</li>
+<li>intc:  与C语言中的int类型一致，一般是int32或int64</li>
+<li>intp:用于索引的整数，与C语言中ssize_t一致，int32或int64</li>
+<li>int8, int16, int32, int64</li>
+<li>uint8, uint16, uint32, uint64,无符号位</li>
+<li>float16, float32, float64</li>
+<li>complex64, complex128: 实部和虚部都是32 / 64位浮点数</li>
+</ul>
+<p><strong>ndarray数组可以由非同质对象构成非,同质ndarray元素为对象类型,非同质ndarray对象无法有效发挥NumPy优势，尽量避免使用</strong></p>
+<hr>
+<h3 id="ndarray数组的创建方法"><a href="#ndarray数组的创建方法" class="headerlink" title="ndarray数组的创建方法"></a>ndarray数组的创建方法</h3><p>(1)从Python中的列表、元组等类型创建ndarray数组:</p>
+<ul>
+<li>x = np.array(list/tuple)<ul>
+<li>x = np.array(list/tuple, dtype=np.float32)</li>
+</ul>
+</li>
+</ul>
+<p>(2)使用NumPy中函数创建ndarray数组，如:arange, ones, zeros等:</p>
+<ul>
+<li>np.arange(n):类似range()函数，返回ndarray类型，元素从0到n‐1</li>
+<li>np.ones(shape): 根据shape生成一个全1数组，shape是元组类型</li>
+<li>np.zeros(shape): 根据shape生成一个全0数组，shape是元组类型</li>
+<li>np.full(shape, val): 根据shape生成一个数组，每个元素值都是val</li>
+<li>np.eye(n): 创建一个正方的n*n单位矩阵，对角线为1，其余为0</li>
+<li>np.ones_like(a): 根据数组a的形状生成一个全1数组</li>
+<li>np.zeros_like(a): 根据数组a的形状生成一个全0数组</li>
+<li>np.full_like(a): 根据数组a的形状生成一个数组，每个元素值都是val</li>
+</ul>
+<p>(3)使用NumPy中其他函数创建ndarray数组</p>
+<ul>
+<li>np.linspace(): 根据起止数据等间距地填充数据，形成数组,有endpoint参数，可以设置成False</li>
+<li>np.concatenate(): 将两个或多个数组合并成一个新的数组</li>
+</ul>
+<hr>
+<h3 id="ndarray数组的维度变换"><a href="#ndarray数组的维度变换" class="headerlink" title="ndarray数组的维度变换"></a>ndarray数组的维度变换</h3><ul>
+<li>.reshape(shape): 不改变数组元素，返回一个shape形状的数组，原数组不变</li>
+<li>.resize(shape): 与.reshape()功能一样，但是修改原数组</li>
+<li>.swapaxes(ax1, ax2): 将数组n个维度中两个维度进行调换</li>
+<li>.flatten(): 对数组进行降维，返回折叠后的一维数组，原数组不变</li>
+</ul>
+<h3 id="ndarray数组的类型变换"><a href="#ndarray数组的类型变换" class="headerlink" title="ndarray数组的类型变换"></a>ndarray数组的类型变换</h3><p>new_a = a.astype(new_type)<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">b = a.astype(np.float)</div></pre></td></tr></table></figure></p>
+<p>ndarray数组向列表的转换: ls = a.tolist()</p>
+<h3 id="数组的索引和切片"><a href="#数组的索引和切片" class="headerlink" title="数组的索引和切片"></a>数组的索引和切片</h3><p>索引:获取数组中特定位置元素的过程,一般以逗号分隔<br>切片:获取数组元素子集的过程，一般以分号分隔</p>
+<h3 id="数组与标量之间的运算"><a href="#数组与标量之间的运算" class="headerlink" title="数组与标量之间的运算"></a>数组与标量之间的运算</h3><p>数组与标量之间的运算作用于数组的每一个元素<br>NumPy一元函数</p>
+<ul>
+<li>np.abs(x) np.fab(x):计算数组各元素的绝对值</li>
+<li>np.sqrt(x): 计算数组各元素的平方根</li>
+<li>np.square(x): 计算数组各元素的平方</li>
+<li>np.log(x) np.log10(x) np.log2(x): 计算数组各元素的自然对数、10底对数和2底对数</li>
+<li>np.ceil(x) np.floor(x): 计算数组各元素的ceiling值 或 floor值</li>
+<li>np.rint(x): 计算数组各元素的四舍五入值</li>
+<li>np.modf(x): 将数组各元素的小数和整数部分以两个独立数组形式返回</li>
+<li>np.cos(x) np.cosh(x) np.sin(x) np.sinh(x) np.tan(x) np.tanh(x): 计算数组各元素的普通型和双曲型三角函数</li>
+<li>np.exp(x): 计算数组各元素的指数值</li>
+<li>np.sign(x): 计算数组各元素的符号值，1(+), 0, ‐1(‐)<br><strong> 注意数组是否被真实改变</strong></li>
+</ul>
+<p>NumPy二元函数:</p>
+<ul>
+<li>np.maximum(x,y) np.fmax() np.minimum(x,y) np.fmin(): 元素级的最大值/最小值计算</li>
+<li>np.mod(x, y): 元素级的模运算</li>
+<li>np.copysign(x,y): 将数组y中各元素值的符号赋值给数组x对应元素</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;列表和数组&quot;&gt;&lt;a href=&quot;#列表和数组&quot; class=&quot;headerlink&quot; title=&quot;列表和数组&quot;&gt;&lt;/a&gt;列表和数组&lt;/h2&gt;&lt;p&gt;区别:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;列表：数据类型可以不同&lt;/li&gt;
+&lt;li&gt;数组：数据类型相同&lt;h2 id=&quot;Num
+    
+    </summary>
+    
+    
+      <category term="numpy" scheme="http://kingle.online/tags/numpy/"/>
+    
+      <category term="python" scheme="http://kingle.online/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法笔记-c/c++快速入门</title>
+    <link href="http://kingle.online/2017/03/31/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0-c-c++%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
+    <id>http://kingle.online/2017/03/31/算法笔记-c-c++快速入门/</id>
+    <published>2017-03-31T13:39:53.000Z</published>
+    <updated>2017-05-06T05:41:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="c-c-快速入门"><a href="#c-c-快速入门" class="headerlink" title="c/c++快速入门"></a>c/c++快速入门</h2><ol>
+<li>在C++标准中，stdio.h更为推荐的等价方法是：cstdio</li>
+<li>绝对值在10^9范围内的整数都可以定义成int型，否则用long long，在初值后需要加上LL</li>
+<li>尽量使用double来存储浮点型数据</li>
+<li>0-9：48-57，A-Z: 65-90，a-z: 97-122</li>
+<li>#define pi 3.14,末尾不加分号，但更推荐const double pi = 3.14， = acos(-1)</li>
+<li>位运算符没有算术运算符高</li>
+<li>除了%c外，scanf对其他格式符的输入是以空白符（空格，换行等）为结束标志</li>
+<li>printf,%0md,不足位前面补充0</li>
+<li>typedef long long LL; //给long long起一个别名LL</li>
+<li>fabs(), pow(), floor(), ceil(),sqrt(),round()四舍五入</li>
+<li>数组的大小必须是整数常亮，不能是变量</li>
+<li>如果数组大小较大（大概10^6），则需要将其定义在主函数外面</li>
+<li>对于scanf，%c格式能够识别空格跟换行并将其输入，而%s通过空格或换行来识别一个字符串的结束</li>
+<li>gets识别\n作为结束</li>
+<li>string.h: strlen(), strcmp(), strcpy(), strcat()</li>
+<li>sscanf(str, “%d”, &amp;n);从左读到右，sprintf(str, “%d”, n);从右读到左</li>
+<li>数组第二维度必须定义</li>
+<li>两个int型的指针相减，等价于在求两个指针之间相差了几个int</li>
+<li>指针是一个unsigned的整数，引用是产生变量的别名，因此常量不可使用引用</li>
+<li><p>如果自己定义了构造函数，则不能不经过初始化就定义结构体变量</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">struct</span> <span class="title">studentInfo</span> &#123;</span></div><div class="line">    <span class="keyword">int</span> id;</div><div class="line">    <span class="keyword">char</span> gender;</div><div class="line">    <span class="comment">//结构体的构造函数初始化</span></div><div class="line">    studnetInfo(<span class="keyword">int</span> _id, <span class="keyword">char</span> _gender): id(_id), gender(_gender) &#123;&#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+</li>
+<li><p>浮点数的比较，引入极小的数进行修正，eps取1e-8基本上可以满足要求。</p>
+</li>
+<li>一般的OJ系统，一秒钟的运算次数大概是10^7 ~ 10^8左右，因此O(n^2)的算法，n的规模为10000时是可以承受的。</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;c-c-快速入门&quot;&gt;&lt;a href=&quot;#c-c-快速入门&quot; class=&quot;headerlink&quot; title=&quot;c/c++快速入门&quot;&gt;&lt;/a&gt;c/c++快速入门&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;在C++标准中，stdio.h更为推荐的等价方法是：cstdio&lt;/li&gt;
+
+    
+    </summary>
+    
+    
+      <category term="算法笔记" scheme="http://kingle.online/tags/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="c/c++" scheme="http://kingle.online/tags/c-c/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vim配置</title>
+    <link href="http://kingle.online/2017/03/29/vim%E9%85%8D%E7%BD%AE/"/>
+    <id>http://kingle.online/2017/03/29/vim配置/</id>
+    <published>2017-03-29T13:38:35.000Z</published>
+    <updated>2017-05-06T05:39:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>所需即所获：像 IDE 一样使用 vim, 参考<a href="https://github.com/yangyangwithgnu/use_vim_as_ide#01-vimrc-文件" target="_blank" rel="external">https://github.com/yangyangwithgnu/use_vim_as_ide#01-vimrc-文件</a></p>
+</blockquote>
+<h2 id="0-vim-必知"><a href="#0-vim-必知" class="headerlink" title="0 vim 必知"></a>0 vim 必知</h2><p>在正式开始前先介绍几个 vim 的必知会，这不是关于如何使用而是如何配置 vim 的要点，这对理解后续相关配置非常有帮助。</p>
+<h3 id="0-1-vimrc-文件"><a href="#0-1-vimrc-文件" class="headerlink" title="0.1 .vimrc 文件"></a>0.1 .vimrc 文件</h3><p>.vimrc 是控制 vim 行为的配置文件，位于 ~/.vimrc，不论 vim 窗口外观、显示字体，还是操作方式、快捷键、插件属性均可通过编辑该配置文件将 vim 调教成最适合你的编辑器。<br>很多人之所以觉得 vim 难用，是因为 vim 缺少默认设置，甚至安装完后你连配置文件自身都找不到，不进行任何配置的 vim 的确难看、难用。不论用于代码还是普通文本编辑，有必要将如下基本配置加入 .vimrc 中。<br>前缀键。各类 vim 插件帮助文档中经常出现 <leader>，即，前缀键。vim 自带有很多快捷键，再加上各类插件的快捷键，大量快捷键出现在单层空间中难免引起冲突，为缓解该问题，引入了前缀键 <leader>，这样，键 r 可以配置成 r、<leader>r、<leader><leader>r 等等多个快捷键。前缀键是 vim 使用率较高的一个键（最高的当属 Esc），选一个最方便输入的键作为前缀键，将有助于提高编辑效率。找个无须眼睛查找、无须移动手指的键 —— 分号键，挺方便的，就在你右手小指处：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 定义快捷键的前缀，即&lt;Leader&gt;</span></div><div class="line">let mapleader=";<span class="string">"</span></div></pre></td></tr></table></figure></leader></leader></leader></leader></leader></p>
+<p>既然前缀键是为快捷键服务的，那随便说下快捷键设定原则：不同快捷键尽量不要有同序的相同字符。比如，<leader>e 执行操作 0 和 <leader>eb 执行操作 1，在你键入 <leader>e 后，vim 不会立即执行操作 0，而是继续等待用户键入 b，即便你只想键入 <leader>e，vim 也不得不花时间等待输入以确认是哪个快捷键，显然，这让 <leader>e 响应速度变慢。<leader>ea 和 <leader>eb 就没问题。<br>文件类型侦测。允许基于不同语言加载不同插件（如，C++ 的语法高亮插件与 python 的不同）：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 开启文件类型侦测</span></div><div class="line">filetype on</div><div class="line">" 根据侦测到的不同类型加载对应的插件</div><div class="line">filetype plugin on</div></pre></td></tr></table></figure></leader></leader></leader></leader></leader></leader></leader></p>
+<p>快捷键。把 vim（非插件）常用操作设定成快捷键，提升效率：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 定义快捷键到行首和行尾</span></div><div class="line">nmap LB 0</div><div class="line">nmap LE $</div><div class="line">" 设置快捷键将选中文本块复制至系统剪贴板</div><div class="line">vnoremap &lt;Leader&gt;y <span class="string">"+y</span></div><div class="line">" 设置快捷键将系统剪贴板内容粘贴至 vim</div><div class="line">nmap &lt;Leader&gt;p <span class="string">"+p</span></div><div class="line">" 定义快捷键关闭当前分割窗口</div><div class="line">nmap &lt;Leader&gt;q :q&lt;CR&gt;</div><div class="line"><span class="string">" 定义快捷键保存当前窗口内容</span></div><div class="line">nmap &lt;Leader&gt;w :w&lt;CR&gt;</div><div class="line">" 定义快捷键保存所有窗口内容并退出 vim</div><div class="line">nmap &lt;Leader&gt;WQ :wa&lt;CR&gt;:q&lt;CR&gt;</div><div class="line"><span class="string">" 不做任何保存，直接退出 vim</span></div><div class="line">nmap &lt;Leader&gt;Q :qa!&lt;CR&gt;</div><div class="line">" 依次遍历子窗口</div><div class="line">nnoremap nw &lt;C-W&gt;&lt;C-W&gt;</div><div class="line"><span class="string">" 跳转至右方的窗口</span></div><div class="line">nnoremap &lt;Leader&gt;lw &lt;C-W&gt;l</div><div class="line">" 跳转至左方的窗口</div><div class="line">nnoremap &lt;Leader&gt;hw &lt;C-W&gt;h</div><div class="line"><span class="string">" 跳转至上方的子窗口</span></div><div class="line">nnoremap &lt;Leader&gt;kw &lt;C-W&gt;k</div><div class="line">" 跳转至下方的子窗口</div><div class="line">nnoremap &lt;Leader&gt;jw &lt;C-W&gt;j</div><div class="line"><span class="string">" 定义快捷键在结对符之间跳转</span></div><div class="line">nmap &lt;Leader&gt;M %</div></pre></td></tr></table></figure></p>
+<p>立即生效。全文频繁变更 .vimrc，要让变更内容生效，一般的做法是先保存 .vimrc 再重启 vim，太繁琐了，增加如下设置，可以实现保存 .vimrc 时自动重启加载它：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 让配置变更立即生效</span></div><div class="line">autocmd BufWritePost <span class="variable">$MYVIMRC</span> source <span class="variable">$MYVIMRC</span></div></pre></td></tr></table></figure></p>
+<p>其他。搜索、vim 命令补全等设置：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 开启实时搜索功能</span></div><div class="line">set incsearch</div><div class="line">" 搜索时大小写不敏感</div><div class="line"><span class="built_in">set</span> ignorecase</div><div class="line"><span class="string">" 关闭兼容模式</span></div><div class="line">set nocompatible</div><div class="line">" vim 自身命令行模式智能补全</div><div class="line"><span class="built_in">set</span> wildmenu</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>快捷键还是得注意一些，快捷键的前缀的使用还需要多试几次，需要比较快的手速，多试几次就可以适应了。</p>
+</blockquote>
+<p>以上的四类配置不仅影响 vim，而且影响插件是否能正常运行。很多插件不仅要在 .vimrc 中添加各自特有的配置信息，还要增加 vim 自身的配置信息，在后文的各类插件介绍中，我只介绍对应插件特有配置信息，当你发现按文中介绍操作后插件未生效，很可能是 vim 自身配置信息未添加，所以一定要把上述配置拷贝至到你的 .vimrc 中，再对照本文介绍一步步操作。.vimrc 完整配置信息参见附录，每个配置项都有对应注释。另外，由于有些插件还未来得及安装，在你实验前面的插件是否生效时，vim 可能有报错信息提示，先别理会，安装完所有插件后自然对了。</p>
+<h2 id="1-源码安装编辑器-vim"><a href="#1-源码安装编辑器-vim" class="headerlink" title="1 源码安装编辑器 vim"></a>1 源码安装编辑器 vim</h2><blockquote>
+<p>对于MAC，一般自带的vim是7.4版本，这个和源码安装并不会冲突，会自动替换到8.0.之后的版本，可以用vim –version查看。</p>
+</blockquote>
+<p>发行套件的软件源中预编译的 vim 要么不是最新版本，要么功能有阉割，有必要升级成全功能的最新版，当然，源码安装必须滴：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> git@github.com:vim/vim.git</div><div class="line"><span class="built_in">cd</span> vim/</div><div class="line">./configure --with-features=huge --enable-pythoninterp --enable-rubyinterp --enable-luainterp --enable-perlinterp --with-python-config-dir=/usr/lib/python2.7/config/ --enable-gui=gtk2 --enable-cscope --enable-multibyte --enable-python3interp --with-python-config-dir=/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/config-3.6m-darwin --prefix=/usr</div><div class="line">make</div><div class="line">make install</div></pre></td></tr></table></figure></p>
+<p>其中，已经打开了Python3的使用，但是config的路径还是得根据自己的需求进行配置。<br>而 –enable-pythoninterp、–enable-rubyinterp、–enable-perlinterp、–enable-luainterp 等分别表示支持 ruby、python、perl、lua 编写的插件，–enable-gui=gtk2 表示生成采用 GNOME2 风格的 gvim，–enable-cscope 支持 cscope，–with-python-config-dir=/usr/lib/python2.7/config/ 指定 python 路径（先自行安装 python 的头文件 python-devel），这几个特性非常重要，影响后面各类插件的使用。注意，你得预先安装相关依赖库的头文件，python-devel、python3-devel、ruby-devel、lua-devel、libX11-devel、gtk-devel、gtk2-devel、gtk3-devel、ncurses-devel，如果缺失，源码构建过程虽不会报错，但最终生成的 vim 很可能缺失某些功能。构建完成后在 vim 中执行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:<span class="built_in">echo</span> has(<span class="string">'python'</span>)</div></pre></td></tr></table></figure></p>
+<p>若输出 1 则表示构建出的 vim 已支持 python，反之，0 则不支持。</p>
+<h2 id="2-插件管理"><a href="#2-插件管理" class="headerlink" title="2 插件管理"></a>2 插件管理</h2><p>vim 自身希望通过在 .vim/ 目录中预定义子目录管理所有插件（比如，子目录 doc/ 存放插件帮助文档、plugin/ 存放通用插件脚本），vim 的各插件打包文档中通常也包含上述两个（甚至更多）子目录，用户将插件打包文档中的对应子目录拷贝至 .vim/ 目录即可完成插件的安装。一般情况下这种方式没问题，但我等重度插件用户，.vim/ 将变得混乱不堪，至少存在如下几个问题：<br>插件名字冲突。所有插件的帮助文档都在 doc/ 子目录、插件脚本都在 plugin/ 子目录，同个名字空间下必然引发名字冲突；<br>插件卸载易误。你需要先知道 doc/ 和 plugin/ 子目录下哪些文件是属于该插件的，再逐一删除，容易多删/漏删。<br>我希望每个插件在 .vim/ 下都有各自独立子目录，这样需要升级、卸载插件时，直接找到对应插件目录变更即可；另外，我希望所有插件清单能在某个配置文件中集中罗列，通过某种机制实现批量自动安装/更新/升级所有插件。vundle（<a href="https://github.com/VundleVim/Vundle.vim" target="_blank" rel="external">https://github.com/VundleVim/Vundle.vim</a> ）为此而生，它让管理插件变得更清晰、智能。<br>vundle 会接管 .vim/ 下的所有原生目录，所以先清空该目录，再通过如下命令安装 vundle：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim</div></pre></td></tr></table></figure></p>
+<p>接下来在 .vimrc 增加相关配置信息(具体可以去看GitHub <a href="https://github.com/yangyangwithgnu/use_vim_as_ide#01-vimrc-文件)：" target="_blank" rel="external">https://github.com/yangyangwithgnu/use_vim_as_ide#01-vimrc-文件)：</a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div></pre></td><td class="code"><pre><div class="line"><span class="string">" vundle 环境设置</span></div><div class="line">filetype off</div><div class="line">set rtp+=~/.vim/bundle/Vundle.vim</div><div class="line">" vundle 管理的插件列表必须位于 vundle<span class="comment">#begin() 和 vundle#end() 之间</span></div><div class="line">call vundle<span class="comment">#begin()</span></div><div class="line">Plugin <span class="string">'VundleVim/Vundle.vim'</span></div><div class="line">Plugin <span class="string">'altercation/vim-colors-solarized'</span></div><div class="line">Plugin <span class="string">'tomasr/molokai'</span></div><div class="line">Plugin <span class="string">'vim-scripts/phd'</span></div><div class="line">Plugin <span class="string">'Lokaltog/vim-powerline'</span></div><div class="line">Plugin <span class="string">'octol/vim-cpp-enhanced-highlight'</span></div><div class="line">Plugin <span class="string">'nathanaelkane/vim-indent-guides'</span></div><div class="line">Plugin <span class="string">'derekwyatt/vim-fswitch'</span></div><div class="line">Plugin <span class="string">'kshenoy/vim-signature'</span></div><div class="line">Plugin <span class="string">'vim-scripts/BOOKMARKS--Mark-and-Highlight-Full-Lines'</span></div><div class="line">Plugin <span class="string">'majutsushi/tagbar'</span></div><div class="line">Plugin <span class="string">'vim-scripts/indexer.tar.gz'</span></div><div class="line">Plugin <span class="string">'vim-scripts/DfrankUtil'</span></div><div class="line">Plugin <span class="string">'vim-scripts/vimprj'</span></div><div class="line">Plugin <span class="string">'dyng/ctrlsf.vim'</span></div><div class="line">Plugin <span class="string">'terryma/vim-multiple-cursors'</span></div><div class="line">Plugin <span class="string">'scrooloose/nerdcommenter'</span></div><div class="line">Plugin <span class="string">'vim-scripts/DrawIt'</span></div><div class="line">Plugin <span class="string">'SirVer/ultisnips'</span></div><div class="line">Plugin <span class="string">'Valloric/YouCompleteMe'</span></div><div class="line">Plugin <span class="string">'derekwyatt/vim-protodef'</span></div><div class="line">Plugin <span class="string">'scrooloose/nerdtree'</span></div><div class="line">Plugin <span class="string">'fholgado/minibufexpl.vim'</span></div><div class="line">Plugin <span class="string">'gcmt/wildfire.vim'</span></div><div class="line">Plugin <span class="string">'sjl/gundo.vim'</span></div><div class="line">Plugin <span class="string">'Lokaltog/vim-easymotion'</span></div><div class="line">Plugin <span class="string">'suan/vim-instant-markdown'</span></div><div class="line">Plugin <span class="string">'lilydjwg/fcitx.vim'</span></div><div class="line"><span class="string">" 插件列表结束</span></div><div class="line">call vundle#end()</div><div class="line">filetype plugin indent on</div></pre></td></tr></table></figure></p>
+<p>其中，每项<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Plugin <span class="string">'dyng/ctrlsf.vim'</span></div></pre></td></tr></table></figure></p>
+<p>对应一个插件（这与 go 语言管理不同代码库的机制类似），后续若有新增插件，只需追加至该列表中即可。vundle 支持源码托管在 <a href="https://github.com/" target="_blank" rel="external">https://github.com/</a> 的插件，同时 vim 官网 <a href="http://www.vim.org/" target="_blank" rel="external">http://www.vim.org/</a> 上的所有插件均在 <a href="https://github.com/vim-scripts/" target="_blank" rel="external">https://github.com/vim-scripts/</a> 有镜像，所以，基本上主流插件都可以纳入 vundle 管理。具体而言，仍以 ctrlsf.vim 为例，它在 .vimrc 中配置信息为 dyng/ctrlsf.vim，vundle 很容易构造出其真实下载地址 <a href="https://github.com/dyng/ctrlsf.vim.git" target="_blank" rel="external">https://github.com/dyng/ctrlsf.vim.git</a> ，然后借助 git 工具进行下载及安装。<br>此后，需要安装插件，先找到其在 github.com 的地址，再将配置信息其加入 .vimrc 中的call vundle#begin() 和 call vundle#end() 之间，最后进入 vim 执行:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:PluginInstall</div></pre></td></tr></table></figure></p>
+<p>要卸载插件，先在 .vimrc 中注释或者删除对应插件配置信息，然后在 vim 中执行:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:PluginClean</div></pre></td></tr></table></figure></p>
+<p>即可删除对应插件。插件更新频率较高，差不多每隔一个月你应该看看哪些插件有推出新版本，批量更新，只需执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:PluginUpdate</div></pre></td></tr></table></figure></p>
+<p>即可。<br>你得注意插件的下载源。同名插件在 github.com 上可能有多个，比如，indexer 插件，至少就有 <a href="https://github.com/vim-scripts/indexer.tar.gz" target="_blank" rel="external">https://github.com/vim-scripts/indexer.tar.gz</a> 、<a href="https://github.com/everzet/vim-indexer" target="_blank" rel="external">https://github.com/everzet/vim-indexer</a> 、<a href="https://github.com/shemerey/vim-indexer" target="_blank" rel="external">https://github.com/shemerey/vim-indexer</a> 等三个，到底应该选哪个呢？以我的经验来看，对于钟意的插件，我会先找其作者的个人网站，上面通常会罗列出托管在 github.com 的具体地址；若没有，我会找该插件在 vim.org 的页面，上面也会有 github.com 托管地址；若还是没有，再以 github 和插件名作为关键字搜索，点赞数多的，通常是你想找的。为节约你找插件地址的时间，本文中出现的每个插件我都会附上其地址。非特殊情况，后文介绍到的插件不再累述如何安装。<br>通过 vundle 管理插件后，切勿通过发行套件自带的软件管理工具安装任何插件，不然 .vim/ 又要混乱了。</p>
+<h2 id="3-界面美化"><a href="#3-界面美化" class="headerlink" title="3 界面美化"></a>3 界面美化</h2><p>玉不琢不成器，vim 不配不算美。刚安装好的 vim 朴素得吓人，这是与我同时代的软件么？<br><img src="http://ojlmcfp94.bkt.clouddn.com/imgae/%E9%BB%98%E8%AE%A4vim%E7%95%8C%E9%9D%A2.png"></p>
+<h3 id="3-1-主题风格"><a href="#3-1-主题风格" class="headerlink" title="3.1  主题风格"></a>3.1  主题风格</h3><p>一套好的配色方案绝对会影响你的编码效率，vim 内置了 10 多种配色方案供你选择，GUI 下，可以通过菜单（Edit -&gt; Color Scheme）试用不同方案，字符模式下，需要你手工调整配置信息，再重启 vim 查看效果（csExplorer 插件，可在字符模式下不用重启即可查看效果）。不满意，可以去 <a href="http://vimcolorschemetest.googlecode.com/svn/html/index-c.html" target="_blank" rel="external">http://vimcolorschemetest.googlecode.com/svn/html/index-c.html</a> 慢慢选。我自认为“阅美无数”，目前最夯三甲：</p>
+<ul>
+<li>素雅 solarized（<a href="https://github.com/altercation/vim-colors-solarized" target="_blank" rel="external">https://github.com/altercation/vim-colors-solarized</a> ）</li>
+<li>多彩 molokai（<a href="https://github.com/tomasr/molokai" target="_blank" rel="external">https://github.com/tomasr/molokai</a> ）</li>
+<li>复古 phd（<a href="http://www.vim.org/scripts/script.php?script_id=3139" target="_blank" rel="external">http://www.vim.org/scripts/script.php?script_id=3139</a> ）<br>但是我自己还是比较喜欢：</li>
+<li>lucius <a href="https://github.com/jonathanfilip/vim-lucius" target="_blank" rel="external">https://github.com/jonathanfilip/vim-lucius</a><br><img src="http://ojlmcfp94.bkt.clouddn.com/imgae/%E9%85%8D%E8%89%B2%E6%96%B9%E6%A1%88.png"><br>“ 配色方案<br>set background=dark<br>colorscheme solarized<br>“colorscheme molokai<br>“colorscheme phd<br>“colorscheme lucius</li>
+</ul>
+<h3 id="3-2-营造专注氛围"><a href="#3-2-营造专注氛围" class="headerlink" title="3.2 营造专注氛围"></a>3.2 营造专注氛围</h3><p>如今的 UX 设计讲究的是内容至上，从 GNOME3 的变化就能看出。编辑器界面展示的应全是代码，不应该有工具条、菜单、滚动条浪费空间的元素，另外，编程是种精神高度集中的脑力劳动，不应出现闪烁光标、花哨鼠标这些分散注意力的东东。配置如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 禁止光标闪烁</span></div><div class="line">set gcr=a:block-blinkon0</div><div class="line">" 禁止显示滚动条</div><div class="line"><span class="built_in">set</span> guioptions-=l</div><div class="line"><span class="built_in">set</span> guioptions-=L</div><div class="line"><span class="built_in">set</span> guioptions-=r</div><div class="line"><span class="built_in">set</span> guioptions-=R</div><div class="line"><span class="string">" 禁止显示菜单和工具条</span></div><div class="line">set guioptions-=m</div><div class="line">set guioptions-=T</div></pre></td></tr></table></figure></p>
+<p>我们把 vim 弄成全屏模式。vim 自身无法实现全屏，必须借助第三方工具 wmctrl，一个控制窗口 XYZ 坐标、窗口尺寸的命令行工具。先自行安装 wmctrl，再在 .vimrc 中增加如下信息：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 将外部命令 wmctrl 控制窗口最大化的命令行参数封装成一个 vim 的函数</span></div><div class="line">fun! ToggleFullscreen()</div><div class="line">    call system("wmctrl -ir <span class="string">" . v:windowid . "</span> -b toggle,fullscreen<span class="string">")</span></div><div class="line">endf</div><div class="line">" 全屏开/关快捷键</div><div class="line">map &lt;silent&gt; &lt;F11&gt; :call ToggleFullscreen()&lt;CR&gt;</div><div class="line"><span class="string">" 启动 vim 时自动全屏</span></div><div class="line">autocmd VimEnter * call ToggleFullscreen()</div></pre></td></tr></table></figure></p>
+<h3 id="3-3-添加辅助信息"><a href="#3-3-添加辅助信息" class="headerlink" title="3.3 添加辅助信息"></a>3.3 添加辅助信息</h3><p>去除了冗余元素让 vim 界面清爽多了，为那些实用辅助信息腾出了空间。光标当前位置、显示行号、高亮当前行/列等等都很有用：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 总是显示状态栏</span></div><div class="line">set laststatus=2</div><div class="line">" 显示光标当前位置</div><div class="line"><span class="built_in">set</span> ruler</div><div class="line"><span class="string">" 开启行号显示</span></div><div class="line">set number</div><div class="line">" 高亮显示当前行/列</div><div class="line"><span class="built_in">set</span> cursorline</div><div class="line"><span class="built_in">set</span> cursorcolumn</div><div class="line"><span class="string">" 高亮显示搜索结果</span></div><div class="line">set hlsearch</div></pre></td></tr></table></figure></p>
+<h3 id="3-4-其他美化"><a href="#3-4-其他美化" class="headerlink" title="3.4 其他美化"></a>3.4 其他美化</h3><p>默认字体不好看，挑个自己喜欢的，前提是你得先安装好该字体。中文字体，我喜欢饱满方正的（微软雅黑），英文字体喜欢圆润的（Consolas），vim 无法同时使用两种字体，怎么办？有人制作发布了一款中文字体用微软雅黑、英文字体用 Consolas 的混合字体 —— yahei consolas hybrid 字体，号称最适合中国程序员使用的字体，效果非常不错（本文全文采用该字体）。在 .vimrc 中设置下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 设置 gvim 显示字体</span></div><div class="line">set guifont=YaHei\ Consolas\ Hybrid\ 11.5</div></pre></td></tr></table></figure></p>
+<p>其中，由于字体名存在空格，需要用转义符“\”进行转义；最后的 11.5 用于指定字体大小。<br>代码折行也不太美观，禁止掉：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 禁止折行</span></div><div class="line">set nowrap</div></pre></td></tr></table></figure></p>
+<p>前面介绍的主题风格对状态栏不起作用，需要借助插件 Powerline（<a href="https://github.com/Lokaltog/vim-powerline" target="_blank" rel="external">https://github.com/Lokaltog/vim-powerline</a> ）美化状态栏，在 .vimrc 中设定状态栏主题风格：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 设置状态栏主题风格</span></div><div class="line">let g:Powerline_colorscheme='solarized256'</div></pre></td></tr></table></figure></p>
+<p>效果见上图。</p>
+<h2 id="4-代码分析"><a href="#4-代码分析" class="headerlink" title="4 代码分析"></a>4 代码分析</h2><p>阅读优秀开源项目源码是提高能力的重要手段，营造舒适、便利的阅读环境至关重要。</p>
+<h3 id="4-1-语法高亮"><a href="#4-1-语法高亮" class="headerlink" title="4.1 语法高亮"></a>4.1 语法高亮</h3><p>代码只有一种颜色的编辑器，就好像红绿灯只有一种颜色的路口，全然无指引。现在已是千禧年后的十年了，早已告别上世纪六、七十年代黑底白字的时代，即使在字符模式下编程（感谢伟大的 fbterm），我也需要语法高亮。所幸 vim 自身支持语法高亮，只需显式打开即可：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 开启语法高亮功能</span></div><div class="line">syntax enable</div><div class="line">" 允许用指定语法高亮配色方案替换默认方案</div><div class="line">syntax on</div></pre></td></tr></table></figure></p>
+<p>vim 对 C++ 语法高亮支持不够好（特别是 C++11/14 新增元素），必须借由插件 vim-cpp-enhanced-highlight（<a href="https://github.com/octol/vim-cpp-enhanced-highlight" target="_blank" rel="external">https://github.com/octol/vim-cpp-enhanced-highlight</a> ）进行增强。</p>
+<p>vim-cpp-enhanced-highlight 主要通过 .vim/bundle/vim-cpp-enhanced-highlight/after/syntax/cpp.vim 控制高亮关键字及规则，所以，当你发现某个 STL 容器类型未高亮，那么将该类型追加进 cpp.vim 即可。如，initializer_list 默认并不会高亮，需要添加:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">syntax keyword cppSTL<span class="built_in">type</span> initializer_list</div></pre></td></tr></table></figure></p>
+<h3 id="4-2-代码缩进"><a href="#4-2-代码缩进" class="headerlink" title="4.2 代码缩进"></a>4.2 代码缩进</h3><p>C/C++ 中的代码执行流由复合语句控制，如 if(){} 判断复合语句、for(){} 循环符号语句等等，这势必出现大量缩进。缩进虽然不影响语法正确性，但对提升代码清晰度有不可替代的功效。<br>在 vim 中有两类缩进表示法，一类是用 1 个制表符（’\t’），一类是用多个空格（’ ‘）。两者并无本质区别，只是源码文件存储的字符不同而已，但，缩进可视化插件对两类缩进显示方式不同，前者只能显示为粗块，后者可显示为细条，就我的审美观而言，选后者。增加如下配置信息：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 自适应不同语言的智能缩进</span></div><div class="line">filetype indent on</div><div class="line">" 将制表符扩展为空格</div><div class="line"><span class="built_in">set</span> expandtab</div><div class="line"><span class="string">" 设置编辑时制表符占用空格数</span></div><div class="line">set tabstop=4</div><div class="line">" 设置格式化时制表符占用空格数</div><div class="line"><span class="built_in">set</span> shiftwidth=4</div><div class="line"><span class="string">" 让 vim 把连续数量的空格视为一个制表符</span></div><div class="line">set softtabstop=4</div></pre></td></tr></table></figure></p>
+<p>其中，注意下 expandtab、tabstop 与 shiftwidth、softtabstop、retab：</p>
+<ul>
+<li>expandtab，把制表符转换为多个空格，具体空格数量参考 tabstop 和 shiftwidth 变量；</li>
+<li>tabstop 与 shiftwidth 是有区别的。tabstop 指定我们在插入模式下输入一个制表符占据的空格数量，linux 内核编码规范建议是 8，看个人需要；shiftwidth 指定在进行缩进格式化源码时制表符占据的空格数。所谓缩进格式化，指的是通过 vim 命令由 vim 自动对源码进行缩进处理，比如其他人的代码不满足你的缩进要求，你就可以对其进行缩进格式化。缩进格式化，需要先选中指定行，要么键入 = 让 vim 对该行进行智能缩进格式化，要么按需键入多次 &lt; 或 &gt; 手工缩进格式化；</li>
+<li>softtabstop，如何处理连续多个空格。因为 expandtab 已经把制表符转换为空格，当你要删除制表符时你得连续删除多个空格，该设置就是告诉 vim 把连续数量的空格视为一个制表符，即，只删一个字符即可。通常应将这tabstop、shiftwidth、softtabstop 三个变量设置为相同值；<br>另外，你总会阅读其他人的代码吧，他们对制表符定义规则与你不同，这时你可以手工执行 vim 的 retab 命令，让 vim 按上述规则重新处理制表符与空格关系。<br>很多编码规范建议缩进（代码嵌套类似）最多不能超过 4 层，但难免有更多层的情况，缩进一多，我那个晕啊：<br>我希望有种可视化的方式能将相同缩进的代码关联起来，Indent Guides（<a href="https://github.com/nathanaelkane/vim-indent-guides" target="_blank" rel="external">https://github.com/nathanaelkane/vim-indent-guides</a> ）来了。安装好该插件后，增加如下配置信息：<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 随 vim 自启动</span></div><div class="line">let g:indent_guides_enable_on_vim_startup=1</div><div class="line">" 从第二层开始可视化显示缩进</div><div class="line"><span class="built_in">let</span> g:indent_guides_start_level=2</div><div class="line"><span class="string">" 色块宽度</span></div><div class="line">let g:indent_guides_guide_size=1</div><div class="line">" 快捷键 i 开/关缩进可视化</div><div class="line">:nmap &lt;silent&gt; &lt;Leader&gt;i &lt;Plug&gt;IndentGuidesToggle</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>断节？Indent Guides 通过识别制表符来绘制缩进连接线，断节处是空行，没有制表符，自然绘制不出来，算是个小 bug，但瑕不掩瑜，有个小技巧可以解决，换行-空格-退格：</p>
+<h3 id="4-3-代码折叠"><a href="#4-3-代码折叠" class="headerlink" title="4.3 代码折叠"></a>4.3 代码折叠</h3><p>有时为了去除干扰，集中精力在某部分代码片段上，我会把不关注部分代码折叠起来。vim 自身支持多种折叠：手动建立折叠（manual）、基于缩进进行折叠（indent）、基于语法进行折叠（syntax）、未更改文本构成折叠（diff）等等，其中，indent、syntax 比较适合编程，按需选用。增加如下配置信息：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 基于缩进或语法进行代码折叠</span></div><div class="line">"<span class="built_in">set</span> foldmethod=indent</div><div class="line"><span class="built_in">set</span> foldmethod=syntax</div><div class="line"><span class="string">" 启动 vim 时关闭折叠代码</span></div><div class="line">set nofoldenable</div></pre></td></tr></table></figure></p>
+<p>操作：za，打开或关闭当前折叠；zM，关闭所有折叠；zR，打开所有折叠。</p>
+<h3 id="4-4-接口与实现快速切换"><a href="#4-4-接口与实现快速切换" class="headerlink" title="4.4 接口与实现快速切换"></a>4.4 接口与实现快速切换</h3><p>我习惯把类的接口和实现分在不同文件中，常有在接口文件（MyClass.h）和实现文件（MyClass.cpp）中来回切换的操作。你当然可以先分别打开接口文件和实现文件，再手动切换，但效率不高。我希望，假如在接口文件中，vim 自动帮我找到对应的实现文件，当键入快捷键，在新 buffer 中打开对应实现文件。<br>vim-fswitch（<a href="https://github.com/derekwyatt/vim-fswitch" target="_blank" rel="external">https://github.com/derekwyatt/vim-fswitch</a> ）来了。安装后增加配置信息：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="string">" *.cpp 和 *.h 间切换</span></div><div class="line">nmap &lt;silent&gt; &lt;Leader&gt;sw :FSHere&lt;cr&gt;</div></pre></td></tr></table></figure></p>
+<p>这样，键入 ;sw 就能在实现文件和接口文件间切换。</p>
+<p>上图中，初始状态先打开了接口文件 MyClass.h，键入 ;sw 后，vim 在新 buffer 中打开实现文件 MyClass.cpp，并在当前窗口中显示；再次键入 ;sw 后，当前窗口切回接口文件。</p>
+<h3 id="4-5-代码收藏"><a href="#4-5-代码收藏" class="headerlink" title="4.5 代码收藏"></a>4.5 代码收藏</h3><p>源码分析过程中，常常需要在不同代码间来回跳转，我需要“收藏”分散在不同处的代码行，以便需要查看时能快速跳转过去，这时，vim 的书签（mark）功能派上大用途了。<br>vim 书签的使用很简单，在你需要收藏的代码行键入 mm，这样就收藏好了，你试试，没反应？不会吧，难道你 linux 内核编译参数有问题，或者，vim 的编译参数没给全，让我想想，别急，喔，对了，你是指看不到书签？好吧，我承认这是 vim 最大的坑，书签所在行与普通行外观上没任何差别，肉眼，你是找不到他滴。这可不行，得来个让书签可视化的插件，vim-signature（<a href="https://github.com/kshenoy/vim-signature" target="_blank" rel="external">https://github.com/kshenoy/vim-signature</a> ）。vim-signature 通过在书签所在行的前面添加字符的形式，以此可视化书签，这就要求你源码安装的 vim 具备 signs 特性，具体可在 vim 命令模式下键入:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:<span class="built_in">echo</span> has(<span class="string">'signs'</span>)</div></pre></td></tr></table></figure></p>
+<p>若显示 1 则具备该特性，反之 0 则不具备该特性，需参考“1 源码安装编辑器 vim ”重新编译 vim。<br>vim 的书签分为两类，独立书签和分类书签。独立书签，书签名只能由字母（a-zA-Z）组成，长度最多不超过 2 个字母，并且，同个文件中，不同独立书签名中不能含有相同字母，比如，a 和 bD 可以同时出现在同个文件在，而 Fc 和 c 则不行。分类书签，书签名只能由可打印特殊字符（!@#$%^&amp;*()）组成，长度只能有 1 个字符，同个文件中，你可以把不同行设置成同名书签，这样，这些行在逻辑上就归类成相同类型的书签了。下图定义了名为 a 和 dF 两个独立书签（分别 259 行和 261 行）、名为 # 的一类分类书签（含 256 行和 264 行）、名为 @ 的一类分类书签（257 行）.<br>两种形式的书签完全分布在各自不同的空间中，所以，它俩的任何操作都是互不相同的，比如，你无法遍历所有书签，要么只能在各个独立书签间遍历，要么只能在分类书签间遍历。显然，两种形式的书签都有各自的使用场景，就我而言，只使用独立书签，原因有二：一是独立书签可保存，当我设置好独立书签后关闭文档，下次重新打开该文档时，先前的独立书签仍然有效，而分类书签没有该特性（其他文档环境恢复参见“6.3 环境恢复”）；一是减少记忆快捷键，光是独立书签就有 8 种遍历方式，每种遍历对应一种快捷键，太难记了。<br>vim-signature 快捷键如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">let</span> g:SignatureMap = &#123;</div><div class="line">        \ <span class="string">'Leader'</span> : <span class="string">"m"</span>,</div><div class="line">        \ <span class="string">'PlaceNextMark'</span> : <span class="string">"m,"</span>,</div><div class="line">        \ <span class="string">'ToggleMarkAtLine'</span> : <span class="string">"m."</span>,</div><div class="line">        \ <span class="string">'PurgeMarksAtLine'</span> : <span class="string">"m-"</span>,</div><div class="line">        \ <span class="string">'DeleteMark'</span> : <span class="string">"dm"</span>,</div><div class="line">        \ <span class="string">'PurgeMarks'</span> : <span class="string">"mda"</span>,</div><div class="line">        \ <span class="string">'PurgeMarkers'</span> : <span class="string">"m&lt;BS&gt;"</span>,</div><div class="line">        \ <span class="string">'GotoNextLineAlpha'</span> : <span class="string">"']"</span>,</div><div class="line">        \ <span class="string">'GotoPrevLineAlpha'</span> : <span class="string">"'["</span>,</div><div class="line">        \ <span class="string">'GotoNextSpotAlpha'</span> : <span class="string">"`]"</span>,</div><div class="line">        \ <span class="string">'GotoPrevSpotAlpha'</span> : <span class="string">"`["</span>,</div><div class="line">        \ <span class="string">'GotoNextLineByPos'</span> : <span class="string">"]'"</span>,</div><div class="line">        \ <span class="string">'GotoPrevLineByPos'</span> : <span class="string">"['"</span>,</div><div class="line">        \ <span class="string">'GotoNextSpotByPos'</span> : <span class="string">"mn"</span>,</div><div class="line">        \ <span class="string">'GotoPrevSpotByPos'</span> : <span class="string">"mp"</span>,</div><div class="line">        \ <span class="string">'GotoNextMarker'</span> : <span class="string">"[+"</span>,</div><div class="line">        \ <span class="string">'GotoPrevMarker'</span> : <span class="string">"[-"</span>,</div><div class="line">        \ <span class="string">'GotoNextMarkerAny'</span> : <span class="string">"]="</span>,</div><div class="line">        \ <span class="string">'GotoPrevMarkerAny'</span> : <span class="string">"[="</span>,</div><div class="line">        \ <span class="string">'ListLocalMarks'</span> : <span class="string">"ms"</span>,</div><div class="line">        \ <span class="string">'ListLocalMarkers'</span> : <span class="string">"m?"</span></div><div class="line">        \ &#125;</div></pre></td></tr></table></figure></p>
+<p>够多了吧，粗体部分是按个人习惯重新定义的快捷键，请添加进 .vimrc 中。<br>常用的操作也就如下几类：<br>书签设定。mx，设定/取消当前行名为 x 的标签；m,，自动设定下一个可用书签名，前面提说，独立书签名是不能重复的，在你已经有了多个独立书签，当想再设置书签时，需要记住已经设定的所有书签名，否则很可能会将已有的书签冲掉，这可不好，所以，vim-signature 为你提供了 m, 快捷键，自动帮你选定下一个可用独立书签名；mda，删除当前文件中所有独立书签。<br>书签罗列。m?，罗列出当前文件中所有书签，选中后回车可直接跳转；<br>书签跳转。mn，按行号前后顺序，跳转至下个独立书签；mp，按行号前后顺序，跳转至前个独立书签。书签跳转方式很多，除了这里说的行号前后顺序，还可以基于书签名字母顺序跳转、分类书签同类跳转、分类书签不同类间跳转等等。<br>我虽然选用了 vim-signature，但不代表它完美了，对我而言，无法在不同文件的书签间跳转绝对算是硬伤。另外，如果觉得收藏的代码行只有行首符号来表示不够醒目，你可以考虑 BOOKMARKS–Mark-and-Highlight-Full-Lines 这个插件（<a href="https://github.com/vim-scripts/BOOKMARKS--Mark-and-Highlight-Full-Lines" target="_blank" rel="external">https://github.com/vim-scripts/BOOKMARKS--Mark-and-Highlight-Full-Lines</a> ），它可以让书签行高亮，如下是它的快捷键：，高亮所有书签行；，关闭所有书签行高亮；，清除 [a-z] 的所有书签；，收藏当前行；，取消收藏当前行。</p>
+<h3 id="4-6-标识符列表"><a href="#4-6-标识符列表" class="headerlink" title="4.6 标识符列表"></a>4.6 标识符列表</h3><p>本节之前的内容，虽说与代码开发有些关系，但最多也只能算作用户体验层面的，真正提升生产效率的内容将从此开始。<br>本文主题是探讨如何将 vim 打造成高效的 C/C++ 开发环境，希望实现标识符列表、定义跳转、声明提示、实时诊断、代码补全等等系列功能，这些都需要 vim 能够很好地理解我们的代码（不论是 vim 自身还是借助插件甚至第三方工具），如何帮助 vim 理解代码？基本上，有两种主流方式：标签系统和语义系统。至于优劣，简单来说，标签系统配置简单，而语义系统效果精准，后者是趋势。目前对于高阶 IDE 功能，部分已经有对应基于语义的插件支撑，而部分仍只能通过基于标签的方式实现，若同个功能既有语义插件又有标签插件，优选语义。<br><strong>标签系统</strong><br>代码中的类、结构、类成员、函数、对象、宏等等这些统称为标识符，每个标识符的定义、所在文件中的行位置、所在文件的路径等等信息就是标签（tag）。<br>Exuberant Ctags（<a href="http://ctags.sourceforge.net/" target="_blank" rel="external">http://ctags.sourceforge.net/</a> ，后简称 ctags）就是一款经典的用于生成代码标签信息的工具 。ctags 最初只支持生成 C/C++ 语言，目前已支持 41 种语言，具体列表运行如下命令获取：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctags --list-languages</div></pre></td></tr></table></figure></p>
+<p>学习知识最好方式就是动手实践。我们以 main.cpp、my_class.h、my_class.cpp 三个文件为例：<br>第一步，准备代码文件。创建演示目录 /data/workplace/example/、库子目录 /data/workplace/example/lib/，创建如下内容的 main.cpp：<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostring&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"lib/my_class.h"</span></span></div><div class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</div><div class="line"><span class="keyword">int</span> g_num = <span class="number">128</span>;</div><div class="line"><span class="comment">// 重载函数</span></div><div class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span></span></div><div class="line"><span class="title">printMsg</span> <span class="params">(<span class="keyword">char</span> ch)</span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; ch &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</div><div class="line">&#125;</div><div class="line"><span class="function"><span class="keyword">int</span></span></div><div class="line"><span class="title">main</span> <span class="params">(<span class="keyword">void</span>)</span></div><div class="line">&#123;</div><div class="line">    <span class="comment">// 局部对象</span></div><div class="line">    <span class="keyword">const</span> <span class="built_in">string</span>    name = <span class="string">"yangyang.gnu"</span>;</div><div class="line">    <span class="comment">// 类</span></div><div class="line">    MyClass    one;</div><div class="line">    <span class="comment">// 成员函数</span></div><div class="line">    one.printMsg();</div><div class="line">    <span class="comment">// 使用局部对象</span></div><div class="line">    <span class="built_in">cout</span> &lt;&lt; g_num &lt;&lt; name &lt;&lt; <span class="built_in">endl</span>;</div><div class="line">    <span class="keyword">return</span>    (EXIT_SUCCESS);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>创建如下内容的 my_class.h：<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyClass</span></span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">public</span>:</div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">printMsg</span><span class="params">(<span class="keyword">void</span>)</span></span>;      </div><div class="line">    <span class="keyword">private</span>:</div><div class="line">        ;</div><div class="line">&#125;;</div></pre></td></tr></table></figure></p>
+<p>创建如下内容的 my_class.cpp：<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"my_class.h"</span></span></div><div class="line"><span class="comment">// 重载函数</span></div><div class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span></span></div><div class="line"><span class="title">printMsg</span> <span class="params">(<span class="keyword">int</span> i)</span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; i &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</div><div class="line">&#125;</div><div class="line"><span class="keyword">void</span></div><div class="line">MyClass::printMsg (<span class="keyword">void</span>)</div><div class="line">&#123;</div><div class="line">    <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"I'M MyClass!"</span> &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>第二步，生成标签文件。现在运行 ctags 生成标签文件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> /data/workplace/example/</div><div class="line">ctags -R --c++-kinds=+p+l+x+c+d+e+f+g+m+n+s+t+u+v --fields=+liaS --extra=+q --language-force=c++</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>注意：如果在mac上不能运行上述代码可以参考<a href="https://gist.github.com/nazgob/1570678" target="_blank" rel="external">https://gist.github.com/nazgob/1570678</a></p>
+</blockquote>
+<p>命令行参数较多，主要关注 –c++-kinds，ctags 默认并不会提取所有标签，运行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctags --list-kinds=c++</div></pre></td></tr></table></figure></p>
+<p>可看到 ctags 支持生成标签类型的全量列表：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">c classes</div><div class="line">d macro definitions</div><div class="line">e enumerators (values inside an enumeration)</div><div class="line">f <span class="keyword">function</span> definitions</div><div class="line">g enumeration names</div><div class="line">l <span class="built_in">local</span> variables [off]</div><div class="line">m class, struct, and union members</div><div class="line">n namespaces</div><div class="line">p <span class="keyword">function</span> prototypes [off]</div><div class="line">s structure names</div><div class="line">t typedefs</div><div class="line">u union names</div><div class="line">v variable definitions</div><div class="line">x external and forward variable declarations [off]</div></pre></td></tr></table></figure></p>
+<p>其中，标为 off 的局部对象、函数声明、外部对象等类型默认不会生成标签，所以我显式加上所有类型。运行完后，example/ 下多了个文件 tags.里面的内容，! 开头的几行是 ctags 生成的软件信息忽略之，下面的就是我们需要的标签，每个标签项至少有如下字段（命令行参数不同标签项的字段数不同）：标识符名、标识符所在的文件名（也是该文件的相对路径）、标识符所在行的内容、标识符类型（如，l 表示局部对象），另外，若是函数，则有函数签名字段，若是成员函数，则有访问属型字段等等。<br><strong>语义系统</strong><br>通过 ctags 这类标签系统在一定程度上助力 vim 理解我们的代码，对于 C 语言这类简单语言来说，差不多也够了。近几年，随着 C++11/14 的推出，诸如类型推导、lamda 表达式、模版等等新特性，标签系统显得有心无力，这个星球最了解代码的工具非编译器莫属，如果编译器能在语义这个高度帮助 vim 理解代码，那么我们需要的各项 IDE 功能肯定能达到另一个高度。<br>语义系统，编译器必不可少。GCC 和 clang 两大主流 C/C++ 编译器，作为语义系统的支撑工具，我选择后者，除了 clang 对新标准支持及时、错误诊断信息清晰这些优点之外，更重要的是，它在高内聚、低耦合方面做得非常好，各类插件可以调用 libclang 获取非常完整的代码分析结果，从而轻松且优雅地实现高阶 IDE 功能。你对语义系统肯定还是比较懵懂，紧接着的“基于语义的声明/定义跳转”会让你有更为直观的了解，现在，请跳转至“7.1 编译器/构建工具集成”，一是了解 clang 相较 GCC 的优势，二是安装好最新版 clang 及其标准库，之后再回来。</p>
+<p><strong>基于标签的标识符列表</strong><br>在阅读代码时，经常分析指定函数实现细节，我希望有个插件能把从当前代码文件中提取出的所有标识符放在一个侧边子窗口中，并且能能按语法规则将标识符进行归类，tagbar （<a href="https://github.com/majutsushi/tagbar" target="_blank" rel="external">https://github.com/majutsushi/tagbar</a> ）是一款基于标签的标识符列表插件，它自动周期性调用 ctags 获取标签信息（仅保留在内存，不落地成文件）。安装完 tagbar 后，在 .vimrc 中增加如下信息：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 设置 tagbar 子窗口的位置出现在主编辑区的左边</span></div><div class="line">let tagbar_left=1</div><div class="line">" 设置显示／隐藏标签列表子窗口的快捷键。速记：identifier list by tag</div><div class="line">nnoremap &lt;Leader&gt;ilt :TagbarToggle&lt;CR&gt;</div><div class="line"><span class="string">" 设置标签子窗口的宽度</span></div><div class="line">let tagbar_width=32</div><div class="line">" tagbar 子窗口中不显示冗余帮助信息</div><div class="line"><span class="built_in">let</span> g:tagbar_compact=1</div><div class="line"><span class="string">" 设置 ctags 对哪些代码标识符生成标签</span></div><div class="line">let g:tagbar_type_cpp = &#123;</div><div class="line">    \ 'kinds' : [</div><div class="line">         \ 'c:classes:0:1',</div><div class="line">         \ 'd:macros:0:1',</div><div class="line">         \ 'e:enumerators:0:0',</div><div class="line">         \ 'f:functions:0:1',</div><div class="line">         \ 'g:enumeration:0:1',</div><div class="line">         \ 'l:local:0:1',</div><div class="line">         \ 'm:members:0:1',</div><div class="line">         \ 'n:namespaces:0:1',</div><div class="line">         \ 'p:functions_prototypes:0:1',</div><div class="line">         \ 's:structs:0:1',</div><div class="line">         \ 't:typedefs:0:1',</div><div class="line">         \ 'u:unions:0:1',</div><div class="line">         \ 'v:global:0:1',</div><div class="line">         \ 'x:external:0:1'</div><div class="line">     \ ],</div><div class="line">     \ 'sro' : '::',</div><div class="line">     \ 'kind2scope' : &#123;</div><div class="line">         \ 'g' : 'enum',</div><div class="line">         \ 'n' : 'namespace',</div><div class="line">         \ 'c' : 'class',</div><div class="line">         \ 's' : 'struct',</div><div class="line">         \ 'u' : 'union'</div><div class="line">     \ &#125;,</div><div class="line">     \ 'scope2kind' : &#123;</div><div class="line">         \ 'enum' : 'g',</div><div class="line">         \ 'namespace' : 'n',</div><div class="line">         \ 'class' : 'c',</div><div class="line">         \ 'struct' : 's',</div><div class="line">         \ 'union' : 'u'</div><div class="line">     \ &#125;</div><div class="line">\ &#125;</div></pre></td></tr></table></figure></p>
+<p>前面提过，ctags 默认并不会提取局部对象、函数声明、外部对象等类型的标签，我必须让 tagbar 告诉 ctags 改变默认参数，这是 tagbar_type_cpp 变量存在的主要目的，所以前面的配置信息中将局部对象、函数声明、外部对象等显式将其加进该变量的 kinds 域中。具体格式为:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;short&#125;:&#123;long&#125;[:&#123;fold&#125;[:&#123;stl&#125;]]</div></pre></td></tr></table></figure></p>
+<p>用于描述函数、变量、结构体等等不同类型的标识符，每种类型对应一行。其中，short 将作为 ctags 的 –c++-kinds 命令行选项的参数，类似：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">--c++-kinds=+p+l+x+c+d+e+f+g+m+n+s+t+u+v</div></pre></td></tr></table></figure></p>
+<p>long 将作为 short 的简要描述展示在 vim 的 tagbar 子窗口中；fold 表示这种类型的标识符是否折叠显示；stl 指定是否在 vim 状态栏中显示附加信息。<br>重启 vim 后，打开一个 C/C++ 源码文件，键入 ilt，将在左侧的 tagbar 窗口中将可看到标签列表：<br> tagbar 的几个特点： <em> 按作用域归类不同标签。按名字空间 n_foo、类 Foo 进行归类，在内部有声明、有定义； </em> 显示标签类型。名字空间、类、函数等等； <em> 显示完整函数原型； </em> 图形化显示共有成员（+）、私有成员（-）、保护成员（#）；<br>在标识符列表中选中对应标识符后回车即可跳至源码中对应位置；在源码中停顿几秒，tagbar 将高亮对应标识符；每次保存文件时或者切换到不同代码文件时 tagbar 自动调用 ctags 更是标签数据库；tagbar 有两种排序方式，一是按标签名字母先后顺序、一是按标签在源码中出现的先后顺序，在 .vimrc 中我配置选用后者，键入 s 切换不同不同排序方式。</p>
+<h3 id="4-7-声明-定义跳转"><a href="#4-7-声明-定义跳转" class="headerlink" title="4.7 声明/定义跳转"></a>4.7 声明/定义跳转</h3><p>假设你正在分析某个开源项目源码，在 main.cpp 中遇到调用函数 func()，想要查看它如何实现，一种方式：在 main.cpp 中查找 -&gt; 若没有在工程内查找 -&gt; 找到后打开对应文件 -&gt; 文件内查找其所在行 -&gt; 移动光标到该行 -&gt; 分析完后切换会先前文件，不仅效率太低更要命的是影响我的思维连续性。我需要另外高效的方式，就像真正函数调用一样：光标选中调用处的 func() -&gt; 键入某个快捷键自动转换到 func() 实现处 -&gt; 键入某个键又回到 func() 调用处，这就是所谓的定义跳转。<br>基本上，vim 世界存在两类导航：基于标签的跳转和基于语义的跳转。<br><strong>基于标签的声明/定义跳转</strong><br>继续延用前面接收标签系统的例子文件 main.cpp、my_class.h、my_class.cpp，第二步已经生成好了标签文件，那么要实现声明/定义跳转，需要第三步，引入标签文件。这让 vim 知晓标签文件的路径。在 /data/workplace/example/ 目录下用 vim 打开 main.cpp，在 vim 中执行如下目录引入标签文件 tags：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:<span class="built_in">set</span> tags+=/data/workplace/example/tags</div></pre></td></tr></table></figure></p>
+<p>既然 vim 有个专门的命令来引入标签，说明 vim 能识别标签。虽然标签文件中并无行号，但已经有标签所在文件，以及标签所在行的完整内容，vim 只需切换至对应文件，再在文件内作内容查找即可找到对应行。换言之，只要有对应的标签文件，vim 就能根据标签跳转至标签定义处。<br>这时，你可以体验下初级的声明/定义跳转功能。把光标移到 main.cpp 的 one.printMsg() 那行的 printMsg 上，键入快捷键 g]，vim 将罗列出名为 printMsg 的所有标签候选列表，按需选择键入编号即可跳转进入。</p>
+<p>目前为止，离我预期还有差距。<br>第一，选择候选列表影响思维连续性。首先得明白为何会出现待选列表。前面说过，vim 做的事情很简单，就是把光标所在单词放到标签文件中查找，如果只有一个，当然你可以直接跳转过去，大部分时候会找到多项匹配标签，比如，函数声明、函数定义、函数调用、函数重载等等都会导致同个函数名出现在多个标签中，vim 无法知道你要查看哪项，只能让你自己选择。其实，因为标签文件中已经包含了函数签名属性，vim 的查找机制如果不是基于关键字，而是基于语义的话，那也可以直接命中，期待后续 vim 有此功能吧。既然无法直接解决，换个思路，我不想选择列表，但可以接受遍历匹配标签。就是说，我不想输入数字选择第几项，但可以接受键入正向快捷键后遍历第一个匹配标签，再次键入快捷键遍历第二个，直到最后一个，键入反向快捷键逆序遍历。这下事情简单了，命令 :tnext 和 :tprevious 分别先后和向前遍历匹配标签，定义两个快捷键搞定：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 正向遍历同名标签</span></div><div class="line">nmap &lt;Leader&gt;tn :tnext&lt;CR&gt;</div><div class="line">" 反向遍历同名标签</div><div class="line">nmap &lt;Leader&gt;tp :tprevious&lt;CR&gt;</div></pre></td></tr></table></figure></p>
+<p>等等，这还不行，vim 中有个叫标签栈（tags stack）的机制，:tnext、:tprevious 只能遍历已经压入标签栈内的标签，所以，你在遍历前需要通过快捷键 ctrl-] 将光标所在单词匹配的所有标签压入标签栈中，然后才能遍历。不说复杂了，以后你只需先键入 ctrl-]，若没跳转至需要的标签，再键入 tn 往后或者 tp 往前遍历即可。<br>第二，如何返回先前位置。当分析完函数实现后，我需要返回先前调用处，可以键入 vim 快捷键 ctrl-t 返回，如果想再次进入，可以用前面介绍的方式，或者键入 ctrl-i。另外，注意，ctrl-o 以是一种返回快捷键，但与 ctrl-t 的返回不同，前者是返回上次光标停留行、后者返回上个标签。<br>第三，如何自动生成标签并引入。开发时代码不停在变更，每次还要手动执行 ctags 命令生成新的标签文件，太麻烦了，得想个法周期性针对这个工程自动生成标签文件，并通知 vim 引人该标签文件，嘿，还真有这样的插件 —— indexer（<a href="https://github.com/vim-scripts/indexer.tar.gz" target="_blank" rel="external">https://github.com/vim-scripts/indexer.tar.gz</a> ）。indexer 依赖 DfrankUtil（<a href="https://github.com/vim-scripts/DfrankUtil" target="_blank" rel="external">https://github.com/vim-scripts/DfrankUtil</a> ）、vimprj（<a href="https://github.com/vim-scripts/vimprj" target="_blank" rel="external">https://github.com/vim-scripts/vimprj</a> ）两个插件，请一并安装。请在 .vimrc 中增加：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">" 设置插件 indexer 调用 ctags 的参数</span></div><div class="line">" 默认 --c++-kinds=+p+l，重新设置为 --c++-kinds=+p+l+x+c+d+e+f+g+m+n+s+t+u+v</div><div class="line"><span class="string">" 默认 --fields=+iaS 不满足 YCM 要求，需改为 --fields=+iaSl</span></div><div class="line">let g:indexer_ctagsCommandLineOptions="--c++-kinds=+p+l+x+c+d+e+f+g+m+n+s+t+u+v --fields=+iaSl --extra=+q<span class="string">"</span></div></pre></td></tr></table></figure></p>
+<p>另外，indexer 还有个自己的配置文件，用于设定各个工程的根目录路径，配置文件位于 ~/.indexer_files，内容可以设定为：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">--------------- ~/.indexer_files ---------------  </div><div class="line">[foo]</div><div class="line">/data/workplace/foo/src/</div><div class="line">[bar]</div><div class="line">/data/workplace/bar/src/</div></pre></td></tr></table></figure></p>
+<p>上例设定了两个工程的根目录，方括号内是对应工程名，路径为工程的代码目录，不要包含构建目录、文档目录，以避免将产生非代码文件的标签信息。这样，从以上目录打开任何代码文件时，indexer 便对整个目录创建标签文件，若代码文件有更新，那么在文件保存时，indexer 将自动调用 ctags 更新标签文件，indexer 生成的标签文件以工程名命名，位于 ~/.indexer_files_tags/，并自动引入进 vim 中，那么<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:<span class="built_in">set</span> tags+=/data/workplace/example/tags</div></pre></td></tr></table></figure></p>
+<p>一步也省了。好了，解决了这三个问题后，vim 的代码导航基本已经达到我的预期。</p>
+<blockquote>
+<p>下面依旧有很多内容，但比较深，不太适合初学者，所以不再继续写了，有兴趣可参考前面的GitHub链接，最后推荐一本vim相关的书籍，《vim实用技巧》</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;所需即所获：像 IDE 一样使用 vim, 参考&lt;a href=&quot;https://github.com/yangyangwithgnu/use_vim_as_ide#01-vimrc-文件&quot; target=&quot;_blank&quot; rel=&quot;externa
+    
+    </summary>
+    
+    
+      <category term="vim" scheme="http://kingle.online/tags/vim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python笔记-BeautifulSoup库入门</title>
+    <link href="http://kingle.online/2017/03/14/Python%E7%AC%94%E8%AE%B0-BeautifulSoup%E5%BA%93%E5%85%A5%E9%97%A8/"/>
+    <id>http://kingle.online/2017/03/14/Python笔记-BeautifulSoup库入门/</id>
+    <published>2017-03-14T13:36:40.000Z</published>
+    <updated>2017-05-06T05:38:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Beautiful-Soup库的安装"><a href="#Beautiful-Soup库的安装" class="headerlink" title="Beautiful Soup库的安装"></a>Beautiful Soup库的安装</h2><p>Win平台: “以管理员身份运行”cmd 执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip install beautifulsoup4</div></pre></td></tr></table></figure></p>
+<h2 id="最简单的测试："><a href="#最简单的测试：" class="headerlink" title="最简单的测试："></a>最简单的测试：</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> requests</div><div class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</div><div class="line">r = requests.get(<span class="string">"http://www.baidu.com"</span>)</div><div class="line">demo = r.text</div><div class="line">soup = BeautifulSoup(demo, <span class="string">'html.parser'</span>)</div><div class="line">print(soup.prettify())</div></pre></td></tr></table></figure>
+<h2 id="Beautiful-Soup库解析器："><a href="#Beautiful-Soup库解析器：" class="headerlink" title="Beautiful Soup库解析器："></a>Beautiful Soup库解析器：</h2><h2 id="BeautifulSoup类的基本元素"><a href="#BeautifulSoup类的基本元素" class="headerlink" title="BeautifulSoup类的基本元素"></a>BeautifulSoup类的基本元素</h2><ul>
+<li>Tag标签：任何存在于HTML语法中的标签都可以用soup.<tag>访问获得 当HTML文档中存在多个相同<tag>对应内容时，soup.<tag>返回第一个</tag></tag></tag></li>
+<li>Tag的name(名字)：每个<tag>都有自己的名字，通过<tag>.name获取，字符串类型</tag></tag></li>
+<li>Tag的attrs(属性)：一个<tag>可以有0或多个属性，字典类型</tag></li>
+<li>Tag的NavigableString：NavigableString可以跨越多个层次</li>
+<li>Tag的Comment：Comment是一种特殊类型，可以读取代码中的注释</li>
+</ul>
+<hr>
+<h2 id="标签树的下行遍历"><a href="#标签树的下行遍历" class="headerlink" title="标签树的下行遍历"></a>标签树的下行遍历</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#遍历儿子节点</span></div><div class="line"><span class="keyword">for</span> child <span class="keyword">in</span> soup.body.children:</div><div class="line">    print(child)</div><div class="line"></div><div class="line"><span class="comment">## 遍历子孙节点</span></div><div class="line"><span class="keyword">for</span> child <span class="keyword">in</span> soup.body.descendants:</div><div class="line">    print(child)</div></pre></td></tr></table></figure>
+<h2 id="标签树的上行遍历"><a href="#标签树的上行遍历" class="headerlink" title="标签树的上行遍历"></a>标签树的上行遍历</h2><ul>
+<li>.parent:节点的父亲标签</li>
+<li>.parents:节点先辈标签的迭代类型，用于循环遍历先辈节点</li>
+</ul>
+<h2 id="标签树的平行遍历"><a href="#标签树的平行遍历" class="headerlink" title="标签树的平行遍历"></a>标签树的平行遍历</h2><h2 id="bs4库的prettify-方法"><a href="#bs4库的prettify-方法" class="headerlink" title="bs4库的prettify()方法"></a>bs4库的prettify()方法</h2><pre><code>prettify()为HTML文本&lt;&gt;及其内容增加更加&apos;\n&apos; .prettify()可用于标签，方法:&lt;tag&gt;.prettify()
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Beautiful-Soup库的安装&quot;&gt;&lt;a href=&quot;#Beautiful-Soup库的安装&quot; class=&quot;headerlink&quot; title=&quot;Beautiful Soup库的安装&quot;&gt;&lt;/a&gt;Beautiful Soup库的安装&lt;/h2&gt;&lt;p&gt;Win平台:
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://kingle.online/tags/python/"/>
+    
+      <category term="BeautifulSoup" scheme="http://kingle.online/tags/BeautifulSoup/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python笔记-Requests库网络爬取实战</title>
+    <link href="http://kingle.online/2017/03/07/Python%E7%AC%94%E8%AE%B0-Requests%E5%BA%93%E7%BD%91%E7%BB%9C%E7%88%AC%E5%8F%96%E5%AE%9E%E6%88%98/"/>
+    <id>http://kingle.online/2017/03/07/Python笔记-Requests库网络爬取实战/</id>
+    <published>2017-03-07T13:34:48.000Z</published>
+    <updated>2017-05-06T05:41:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="实例1-京东商品页面的爬取"><a href="#实例1-京东商品页面的爬取" class="headerlink" title="实例1:京东商品页面的爬取"></a>实例1:京东商品页面的爬取</h2><p>代码：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> requests</div><div class="line">url = <span class="string">"https://item.jd.com/2967929.html"</span></div><div class="line"><span class="keyword">try</span>:</div><div class="line">    r = requests.get(url)</div><div class="line">    r.raise_for_status()</div><div class="line">    r.encoding = r.apparent_encoding</div><div class="line">    print(r.text[:<span class="number">1000</span>]</div><div class="line"><span class="keyword">except</span>:</div><div class="line">print(<span class="string">"爬取失败"</span>)</div></pre></td></tr></table></figure></p>
+<hr>
+<h2 id="实例2-亚马逊商品页面的爬取"><a href="#实例2-亚马逊商品页面的爬取" class="headerlink" title="实例2:亚马逊商品页面的爬取"></a>实例2:亚马逊商品页面的爬取</h2><p>因为亚马逊自带防爬虫技术，故而我们可以将爬虫假装成一个浏览器去访问，代码如下：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> requests</div><div class="line">url = <span class="string">"https://www.amazon.cn/gp/product/B01M8L5Z3Y"</span></div><div class="line"><span class="keyword">try</span>:</div><div class="line">    kv = &#123;<span class="string">"user-agent"</span>:<span class="string">"Mozilla/5.0"</span>&#125;</div><div class="line">    r = requests.get(url, headers=kv)</div><div class="line">    r.raise_for_status()</div><div class="line">    r.encoding = r.apparent_encoding</div><div class="line">    print(r.text[<span class="number">1000</span>:<span class="number">2000</span>])</div><div class="line"><span class="keyword">except</span>:</div><div class="line">    print(<span class="string">"爬取失败"</span>)</div></pre></td></tr></table></figure></p>
+<hr>
+<h2 id="实例3-百度-360搜索关键字提交"><a href="#实例3-百度-360搜索关键字提交" class="headerlink" title="实例3:百度/360搜索关键字提交"></a>实例3:百度/360搜索关键字提交</h2><p>百度的关键词接口: <a href="http://www.baidu.com/s?wd=keyword" target="_blank" rel="external">http://www.baidu.com/s?wd=keyword</a><br>360的关键词接口: <a href="http://www.so.com/s?q=keyword" target="_blank" rel="external">http://www.so.com/s?q=keyword</a><br>代码如下：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> requests</div><div class="line">keyword = <span class="string">"Python"</span></div><div class="line"><span class="keyword">try</span>:</div><div class="line">    kv = &#123;<span class="string">'wd'</span>: keyword&#125;</div><div class="line">    r = requests.get(<span class="string">"http://www.baidu.com/s"</span>, params = kv)</div><div class="line">    print(r.requests.url)</div><div class="line">    r.raise_for_status()</div><div class="line">    print(len(r.text))</div><div class="line"><span class="keyword">except</span>:</div><div class="line">    print(<span class="string">"爬取失败"</span>)</div></pre></td></tr></table></figure></p>
+<h2 id="实例4-网络图片的爬取和存储"><a href="#实例4-网络图片的爬取和存储" class="headerlink" title="实例4:网络图片的爬取和存储"></a>实例4:网络图片的爬取和存储</h2><p>网络图片链接的格式: <a href="http://www.example.com/picture.jpg" target="_blank" rel="external">http://www.example.com/picture.jpg</a><br>国家地理:<a href="http://www.nationalgeographic.com.cn/" target="_blank" rel="external">http://www.nationalgeographic.com.cn/</a><br>选择一个图片Web页面: <a href="http://www.nationalgeographic.com.cn/photography/photo_of_the_" target="_blank" rel="external">http://www.nationalgeographic.com.cn/photography/photo_of_the_</a> day/3921.html<br>图片地址:<a href="http://image.nationalgeographic.com.cn/2017/" target="_blank" rel="external">http://image.nationalgeographic.com.cn/2017/</a> 0211/20170211061910157.jpg<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> requests</div><div class="line"><span class="keyword">import</span> os</div><div class="line">url = <span class="string">"http://image.nationalgeographic.com.cn/2017/ 0211/20170211061910157.jpg"</span></div><div class="line">root = <span class="string">"D://pics//"</span></div><div class="line">path = root + url.split(<span class="string">'/'</span>)[<span class="number">-1</span>]</div><div class="line"><span class="keyword">try</span>:</div><div class="line">    <span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(root):</div><div class="line">        os.mkdir(root)</div><div class="line">    <span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(path):</div><div class="line">        r = requests.get(url)</div><div class="line">        <span class="keyword">with</span> open(path, <span class="string">'wb'</span>) <span class="keyword">as</span> f:</div><div class="line">            f.write(r.content)</div><div class="line">            f.close()</div><div class="line">            print(<span class="string">"文件保存成功"</span>)</div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        print(<span class="string">"文件已经存在"</span>)</div><div class="line"><span class="keyword">except</span>:</div><div class="line">    print(<span class="string">"爬取失败"</span>)</div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;实例1-京东商品页面的爬取&quot;&gt;&lt;a href=&quot;#实例1-京东商品页面的爬取&quot; class=&quot;headerlink&quot; title=&quot;实例1:京东商品页面的爬取&quot;&gt;&lt;/a&gt;实例1:京东商品页面的爬取&lt;/h2&gt;&lt;p&gt;代码：&lt;br&gt;&lt;figure class=&quot;high
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://kingle.online/tags/python/"/>
+    
+      <category term="Requests" scheme="http://kingle.online/tags/Requests/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Emacs配置</title>
+    <link href="http://kingle.online/2017/02/23/Emacs%E9%85%8D%E7%BD%AE/"/>
+    <id>http://kingle.online/2017/02/23/Emacs配置/</id>
+    <published>2017-02-23T13:31:20.000Z</published>
+    <updated>2017-05-06T05:31:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p>title: emacs 配置<br>date: 2017-02-24 00:43:20</p>
+<h2 id="tags-emacs"><a href="#tags-emacs" class="headerlink" title="tags: emacs"></a>tags: emacs</h2><h1 id="Contents"><a href="#Contents" class="headerlink" title="Contents"></a>Contents</h1><ol>
+<li>Overview</li>
+<li>Emacs Installation</li>
+<li>Emacs Basics</li>
+<li>SML/NJ Installation</li>
+<li>SML Mode for Emacs Installation</li>
+<li>Manual SML Mode Installation for Older Emacs Versions – Probably Skip This!</li>
+<li>Using the SML/NJ REPL (Read-Eval-Print Loop) in Emacs</li>
+</ol>
+<a id="more"></a>
+<h2 id="1-Overview"><a href="#1-Overview" class="headerlink" title="1. Overview"></a>1. Overview</h2><p>For Programming Languages, Part A, we will work with the Standard ML programming language (ML), using the Standard ML of New Jersey compiler (SML/NJ). You will need SML/NJ and a text editor on your computer to do the programming assignments. Any editor that can handle plain text will work, but you will want an editor that specifically supports ML with features like automatic indentation, syntax highlighting, etc. For such an editor, we recommend Emacs because we know it works and we have detailed installation instructions in this document.</p>
+<p>You are welcome to use an editor other than Emacs. If you do, the course staff is unlikely to be able to help with any issues that arise, but you may find help on the discussion forums. While Emacs does not have the look-and-feel or tool-integration of many modern integrated development environments (IDEs), it is a versatile tool well-known by many computer scientists and software developers. If you have not used it before, you will find the menus and key bindings unusual, but learning unusual tools is commonplace in computing. Many students have used Emacs for the first time when completing this course without it being a hindrance – we do not need any complicated features and we are writing small enough programs that you do not need to be a “power-user” with any of the tools we are using. All that said, there are plenty of people who despise Emacs for various reasons unrelated to the material in this class, so use whatever you like.</p>
+<p>This document describes how to install, configure, and use Emacs, SML/NJ, and SML-Mode-for-emacs (henceforth SML Mode) on your computer. These instructions should work for recent versions of Windows, Mac OS X, and Linux.</p>
+<p>These instructions were last updated in June 2016. Details and version numbers may change in the future.</p>
+<p>Programming Languages Part B will use Racket and Programming Languages Part C will use Ruby. So there will be more software-installation in your future with instructions provided when we get there, but the instructions in this document are everything you need for Part A.</p>
+<h2 id="2-Emacs-Installation"><a href="#2-Emacs-Installation" class="headerlink" title="2. Emacs Installation"></a>2. Emacs Installation</h2><p>We strongly recommend Emacs version 24.X (for any X) so that you can use the most recent version of SML Mode. Earlier versions of SML Mode are fine, but they are more difficult to install. You can check the version of an Emacs installation in several ways, including the About Emacs option under the Help menu. Installing version 24 is easy, so we recommend doing so even if you already have an older version.</p>
+<p>Directions depend on your operating system:</p>
+<p><strong>Windows:</strong></p>
+<p>Download a zip archive of the most recent full version, currently Version 24.5, available at <a href="http://ftp.gnu.org/gnu/emacs/windows/emacs-24.5-bin-i686-mingw32.zip" target="_blank" rel="external">http://ftp.gnu.org/gnu/emacs/windows/emacs-24.5-bin-i686-mingw32.zip</a>. (More information and other versions of Emacs are available at the GNU Emacs website, <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">http://www.gnu.org/software/emacs/</a>.)</p>
+<p>Unpack the downloaded zip archive file 𝚎𝚖𝚊𝚌𝚜-𝟸𝟺.𝟻-𝚋𝚒𝚗-𝚒𝟼𝟾𝟼-𝚖𝚒𝚗𝚐𝚠𝟹𝟸.𝚣𝚒𝚙 by right-clicking it and choosing Extract All. This should produce a folder called 𝚎𝚖𝚊𝚌𝚜-𝟸𝟺.𝟻-𝚋𝚒𝚗-𝚒𝟼𝟾𝟼-𝚖𝚒𝚗𝚐𝚠𝟹𝟸. Move this folder wherever you want, but pick a permanent place (i.e., do not move it again after the next step).</p>
+<p>Once you have moved the folder to where you want, look inside to find 𝚋𝚒𝚗\𝚊𝚍𝚍𝚙𝚖.𝚎𝚡𝚎 (the .𝚎𝚡𝚎 extension might not be visible in the folder window depending on how you have Windows configured). Double click on this file to run it one time and it should add a Gnu Emacs folder to your Start menu and do some other setup operations. Open the Start menu and select Gnu Emacs then Emacs (or just type emacs in the search box) to launch Emacs.</p>
+<p><strong>Mac OS:</strong></p>
+<p>Download Emacs as a Mac OS X application from <a href="http://emacsformacosx.com/" target="_blank" rel="external">http://emacsformacosx.com/</a>. Open the disk image file (.dmg) and drag the Emacs application to your Applications folder. If you prefer another version of Emacs, such as the more primitive one on the command line or Aquamacs (<a href="http://aquamacs.org/" target="_blank" rel="external">http://aquamacs.org/</a>), you can use it, but make sure it is based on a version of Emacs 24.X or higher.</p>
+<p><strong>Linux:</strong></p>
+<p>A suitable version of Emacs is probably already installed. If not, use your package manager to install it. On Ubuntu and other Debian derivatives, try 𝚜𝚞𝚍𝚘 𝚊𝚙𝚝-𝚐𝚎𝚝 𝚒𝚗𝚜𝚝𝚊𝚕𝚕 𝚎𝚖𝚊𝚌𝚜. On Fedora, try 𝚜𝚞𝚍𝚘 𝚢𝚞𝚖 𝚒𝚗𝚜𝚝𝚊𝚕𝚕 𝚎𝚖𝚊𝚌𝚜.</p>
+<h2 id="3-Emacs-Basics"><a href="#3-Emacs-Basics" class="headerlink" title="3. Emacs Basics"></a>3. Emacs Basics</h2><p>Using Emacs feels a little different than using other editors; it can take some getting used to, especially the keyboard shortcuts. Fortunately, Emacs has buttons and menus to help you adjust if that is your style. The following is a short primer on Emacs terminology and keyboard commands.</p>
+<p>Beyond the basics described here, which should be all you need, there are countless free resources available. An introductory “tour” is at <a href="http://www.gnu.org/software/emacs/tour/" target="_blank" rel="external">http://www.gnu.org/software/emacs/tour/</a>. For more information, see the Emacs Reference Manual at \<br><a href="http://www.gnu.org/software/emacs/manual/html_node/emacs/index.html" target="_blank" rel="external">http://www.gnu.org/software/emacs/manual/html_node/emacs/index.html</a> (also available within Emacs from the Help Menu), the Emacs Wiki at <a href="http://www.emacswiki.org/" target="_blank" rel="external">http://www.emacswiki.org/</a>, or the Emacs Tutorial (within Emacs from the Help Menu).</p>
+<ul>
+<li>The cursor is a rectangular block and is referred to as the point.</li>
+<li>The mode line displays information about the buffer displayed in the current window. A buffer is a logical “thing” that you are working on. When you open a file, it will be loaded into a buffer, typically with the same name as the file.</li>
+<li>Every buffer is edited in a mode. The most basic mode is Fundamental, which provides only the most basic Emacs editing features. There are modes for many different programming languages.<br>There are many “special” buffers that do not correspond to loaded files. The one above is called <em>scratch</em>. This buffer runs in Lisp Interaction mode, which means that you can interactively type and evaluate expressions in the Lisp programming language. But we won’t do that.</li>
+</ul>
+<p>Emacs uses many key combinations involving the Control and Meta keys. Such key combinations are denoted C-x (Control-x (lowercase)) or M-x (Meta-x). On keyboards that don’t have Meta (just about all keyboards today), Alt should work on all systems, but on some Mac systems you might use the funny-symbol-with-four-circles or Option keys instead. (Emacs might complain about “Super” if you get the wrong one. If you or Emacs gets confused about what you are trying to type, use C-g to cancel your current command and start fresh.) If none of these work, use Esc, but when trying to type M-x, for example, you might need to type Esc then type x. (This is only if using Esc as Meta. The other Meta “substitutes” work as usual: hold while pressing the second key.)</p>
+<p>The most important commands in Emacs:</p>
+<ul>
+<li>C-x C-c: Quit Emacs</li>
+<li>C-g: Cancel the current action</li>
+<li>C-x C-f: Open a file (whether or not it already exists)</li>
+<li>C-x C-s: Save a file</li>
+<li>C-x C-w: Write a file (probably more familiar to you as Save as…)</li>
+</ul>
+<p>Cut, copy, paste:</p>
+<ul>
+<li>Highlight text with the mouse or by hitting C-Space to set a mark and then moving the cursor to highlight a region.</li>
+<li>C-w: Cut a highlighted region</li>
+<li>M-w: Copy a highlighted region</li>
+<li>C-k: Cut (kill) from the cursor to the end of the line</li>
+<li>C-y: Paste (yank)</li>
+</ul>
+<p>Some other useful commands:</p>
+<ul>
+<li>C-x 2: Split the window into 2 buffers, one above the other (Use the mouse or C-x o to switch between them)</li>
+<li>C-x 0: Undo window-splitting so there is only 1 buffer</li>
+<li>C-x b: Switch to another buffer by entering its name</li>
+<li>C-x C-b: See a list of all current buffers</li>
+</ul>
+<p>Getting help within Emacs: In addition to the help button/menu on the right…</p>
+<ul>
+<li>C-h: Hitting this will display a short message in the minibuffer: 𝙲-𝚑 (𝚃𝚢𝚙𝚎 ? 𝚏𝚘𝚛 𝚏𝚞𝚛𝚝𝚑𝚎𝚛 𝚘𝚙𝚝𝚒𝚘𝚗𝚜).</li>
+<li>C-h b: Key bindings. This lists all key bindings that are valid for the current mode. Note that key bindings change from mode to mode.</li>
+<li>C-h a: Command apropos. After typing 𝙲-𝚑 a you can type a symbol and a buffer will appear that lists all symbols and functions that match that phrase.</li>
+</ul>
+<p>More advanced Emacs hacks (optional):</p>
+<p>If you are curious, try some of these once you have finished the rest of the setup instructions. They are unnecessary for any of the work we will do, but may be convenient.</p>
+<ul>
+<li>Change the colors of your syntax highlighting. In version 24 of Emacs, 𝙼-𝚡 𝚌𝚞𝚜𝚝𝚘𝚖𝚒𝚣𝚎-𝚝𝚑𝚎𝚖𝚎𝚜 is a good place to start.</li>
+<li>General customization interface: Open the Options menu and choose the first item under Customize Emacs. This will let you customize Emacs through a sort-of-graphical interface. It saves all your settings in a file in your “home” directory, ~/.𝚎𝚖𝚊𝚌𝚜.</li>
+<li>Much, much, much more: Emacs calls itself an extensible editor for a reason.</li>
+</ul>
+<h2 id="4-SML-NJ-Installation"><a href="#4-SML-NJ-Installation" class="headerlink" title="4. SML/NJ Installation"></a>4. SML/NJ Installation</h2><p>Directions first vary by operating system, but then see “All Systems: Check your SML Installation” below.</p>
+<p>Note: The latest version of SML/NJ is 110.80 and that is the version used in these installation instructions. The course videos use SML/NJ 110.75. There are no language differences between the two versions (and 110.74 and earlier are fine too), so if you already have SML/NJ 110.75 or earlier installed, that is fine. The installation instructions for Mac OS X 10.6 or later changed slightly between versions, affecting the directories where files are installed.</p>
+<p><strong>Windows:</strong></p>
+<p>Download and run the 𝚜𝚖𝚕𝚗𝚓.𝚖𝚜𝚒 installer available at <a href="http://www.smlnj.org/dist/working/110.80/" target="_blank" rel="external">http://www.smlnj.org/dist/working/110.80/</a>. This will add an item for SML of New Jersey to your Start menu and add a command 𝚜𝚖𝚕 that you can use at the command line.</p>
+<p><strong>Mac OS:</strong></p>
+<p>The instructions here assume your operating system is Mac OS X 10.6 (which released in August 2009) or higher. See below if you have an older operating system.</p>
+<p>Download and run the 𝚜𝚖𝚕𝚗𝚓-𝚡𝟾𝟼-𝟷𝟷𝟶.𝟾𝟶.𝚙𝚔𝚐 installer available at <a href="http://www.smlnj.org/dist/working/110.80/" target="_blank" rel="external">http://www.smlnj.org/dist/working/110.80/</a>. Do not use the .𝚍𝚖𝚐 file available; that is for older computers. We recommend you not choose a “custom install location” though you can if you adjust the instructions that follow appropriately. If you have Mac OS Sierra, you likely need 110.80 and not an older version.</p>
+<p>Once the installation is complete, use Emacs or another text editor to edit the file .𝚋𝚊𝚜𝚑<em>𝚙𝚛𝚘𝚏𝚒𝚕𝚎 in your home folder. (In Emacs you can do this via: 𝙲-𝚡 𝙲-𝚏 ~/.𝚋𝚊𝚜𝚑</em>𝚙𝚛𝚘𝚏𝚒𝚕𝚎, notice the three characters “tilde, slash, dot.”) If the file does not already exist, create it. Add this line to the file:</p>
+<p>[Math Processing Error]<code>export PATH=&quot;$PATH:/usr/local/smlnj/bin&quot;
+[Math Processing Error]</code></p>
+<p>This tells your shell (the program that you interact with in the terminal) to add the SML/NJ directory to the paths it searches to find programs. (If you are not using the bash shell, which Mac OS X has used by default since 10.3, the syntax will be different.)</p>
+<p>Finally, you will need to run your .𝚋𝚊𝚜𝚑_𝚙𝚛𝚘𝚏𝚒𝚕𝚎 to deploy the changes you have made into your environment for the present session. To do this, run:</p>
+<p>[Math Processing Error]source.bashprofi≤</p>
+<p>You need to do this only once. Afterwards, each new terminal that you open will automatically run .𝚋𝚊𝚜𝚑_𝚙𝚛𝚘𝚏𝚒𝚕𝚎 for you.</p>
+<p>Now skip to “All Systems: Check your SML Installation” – the rest of this section is for Mac users with an operating system older than OS X 10.6.</p>
+<p><strong>If your operating system is Mac OS X 10.5:</strong></p>
+<ul>
+<li>If you have an Intel chip (which is the case if your computer was new in 2007 or later, or possibly in 2006), then you will need to follow the Unix instructions at <a href="http://www.smlnj.org/dist/working/110.80/" target="_blank" rel="external">http://www.smlnj.org/dist/working/110.80/</a>.</li>
+<li>If you have a PowerPC chip (which is the case if your computer was new in 2005 or earlier, or possibly in 2006), then you can use the 𝚜𝚖𝚕𝚗𝚓-𝚙𝚙𝚌-𝟷𝟷𝟶.𝟾𝟶.𝚍𝚖𝚐 installer at <a href="http://www.smlnj.org/dist/working/110.80/" target="_blank" rel="external">http://www.smlnj.org/dist/working/110.80/</a>. Follow the instructions above for Mac OS 10.6 or higher except (a) using the different installer and (b) making the contents of your .𝚋𝚊𝚜𝚑_𝚙𝚛𝚘𝚏𝚒𝚕𝚎 file include the line:</li>
+</ul>
+<p>[Math Processing Error]<code>export PATH=&quot;$PATH:/usr/local/smlnj-110.80/bin&quot;
+[Math Processing Error]</code></p>
+<p>If your operating system is Mac OS X 10.4 or earlier: You will need to follow the Unix instructions at <a href="http://www.smlnj.org/dist/working/110.80/" target="_blank" rel="external">http://www.smlnj.org/dist/working/110.80/</a>.</p>
+<p><strong>Linux:</strong></p>
+<p>If your package manager has a package for SML/NJ, install it. If it installs an older version such as SML/NJ 110.72, that should be fine. Otherwise, follow the Unix instructions at <a href="http://www.smlnj.org/dist/working/110.80/" target="_blank" rel="external">http://www.smlnj.org/dist/working/110.80/</a>.</p>
+<p><strong>All Systems: Check your SML Installation</strong></p>
+<ol>
+<li>Open a terminal window and type 𝚜𝚖𝚕 followed by Enter/Return. To open a terminal window:</li>
+</ol>
+<ul>
+<li>Windows: Start then All Programs then Accessories then Command Prompt, or Windows 7/8/10 just use the Start Menu to search for the 𝚌𝚖𝚍.𝚎𝚡𝚎 program and run it.</li>
+<li>Mac OS: Open Applications/Utilities/Terminal.app.</li>
+<li>Linux: Various ways: any shell should be fine.</li>
+</ul>
+<ol>
+<li>You should see a prompt that looks like this:</li>
+</ol>
+<p>[Math Processing Error]<code>Standard ML of New Jersey v110.80 [built: ...]
+[Math Processing Error]</code></p>
+<p>If you do not, then see below.</p>
+<ol>
+<li>Make sure everything is working by typing a very simple SML program at the prompt (notice the semicolon):</li>
+</ol>
+<p>[Math Processing Error]<code>1 + 1;
+[Math Processing Error]</code></p>
+<ol>
+<li>Hit Enter/Return. In response, the SML interpreter should print:</li>
+</ol>
+<p>[Math Processing Error]<code>val it = 2 : int
+[Math Processing Error]</code></p>
+<ol>
+<li>To exit the interpreter, type Control-Z and then Return on Windows and Control-D on Mac or Linux.</li>
+</ol>
+<p>If everything worked, skip to the next section. Else if the 𝚜𝚖𝚕 command caused an error, then most likely SML/NJ is installed but is not being found in your “PATH”.</p>
+<p>For Windows, the PATH should have been set by the installer, but if it was not for some reason, you can set it manually as follows:</p>
+<ul>
+<li>Go to Start Menu, then Control Panel, then System, then Advanced System Settings, then Advanced (the tab that should be selected by default), then Environment Variables.</li>
+<li>Now change the user variable 𝚙𝚊𝚝𝚑 to be everything already there followed by:</li>
+</ul>
+<p>[Math Processing Error]<code>C:\Program Files (x86)\SMLNJ\bin
+[Math Processing Error]</code></p>
+<p>For Mac OS X (or Linux), double-check that you edited your .𝚋𝚊𝚜𝚑<em>𝚙𝚛𝚘𝚏𝚒𝚕𝚎 file correctly. Depending on your user settings, you may need to make the same additions to a file that is in the same directory as .𝚋𝚊𝚜𝚑</em>𝚙𝚛𝚘𝚏𝚒𝚕𝚎 but is called .𝚋𝚊𝚜𝚑𝚛𝚌 or .𝚙𝚛𝚘𝚏𝚒𝚕𝚎 instead. (This is particularly likely if you have MacPorts installed.)</p>
+<h2 id="5-SML-Mode-for-Emacs-Installation"><a href="#5-SML-Mode-for-Emacs-Installation" class="headerlink" title="5. SML Mode for Emacs Installation"></a>5. SML Mode for Emacs Installation</h2><p>SML Mode is an extension to Emacs that is not Emacs itself or SML/NJ itself. It displays SML code nicely with syntax coloring and clean indentation, and provides a way to run SML from within Emacs. (Thanks to Stefan Monnier for maintaining SML Mode. The website is \<br><a href="http://www.iro.umontreal.ca/~monnier/elisp/" target="_blank" rel="external">http://www.iro.umontreal.ca/~monnier/elisp/</a>, but you do not need to go there to install SML Mode.)</p>
+<p>To install the current version of SML Mode (currently 6.7), follow these instructions from within Emacs:</p>
+<ul>
+<li>Run the command 𝙼-𝚡 𝚕𝚒𝚜𝚝-𝚙𝚊𝚌𝚔𝚊𝚐𝚎𝚜 (and then Return/Enter). If the 𝚕𝚒𝚜𝚝-𝚙𝚊𝚌𝚔𝚊𝚐𝚎𝚜 command does not exist, your Emacs version is too old. You can upgrade Emacs or follow more difficult SML Mode installation instructions below.</li>
+<li>Find 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎 and click on it with your mouse. If that worked, then click on 𝚒𝚗𝚜𝚝𝚊𝚕𝚕 with your mouse then move to the next step. If you could not find 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎, first note that while package names are mostly alphabetized, they may be in more than one group, making it seem like 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎 is not present. Check the entire buffer. You can most easily search using 𝙲-𝚜 in Emacs. If you still do not see 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎, try killing the buffer (𝙲-𝚡 𝚔) and trying the previous step again (some users have reported having to try several times, frustratingly). If you still do not see SML Mode, then you can follow these more manual steps instead:</li>
+</ul>
+<ol>
+<li>Visit <a href="http://elpa.gnu.org/packages/sml-mode.html" target="_blank" rel="external">http://elpa.gnu.org/packages/sml-mode.html</a> .</li>
+<li>Locate, and download the latest version (currently sml-mode-6.7.el) from that page.</li>
+<li>In Emacs type 𝙼-𝚡 𝚙𝚊𝚌𝚔𝚊𝚐𝚎-𝚒𝚗𝚜𝚝𝚊𝚕𝚕-𝚏𝚒𝚕𝚎 𝙴𝙽𝚃𝙴𝚁.</li>
+<li>At the prompt 𝙿𝚊𝚌𝚔𝚊𝚐𝚎 𝚏𝚒𝚕𝚎 𝚗𝚊𝚖𝚎: give the path to the just downloaded 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎-𝟼.𝟽.𝚎𝚕, and type 𝙴𝙽𝚃𝙴𝚁.</li>
+<li>This will split the window, and show the <em>𝙲𝚘𝚖𝚙𝚒𝚕𝚎-𝚕𝚘𝚐</em> with some lines about 𝙲𝚘𝚖𝚙𝚒𝚕𝚒𝚗𝚐 𝚏𝚒𝚕𝚎, and perhaps a warning. If there are no errors, 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎 should now be installed.</li>
+</ol>
+<ul>
+<li>Exit and restart Emacs.</li>
+<li>Read below to see if you need to follow a couple more steps (more likely under Mac and Linux).</li>
+</ul>
+<p>To verify that SML Mode is properly installed, let us check that it does indentation/coloring for SML files and that you can create the SML read-eval-print-loop (REPL) from within Emacs.</p>
+<p>First, edit an existing or new SML file (try 𝙲-𝚡 𝙲-𝚏 𝚝𝚎𝚜𝚝.𝚜𝚖𝚕 to create a new file if nothing else is handy). You should see the mode display at the bottom of the Emacs window change from Fundamental (or whatever it was) to SML. If you enter a line of code like 𝚟𝚊𝚕 𝚗 = 𝟷; you should see colors highlighting the keywords and variable names. When you are editing code, whenever you hit the Tab key, Emacs will try to reindent the current line appropriately.</p>
+<p>Second, while the cursor is in an SML buffer (i.e., you are editing an SML file), run 𝙲-𝚌 𝙲-𝚜 and press Enter/Return. This should split the window and create an SML prompt in a new buffer. In that buffer, you should be able to type 𝟷+𝟷; and then Enter/Return at the prompt and see 2 as the result.</p>
+<p>If you are seeing syntax highlighting, but the 𝙲-𝚌 𝙲-𝚜 command fails with an error message, Emacs is probably having trouble finding the SML program. You can hopefully fix this as follows:</p>
+<p>Mac OS: In Emacs, edit your .𝚎𝚖𝚊𝚌𝚜 file by 𝙲-𝚡 𝙲-𝚏 ~/.𝚎𝚖𝚊𝚌𝚜 (that is tilde, slash, dot, emacs) to open the file. Paste in these lines if you have Mac OS X 10.6 or later:</p>
+<p>[Math Processing Error]<code>(setenv &quot;PATH&quot; (concat &quot;/usr/local/smlnj/bin:&quot; (getenv &quot;PATH&quot;)))
+(setq exec-path (cons &quot;/usr/local/smlnj/bin&quot;  exec-path))
+[Math Processing Error]</code></p>
+<p>and these lines if you have Mac OS X 10.5:</p>
+<p>[Math Processing Error]<code>(setenv &quot;PATH&quot; (concat &quot;/usr/local/smlnj-110.80/bin:&quot; (getenv &quot;PATH&quot;)))
+(setq exec-path (cons &quot;/usr/local/smlnj-110.80/bin&quot;  exec-path))
+[Math Processing Error]</code></p>
+<p>(Adjust the lines above accordingly if you installed SML/NJ in a different directory.) Save the file (𝙲-𝚡 𝙲-𝚜). Exit and restart Emacs.</p>
+<ul>
+<li>Linux: Find where 𝚜𝚖𝚕𝚗𝚓-𝟷𝟷𝟶.𝟾𝟶 was installed. Then follow the Mac OS instructions above, but replacing /𝚞𝚜𝚛/𝚕𝚘𝚌𝚊𝚕 with the appropriate path.</li>
+</ul>
+<h2 id="6-Manual-SML-Mode-Installation-for-Older-Emacs-Versions-–-Probably-Skip-This"><a href="#6-Manual-SML-Mode-Installation-for-Older-Emacs-Versions-–-Probably-Skip-This" class="headerlink" title="6. Manual SML Mode Installation for Older Emacs Versions – Probably Skip This!"></a>6. Manual SML Mode Installation for Older Emacs Versions – Probably Skip This!</h2><p>If you are using Emacs 24.X, you should be able to skip this section. These instructions are only for people who want to use an older version of Emacs, which requires using an older version of SML Mode and following different installation instructions.</p>
+<p>If you are on Linux, your package manager may include an 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎 package. For example, on Ubuntu, the command 𝚜𝚞𝚍𝚘 𝚊𝚙𝚝-𝚐𝚎𝚝 𝚒𝚗𝚜𝚝𝚊𝚕𝚕 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎 may be all you need and you might be able to skip the rest of this section. Otherwise…</p>
+<p>Go to <a href="http://www.iro.umontreal.ca/~monnier/elisp/" target="_blank" rel="external">http://www.iro.umontreal.ca/~monnier/elisp/</a> and download version 5.0 (see link “Download 5.0” or just download directly (<a href="http://www.iro.umontreal.ca/~monnier/elisp/sml-mode-5.0.tar.gz" target="_blank" rel="external">http://www.iro.umontreal.ca/~monnier/elisp/sml-mode-5.0.tar.gz</a>). Unpack it:</p>
+<ul>
+<li>Windows: You need some program that can handle a .𝚝𝚊𝚛.𝚐𝚣 file. The Cygwin tools (<a href="http://www.cygwin.com" target="_blank" rel="external">http://www.cygwin.com</a>) suffice, or an easier-to-use program is 7-Zip (<a href="http://www.7-zip.org/" target="_blank" rel="external">http://www.7-zip.org/</a>). For 7-zip, install it. Then right-click the .𝚝𝚊𝚛.𝚐𝚣 file and choose 7-Zip then Extract Here. If this creates a .𝚝𝚊𝚛 file instead of a folder, do 7-Zip then Extract Here on that file as well.</li>
+<li>Mac OS: double-click the .𝚝𝚊𝚛.𝚐𝚣 file.</li>
+<li>Linux: Either:</li>
+</ul>
+<ol>
+<li><p>When downloading, choose Open with [Archive Manager] if given the option. Otherwise, save the file and double-click it, which should open it in Archive Manager. Drag the 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎-𝟻.𝟶 folder to the Desktop or wherever you want to store it.<br>Save the file. In a terminal, 𝚌𝚍 into the directory where you saved it and run 𝚝𝚊𝚛 -𝚡𝚏𝚣 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎.𝚝𝚊𝚛.𝚐𝚣.<br>You should get a folder named 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎-𝟻.𝟶. You can place this folder anywhere you like.</p>
+</li>
+<li><p>To get SML Mode to work with Emacs, you need to create/edit a .𝚎𝚖𝚊𝚌𝚜 file in your “home” directory/folder that Emacs searches when it starts up. Open this file in Emacs via the command 𝙲-𝚡 𝙲-𝚏 ~/.𝚎𝚖𝚊𝚌𝚜.</p>
+</li>
+</ol>
+<p>Add the following line to the .𝚎𝚖𝚊𝚌𝚜 file:</p>
+<p>[Math Processing Error]<code>(load &quot;/path/to/where/you/stored/sml-mode-5.0/sml-mode-startup&quot;)
+[Math Processing Error]</code></p>
+<p>but replacing path/to/where/you/stored with the appropriate path:</p>
+<ul>
+<li>Windows: Hold down the Shift key as you right-click the sml-mode-5.0 folder and choose Copy As Path. Paste this into Emacs. Then replace each \ with / because \ is a special character in Emacs settings files. And add /sml-mode-startup at the end. So you might end up with something like Z:/look/here/sml-mode-startup.</li>
+<li>Mac OS: Select the folder in the Finder and choose File then Get Info. Copy the Where: field and add /sml-mode-startup. Now also add the following to your .emacs file in addition to the line above:</li>
+</ul>
+<p>[Math Processing Error]`<br>(setenv “PATH” (concat “/usr/local/smlnj/bin:” (getenv “PATH”)))</p>
+<p>(setq exec-path (cons “/usr/local/smlnj/bin”  exec-path))<br>[Math Processing Error]`</p>
+<p>(But if you have Mac OS X 10.5, use smlnj-110.77 in place of smlnj in the two lines above. Or, more generally, adjust the lines above appropriately if you installed SML/NJ in a different directory.)</p>
+<ul>
+<li>Linux: If SML Mode seems to work, but you cannot get the SML REPL to run in Emacs, then find where smlnj-110.77 was installed and add the two lines under the Mac OS instructions above, but replacing /usr/local with the appropriate path.</li>
+</ul>
+<p>(There are much more elaborate installation instructions in the documentation included in the sml-mode-5.0 folder, but these are aimed at system administrators who might want to install SML Mode for an entire site instead of a single user. You do not need these.)</p>
+<p>Now verify that SML Mode is properly installed, following the instructions in the previous section.</p>
+<p>Finally, if you are in SML Mode but your SML code does not have syntax coloring, add this line to your ~/.emacs file and then restart Emacs:</p>
+<p>[Math Processing Error]<code>(global-font-lock-mode t)
+[Math Processing Error]</code></p>
+<p>This should be necessary only if your Emacs version is older than 23.X.</p>
+<h2 id="7-Using-the-SML-NJ-REPL-Read-Eval-Print-Loop-in-Emacs"><a href="#7-Using-the-SML-NJ-REPL-Read-Eval-Print-Loop-in-Emacs" class="headerlink" title="7. Using the SML/NJ REPL (Read-Eval-Print Loop) in Emacs"></a>7. Using the SML/NJ REPL (Read-Eval-Print Loop) in Emacs</h2><p>At this point, we are done installing! This section shows you how to run SML programs from within Emacs. It assumes you already have an SML file or can write your own SML program in a new one.</p>
+<ul>
+<li>Edit a file with extension .𝚜𝚖𝚕. You should be in SML-mode, using Tab to indent your code well.</li>
+<li>To create the <em>𝚜𝚖𝚕</em> buffer (which holds the REPL), type 𝙲-𝚌 𝙲-𝚜 (and then Return/Enter) in the buffer with the .sml file. (Note: This will not work in the <em>𝚜𝚌𝚛𝚊𝚝𝚌𝚑</em> buffer that Emacs starts in because this buffer is not in SML Mode.)</li>
+<li>Keep the .sml file(s) you are working with for a particular assignment in the same folder. When you type 𝙲-𝚌 𝙲-𝚜 to start the REPL from a buffer for foo.sml, the REPL will look in the right folder for 𝚏𝚘𝚘.𝚜𝚖𝚕 when you type 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”; and will look in the same folder for any other file you use such as 𝚏𝚘𝚘_𝚝𝚎𝚜𝚝𝚜.𝚜𝚖𝚕. This is less confusing than trying to keep track of different folders and paths while using the REPL although that is possible.</li>
+<li>To end and restart a REPL session, type 𝙲-𝚍 (to end it) and 𝙲-𝚌 𝙲-𝚜 (and then Return/Enter) (to restart it). You must type 𝙲-𝚍 while in the <em>𝚜𝚖𝚕</em> buffer; you can type 𝙲-𝚌 𝙲-𝚜 from the <em>𝚜𝚖𝚕</em> buffer or a buffer with a .sml file.</li>
+<li>By ending and restarting a session, the new session has an empty environment. Your earlier interactions are still in the <em>𝚜𝚖𝚕</em> buffer, so you can save them, cut-paste them, etc., but they have no effect on the evaluation in the restarted REPL session.</li>
+<li>Evaluation can go into an infinite loop.</li>
+</ul>
+<ol>
+<li>This has likely occurred if you are not getting the “-“ prompt back and nothing appears to be happening.</li>
+<li>𝙲-𝚌 𝙲-𝚌 will interrupt evaluation and get you your prompt back.</li>
+</ol>
+<ul>
+<li>If you forget to end your binding with a “;” character, the REPL will print an “=” character on the next line, which is just its way of saying, “you are not done – continue your binding,” so type a “;” and hit Return/Enter. This is not an infinite loop (nothing is being evaluated; the REPL is waiting for you) so 𝙲-𝚌 𝙲-𝚌 does not do anything.</li>
+<li>If the printed result looks “pretty good,” but part of what you expected to see has been replaced by a “#” or “ …” this is normal. The REPL has a limit on how many characters it prints, which is good since you might make a large value, such as a list with tens of thousands of elements. You can adjust the limit if you want.</li>
+<li>Two keyboard commands are particularly useful in the REPL: 𝙼-𝚙 will print the previous line you used in the REPL, which you can then run again or edit before running. Repeating 𝙼-𝚙 will cycle through previous REPL lines, allowing you to bring back up any of your previous REPL expressions. The p stands for previous. 𝙼-𝚗 (repeatedly) does the same thing in the opposite direction, with the n standing for next.</li>
+</ul>
+<p><strong>Advice You Will Wish You Followed!</strong></p>
+<p>In each REPL session, follow this pattern:</p>
+<ul>
+<li>First type 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”; for any SML files you want to use.</li>
+<li>Then use the REPL manually as long as you wish.</li>
+<li>After using the REPL to test something, do not use use to load (or reload) any more files.</li>
+<li>When tempted to violate the previous point, end and restart your REPL session before continuing.</li>
+</ul>
+<p>Why: 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”; has a very simple semantics: it adds the ML bindings in the file to the environment in order. These may or may not shadow ML bindings from the last time you typed 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”;, depending on how foo.sml changed. This confuses even expert programmers until they train themselves to follow the pattern above.</p>
+<p>If you find yourself typing the same non-trivial things repeatedly in the REPL, stop wasting your time.</p>
+<p>Move the repeated parts to a second file, e.g., 𝚝𝚎𝚜𝚝.𝚜𝚖𝚕.<br>Then, when you restart your session, begin with 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”; 𝚞𝚜𝚎 “𝚝𝚎𝚜𝚝.𝚜𝚖𝚕”;.<br>In fact, there is an even faster way:</p>
+<ol>
+<li>Begin test.sml with the expression 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”;</li>
+<li>Then begin your session with 𝚞𝚜𝚎 “𝚝𝚎𝚜𝚝.𝚜𝚖𝚕”;</li>
+</ol>
+<p>Note: Do not put 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”; in 𝚝𝚎𝚜𝚝.𝚜𝚖𝚕 and begin your session with 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”; 𝚞𝚜𝚎 “𝚝𝚎𝚜𝚝.𝚜𝚖𝚕”;. That will evaluate the ML bindings in 𝚏𝚘𝚘.𝚜𝚖𝚕 twice, which is confusing.</p>
+<p>If you develop some emotional attachment to the transcript of your <em>𝚜𝚖𝚕</em> buffer, you can save it to a file just like any other buffer. But after you do, it is not an <em>𝚜𝚖𝚕</em> buffer anymore, so you will have to create a new <em>𝚜𝚖𝚕</em> buffer from a buffer in SML Mode via 𝙲-𝚌 𝙲-𝚜.</p>
+<p>Acknowledgments: These instructions were prepared starting with material created by Ben Wood, adapted from prior materials by Dan Grossman and Hal Perkins. Stefan Monnier provided fantastic feedback on this document and even created SML Mode version 6 to simplify SML Mode installation substantially. John Reppy provided excellent improvements to the SML/NJ installation instructions.</p>
+<p>-from coursera</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: emacs 配置&lt;br&gt;date: 2017-02-24 00:43:20&lt;/p&gt;
+&lt;h2 id=&quot;tags-emacs&quot;&gt;&lt;a href=&quot;#tags-emacs&quot; class=&quot;headerlink&quot; title=&quot;tags: emacs&quot;&gt;&lt;/a&gt;tags: emacs&lt;/h2&gt;&lt;h1 id=&quot;Contents&quot;&gt;&lt;a href=&quot;#Contents&quot; class=&quot;headerlink&quot; title=&quot;Contents&quot;&gt;&lt;/a&gt;Contents&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;Overview&lt;/li&gt;
+&lt;li&gt;Emacs Installation&lt;/li&gt;
+&lt;li&gt;Emacs Basics&lt;/li&gt;
+&lt;li&gt;SML/NJ Installation&lt;/li&gt;
+&lt;li&gt;SML Mode for Emacs Installation&lt;/li&gt;
+&lt;li&gt;Manual SML Mode Installation for Older Emacs Versions – Probably Skip This!&lt;/li&gt;
+&lt;li&gt;Using the SML/NJ REPL (Read-Eval-Print Loop) in Emacs&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+    
+      <category term="Emacs" scheme="http://kingle.online/tags/Emacs/"/>
+    
+  </entry>
+  
+  <entry>
     <title>预览应用扩展增强工具</title>
-    <link href="http://kingle.online/2017/05/06/%E9%A2%84%E8%A7%88%E5%BA%94%E7%94%A8%E6%89%A9%E5%B1%95%E5%A2%9E%E5%BC%BA%E5%B7%A5%E5%85%B7/"/>
-    <id>http://kingle.online/2017/05/06/预览应用扩展增强工具/</id>
-    <published>2017-05-06T12:57:45.000Z</published>
-    <updated>2017-05-06T05:05:56.000Z</updated>
+    <link href="http://kingle.online/2017/02/03/%E9%A2%84%E8%A7%88%E5%BA%94%E7%94%A8%E6%89%A9%E5%B1%95%E5%A2%9E%E5%BC%BA%E5%B7%A5%E5%85%B7/"/>
+    <id>http://kingle.online/2017/02/03/预览应用扩展增强工具/</id>
+    <published>2017-02-03T12:57:45.000Z</published>
+    <updated>2017-05-06T05:30:26.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>针对mac系统的预览工具，快捷键是<strong>空格键</strong><br>Mac上的预览工具，本身就非常好用，大多数文件，比如图片、Office文档、MP3等文件在文件夹上，选中后，按一下空格就可以快速预览到内容。</p>
@@ -56,29 +850,283 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://kingle.online/2017/05/04/hello-world/"/>
-    <id>http://kingle.online/2017/05/04/hello-world/</id>
-    <published>2017-05-03T16:31:26.000Z</published>
-    <updated>2017-05-03T16:36:54.000Z</updated>
+    <title>windows软件推荐</title>
+    <link href="http://kingle.online/2017/01/26/windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
+    <id>http://kingle.online/2017/01/26/windows软件推荐/</id>
+    <published>2017-01-26T13:53:33.000Z</published>
+    <updated>2017-05-06T05:55:44.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <content type="html"><![CDATA[<h3 id="一、软件推荐"><a href="#一、软件推荐" class="headerlink" title="一、软件推荐"></a><a href="#一、软件推荐" title="一、软件推荐"></a>一、软件推荐</h3><h4 id="1-1-Listary"><a href="#1-1-Listary" class="headerlink" title="1.1 Listary"></a><a href="#1-1-Listary" title="1.1  Listary"></a>1.1 <a href="http://www.listary.com/" target="_blank" rel="external">Listary</a></h4><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/Listary.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<p><a id="more"></a></p>
+<p>快捷键：</p>
+<ul>
+<li><p>启动搜索框及界面</p>
+<ul>
+<li><code>双击 Ctrl</code></li>
+<li><code>桌面双击左键</code></li>
+</ul>
+</li>
+<li><p>在打开文件的时候搜索文件</p>
+<ul>
+<li>自动或手动</li>
+</ul>
+</li>
+<li>Google或者Baidu搜索<ul>
+<li><code>gg</code></li>
+<li><code>bd</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>备选</strong>：<a href="https://www.voidtools.com/" target="_blank" rel="external">evertthing</a></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/everything.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<hr>
+<p><code>CapsLock+</code></p>
+<ul>
+<li><a href="http://www.iplaysoft.com/capslock-plus.html" target="_blank" rel="external">使用教程</a></li>
+<li><a href="http://cjkis.me/capslock+/" target="_blank" rel="external">官方文档</a></li>
+</ul>
+<hr>
+<h4 id="1-2-PDF-Viewer"><a href="#1-2-PDF-Viewer" class="headerlink" title="1.2 PDF-Viewer"></a><a href="#1-2-PDF-Viewer" title="1.2 PDF-Viewer"></a>1.2 <a href="https://www.tracker-software.com/product/pdf-xchange-viewer" target="_blank" rel="external">PDF-Viewer</a></h4>{% image http://ojlmcfp94.bkt.clouddn.com/pdfview.jpg 'Listry' '' %}
+<p><strong>备选</strong>：<br><code>SumatraPDF</code><br>(<a href="http://www.sumatrapdfreader.org/free-pdf-reader.html" target="_blank" rel="external">http://www.sumatrapdfreader.org/free-pdf-reader.html</a>)</p>
+<blockquote>
+<p>Sumatra PDF is a PDF, ePub, MOBI, CHM, XPS, DjVu, CBZ, CBR reader for Windows</p>
+</blockquote>
+<p><code>福昕阅读器</code><br><code>adobe reader</code></p>
+<hr>
+<h4 id="1-3-Bandizip"><a href="#1-3-Bandizip" class="headerlink" title="1.3 Bandizip"></a><a href="#1-3-Bandizip" title="1.3 Bandizip"></a>1.3 <a href="https://www.bandisoft.com/bandizip/cn/" target="_blank" rel="external">Bandizip</a></h4>{% image http://ojlmcfp94.bkt.clouddn.com/Bandizip.png 'Listry' '' %}
+<blockquote>
+<p><strong>Bandizip : 轻巧、快速、免费的压缩软件</strong><br>Bandizip 是一款可靠和快速的压缩软件，它支WinZip、7-Zip 和 WinRAR 以及其它压缩格式。它拥有非常快速的压缩和解压缩的算法，适用于多核心压缩、快速拖放、高速压缩等功能。</p>
+</blockquote>
+<p><strong>备选</strong>：<br><code>‎WinRAR</code><br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/winRAR_x.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure></p>
+<blockquote>
+<p>WinRAR is a powerful archive manager. It can backup your data and reduce the size of email attachments, decompress RAR, ZIP and other files downloaded from Internet and create new archives in RAR and ZIP file format.</p>
+</blockquote>
+<p><code>7-zip</code> 跨平台<br>{% image http://ojlmcfp94.bkt.clouddn.com/7z_rm01.jpg 'Listry' '' %}</p>
+<hr>
+<h4 id="1-4-potplayer"><a href="#1-4-potplayer" class="headerlink" title="1.4 potplayer"></a><a href="#1-4-potplayer" title="1.4 potplayer"></a>1.4 <a href="http://potplayer.daum.net/?lang=zh_CN" target="_blank" rel="external">potplayer</a></h4>{% image http://ojlmcfp94.bkt.clouddn.com/Listary.png 'Listry' '' %}
+<blockquote>
+<p>由于PotPlayer与KMPlayer同属一个开发者的产品，所以PotPlayer拥有KMPlayer的硬件加速、支持高清视频播放、界面整洁、操作简单、使用轻松、皮肤丰富多彩等特点，能够满足不同用户的使用需求。Daum PotPlayer也可以在64位Windows系统上运行。</p>
+</blockquote>
+<p><a href="http://daumpotplayer.com/category/skins/" target="_blank" rel="external">potplayer皮肤</a></p>
+<p><strong>备选</strong>：<br><code>KMPlayer</code></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/kmplayerfo.jpg" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<p><a href="http://www.kmplayer.com/" target="_blank" rel="external">http://www.kmplayer.com/</a></p>
+<hr>
+<h4 id="1-5-Snipaste"><a href="#1-5-Snipaste" class="headerlink" title="1.5 Snipaste"></a><a href="#1-5-Snipaste" title="1.5 Snipaste"></a>1.5 <a href="http://www.iplaysoft.com/snipaste.html" target="_blank" rel="external">Snipaste</a></h4><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/snipaste.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<p><a href="https://docs.snipaste.com/zh-cn/" target="_blank" rel="external">官方文档</a></p>
+<p><strong>备选</strong>：<br><code>qq截图</code><br><code>微信截图</code></p>
+<h4 id="1-6-科学上网"><a href="#1-6-科学上网" class="headerlink" title="1.6 科学上网"></a><a href="#1-6-科学上网" title="1.6 科学上网"></a>1.6 <code>科学上网</code></h4><p>收费：<code>shadowsocks + VPS</code><br>(<a href="https://github.com/shadowsocks" target="_blank" rel="external">https://github.com/shadowsocks</a>)<br>{% image http://ojlmcfp94.bkt.clouddn.com/shadowsocks.png 'Listry' '' %}</p>
+<hr>
+<p><code>vultr</code><br>(<a href="https://www.vultr.com/" target="_blank" rel="external">https://www.vultr.com/</a>)</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/logo_onwhite.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<p>免费：<code>XX-Net</code></p>
+{% image http://ojlmcfp94.bkt.clouddn.com/xx-net.png 'Listry' '' %}
+<p><a href="https://github.com/XX-net/XX-Net/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3" target="_blank" rel="external">中文文档</a></p>
+<blockquote>
+<p>XX-Net is a free desktop application that delivers fast, reliable and secure access to the open Internet for users in censored regions. It uses google app engine (GAE) as a proxy server through the firewall.</p>
+</blockquote>
+<p><code>蓝灯</code></p>
+<h3 id="二、chrome插件推荐"><a href="#二、chrome插件推荐" class="headerlink" title="二、chrome插件推荐"></a><a href="#二、chrome插件推荐" title="二、chrome插件推荐"></a>二、chrome插件推荐</h3><h4 id="2-1-马克飞象"><a href="#2-1-马克飞象" class="headerlink" title="2.1 马克飞象"></a><a href="#2-1-马克飞象" title="2.1 马克飞象"></a>2.1 马克飞象</h4><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/%E9%A9%AC%E5%85%8B%E9%A3%9E%E8%B1%A1.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<blockquote>
+<p>Markdown 是一种简单的、轻量级的标记语法。用户可以使用诸如 * # 等简单的标记符号以最小的输入代价生成极富表现力的文档。</p>
+</blockquote>
+<p><strong>备选</strong>：<a href="https://www.zybuluo.com/mdeditor" target="_blank" rel="external">Cmd Markdown</a></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/macdown.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<blockquote>
+<p>作业部落出品，也是一款不错的工具和博客平台兼顾的产品。全平台且提供web版</p>
+</blockquote>
+<p><a href="https://www.farbox.com/service/app/desktop_editor" target="_blank" rel="external">FarBox</a></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/blogflat.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<blockquote>
+<p>一个支持Markdown写作语法的博客平台，让用户通过Dropbox（现在默认是自己的同步服务器）直接建立个人网站。FarBox编辑器免费，支持多平台（无web版，Linux版停止维护）,Farbox服务可以免费试用，在本地编辑器内写作自动同步发布在个人博客，对像笔者这样希望有个人博客但却不愿折腾的小白来说，是个不错的选择。</p>
+</blockquote>
+<p><code>小书匠编辑器</code></p>
+<p><code>有道云笔记</code></p>
+<p><code>好用的Markdown编辑器一览</code><br><a href="http://www.williamlong.info/archives/4319.html" target="_blank" rel="external">http://www.williamlong.info/archives/4319.html</a></p>
+<hr>
+<h4 id="2-2-lastpass"><a href="#2-2-lastpass" class="headerlink" title="2.2 lastpass"></a><a href="#2-2-lastpass" title="2.2 lastpass"></a>2.2 <code>lastpass</code></h4><p><a href="https://helpdesk.lastpass.com/zh/" target="_blank" rel="external">用户手册</a></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/laspass.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<blockquote>
+<p>Lastpass是一个优秀的在线密码管理器和页面过滤器，采用了强大的加密算法，自动登录/云同步/跨平台/支持多款浏览器。</p>
+</blockquote>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/lastpass-android.jpg" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<hr>
+<h4 id="2-3-印象笔记-剪藏"><a href="#2-3-印象笔记-剪藏" class="headerlink" title="2.3 印象笔记* 剪藏"></a><a href="#2-3-印象笔记-剪藏" title="2.3 印象笔记* 剪藏"></a>2.3 <code>印象笔记* 剪藏</code></h4>{% image http://ojlmcfp94.bkt.clouddn.com/caijian.png 'Listry' '' %}
+<blockquote>
+<p>印象笔记全家桶，值得推荐。</p>
+</blockquote>
+<hr>
+<h4 id="2-4-adblock-plus"><a href="#2-4-adblock-plus" class="headerlink" title="2.4 adblock plus"></a><a href="#2-4-adblock-plus" title="2.4 adblock plus"></a>2.4 <code>adblock plus</code></h4><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/ABP.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<hr>
+<h4 id="2-5-净网大师"><a href="#2-5-净网大师" class="headerlink" title="2.5 净网大师"></a><a href="#2-5-净网大师" title="2.5 净网大师"></a>2.5 <code>净网大师</code></h4>{% image http://ojlmcfp94.bkt.clouddn.com/%E5%87%80%E7%BD%91%E5%A4%A7%E5%B8%88.png 'Listry' '' %}
+<hr>
+<h4 id="2-6-Vimium"><a href="#2-6-Vimium" class="headerlink" title="2.6 Vimium"></a><a href="#2-6-Vimium" title="2.6 Vimium"></a>2.6 <code>Vimium</code></h4><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/vimium.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<hr>
+<h4 id="2-7-扩展管理"><a href="#2-7-扩展管理" class="headerlink" title="2.7 扩展管理"></a><a href="#2-7-扩展管理" title="2.7 扩展管理"></a>2.7 <code>扩展管理</code></h4><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/manager.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<h3 id="三、微信公众号"><a href="#三、微信公众号" class="headerlink" title="三、微信公众号"></a><a href="#三、微信公众号" title="三、微信公众号"></a>三、微信公众号</h3><h4 id="3-1-ZEALER订阅号"><a href="#3-1-ZEALER订阅号" class="headerlink" title="3.1 ZEALER订阅号"></a><a href="#3-1-ZEALER订阅号" title="3.1 ZEALER订阅号"></a>3.1 <a href="http://mp.weixin.qq.com/profile?src=3&amp;timestamp=1480599688&amp;ver=1&amp;signature=QpzEoBx2gerINFWysy07Xs4tSN4*gYkyjoolgCxAaVz1olZl4PC4k7dtVqW3mD5ObZTFQ150ksM29fUdAbQm3Q==" target="_blank" rel="external">ZEALER订阅号</a></h4><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/photo.jpg" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<p>首页<br>(<a href="http://www.zealer.com/" target="_blank" rel="external">http://www.zealer.com/</a>)</p>
+<ul>
+<li><p><a href="http://www.zealer.com/media?cid=2&amp;index=5" target="_blank" rel="external">科技相对论</a></p>
+</li>
+<li><p><a href="http://www.zealer.com/media?cid=4&amp;index=2" target="_blank" rel="external">ZEALER | TIPS</a></p>
+</li>
+<li><p><strong>一系列的手机测评</strong></p>
+</li>
+</ul>
+<h4 id="3-2-科技美学"><a href="#3-2-科技美学" class="headerlink" title="3.2 科技美学"></a><a href="#3-2-科技美学" title="3.2 科技美学"></a>3.2 <a href="http://mp.weixin.qq.com/profile?src=3&amp;timestamp=1480599807&amp;ver=1&amp;signature=2ySUdjPiDArWOU0UaheZo6kl6BvmN*x9M9VNqWS0SZhxh6IR2UGY1bJ0RxqDp1MuSA84MHrXqw0uQPRnYgPbiQ==" target="_blank" rel="external">科技美学</a></h4><p>官网：<br>（<a href="http://www.kejimeixue.com/）" target="_blank" rel="external">http://www.kejimeixue.com/）</a></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/钠盐.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/科技美学mark.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<h4 id="3-3-笔吧测评室"><a href="#3-3-笔吧测评室" class="headerlink" title="3.3 笔吧测评室"></a><a href="#3-3-笔吧测评室" title="3.3 笔吧测评室"></a>3.3 <a href="http://mp.weixin.qq.com/profile?src=3&amp;timestamp=1480599861&amp;ver=1&amp;signature=5OSEP63Mkz70iH4EQYvS*0vER3f8gcZizWxaWGxTU4*TAMxWkI6YvF-6v4K*WIrt*TCc8BfCE7LCkP4bhZDC9g==" target="_blank" rel="external">笔吧测评室</a></h4><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/biba.jpg" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<p>微信二维码：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/bibamark.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<h4 id="3-4-卓老板聊科技"><a href="#3-4-卓老板聊科技" class="headerlink" title="3.4 卓老板聊科技"></a><a href="#3-4-卓老板聊科技" title="3.4 卓老板聊科技"></a>3.4 <a href="https://m.ximalaya.com/20445422/album/335347" target="_blank" rel="external">卓老板聊科技</a></h4><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/卓老板.png" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<blockquote>
+<p>以科学故事、理工科思维、生活科技为主要内容。通过普及科学思想更新人们陈旧的观念。</p>
+</blockquote>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ojlmcfp94.bkt.clouddn.com/zhuo%E6%88%AA%E5%9B%BE.jpg" alt="Listry" title="">
+                </div>
+                <div class="image-caption">Listry</div>
+            </figure>
+<h3 id="四、几个网站"><a href="#四、几个网站" class="headerlink" title="四、几个网站"></a><a href="#四、几个网站" title="四、几个网站"></a>四、几个网站</h3><h4 id="4-1-廖雪峰的官方网站"><a href="#4-1-廖雪峰的官方网站" class="headerlink" title="4.1 廖雪峰的官方网站"></a><a href="#4-1-廖雪峰的官方网站" title="4.1 廖雪峰的官方网站"></a>4.1 廖雪峰的官方网站</h4><p><a href="http://www.liaoxuefeng.com/" target="_blank" rel="external">http://www.liaoxuefeng.com/</a></p>
+<h4 id="4-2-阮一峰的网络日志"><a href="#4-2-阮一峰的网络日志" class="headerlink" title="4.2 阮一峰的网络日志"></a><a href="#4-2-阮一峰的网络日志" title="4.2 阮一峰的网络日志"></a>4.2 阮一峰的网络日志</h4><p><a href="http://www.ruanyifeng.com/blog/" target="_blank" rel="external">http://www.ruanyifeng.com/blog/</a></p>
+<h4 id="4-3-张鑫旭-鑫空间-鑫生活"><a href="#4-3-张鑫旭-鑫空间-鑫生活" class="headerlink" title="4.3 张鑫旭-鑫空间-鑫生活"></a><a href="#4-3-张鑫旭-鑫空间-鑫生活" title="4.3 张鑫旭-鑫空间-鑫生活"></a>4.3 张鑫旭-鑫空间-鑫生活</h4><p><a href="http://www.zhangxinxu.com/" target="_blank" rel="external">http://www.zhangxinxu.com/</a></p>
+<h4 id="4-4-实验楼"><a href="#4-4-实验楼" class="headerlink" title="4.4 实验楼"></a><a href="#4-4-实验楼" title="4.4 实验楼"></a>4.4 实验楼</h4><p><a href="https://www.shiyanlou.com" target="_blank" rel="external">实验楼</a></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;h3 id=&quot;一、软件推荐&quot;&gt;&lt;a href=&quot;#一、软件推荐&quot; class=&quot;headerlink&quot; title=&quot;一、软件推荐&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#一、软件推荐&quot; title=&quot;一、软件推荐&quot;&gt;&lt;/a&gt;一、软件推荐&lt;/h3&gt;&lt;h4 id=&quot;1-1-Listary&quot;
     
     </summary>
     
+    
+      <category term="windows" scheme="http://kingle.online/tags/windows/"/>
+    
+      <category term="软件" scheme="http://kingle.online/tags/%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   

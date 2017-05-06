@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    <title>Emacs配置 | kingle blog | web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="Emacs">
+    <meta name="description" content="title: emacs 配置date: 2017-02-24 00:43:20 tags: emacsContents Overview Emacs Installation Emacs Basics SML/NJ Installation SML Mode for Emacs Installation Manual SML Mode Installation for Older Emacs">
+<meta name="keywords" content="Emacs">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Emacs配置">
+<meta property="og:url" content="http://kingle.online/2017/02/23/Emacs配置/index.html">
+<meta property="og:site_name" content="kingle blog">
+<meta property="og:description" content="title: emacs 配置date: 2017-02-24 00:43:20 tags: emacsContents Overview Emacs Installation Emacs Basics SML/NJ Installation SML Mode for Emacs Installation Manual SML Mode Installation for Older Emacs">
+<meta property="og:updated_time" content="2017-05-06T05:31:47.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Emacs配置">
+<meta name="twitter:description" content="title: emacs 配置date: 2017-02-24 00:43:20 tags: emacsContents Overview Emacs Installation Emacs Basics SML/NJ Installation SML Mode for Emacs Installation Manual SML Mode Installation for Older Emacs">
+    
+        <link rel="alternate" type="application/atom+xml" title="kingle blog" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/avatar.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">kingle</h5>
+          <a href="mailto:kingleiu@yahoo.com" title="kingleiu@yahoo.com" class="mail">kingleiu@yahoo.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                Archives
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                Tags
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                Categories
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com/memedaqyk" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="http://www.weibo.com/ysweb" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                Weibo
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/custom"  >
+                <i class="icon icon-lg icon-link"></i>
+                测试
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">Emacs配置</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="Search">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">Emacs配置</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2017-02-23T13:31:20.000Z" itemprop="datePublished" class="page-time">
+  2017-02-23
+</time>
+
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#tags-emacs"><span class="post-toc-number">1.</span> <span class="post-toc-text">tags: emacs</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Contents"><span class="post-toc-number"></span> <span class="post-toc-text">Contents</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-Overview"><span class="post-toc-number">1.</span> <span class="post-toc-text">1. Overview</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#2-Emacs-Installation"><span class="post-toc-number">2.</span> <span class="post-toc-text">2. Emacs Installation</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#3-Emacs-Basics"><span class="post-toc-number">3.</span> <span class="post-toc-text">3. Emacs Basics</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#4-SML-NJ-Installation"><span class="post-toc-number">4.</span> <span class="post-toc-text">4. SML/NJ Installation</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#5-SML-Mode-for-Emacs-Installation"><span class="post-toc-number">5.</span> <span class="post-toc-text">5. SML Mode for Emacs Installation</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#6-Manual-SML-Mode-Installation-for-Older-Emacs-Versions-–-Probably-Skip-This"><span class="post-toc-number">6.</span> <span class="post-toc-text">6. Manual SML Mode Installation for Older Emacs Versions – Probably Skip This!</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#7-Using-the-SML-NJ-REPL-Read-Eval-Print-Loop-in-Emacs"><span class="post-toc-number">7.</span> <span class="post-toc-text">7. Using the SML/NJ REPL (Read-Eval-Print Loop) in Emacs</span></a></li></ol>
+        </nav>
+    </aside>
+    
+<article id="post-Emacs配置"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">Emacs配置</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2017-02-23 13:31:20" datetime="2017-02-23T13:31:20.000Z"  itemprop="datePublished">2017-02-23</time>
+
+            
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+            
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <hr>
+<p>title: emacs 配置<br>date: 2017-02-24 00:43:20</p>
+<h2 id="tags-emacs"><a href="#tags-emacs" class="headerlink" title="tags: emacs"></a>tags: emacs</h2><h1 id="Contents"><a href="#Contents" class="headerlink" title="Contents"></a>Contents</h1><ol>
+<li>Overview</li>
+<li>Emacs Installation</li>
+<li>Emacs Basics</li>
+<li>SML/NJ Installation</li>
+<li>SML Mode for Emacs Installation</li>
+<li>Manual SML Mode Installation for Older Emacs Versions – Probably Skip This!</li>
+<li>Using the SML/NJ REPL (Read-Eval-Print Loop) in Emacs</li>
+</ol>
+<a id="more"></a>
+<h2 id="1-Overview"><a href="#1-Overview" class="headerlink" title="1. Overview"></a>1. Overview</h2><p>For Programming Languages, Part A, we will work with the Standard ML programming language (ML), using the Standard ML of New Jersey compiler (SML/NJ). You will need SML/NJ and a text editor on your computer to do the programming assignments. Any editor that can handle plain text will work, but you will want an editor that specifically supports ML with features like automatic indentation, syntax highlighting, etc. For such an editor, we recommend Emacs because we know it works and we have detailed installation instructions in this document.</p>
+<p>You are welcome to use an editor other than Emacs. If you do, the course staff is unlikely to be able to help with any issues that arise, but you may find help on the discussion forums. While Emacs does not have the look-and-feel or tool-integration of many modern integrated development environments (IDEs), it is a versatile tool well-known by many computer scientists and software developers. If you have not used it before, you will find the menus and key bindings unusual, but learning unusual tools is commonplace in computing. Many students have used Emacs for the first time when completing this course without it being a hindrance – we do not need any complicated features and we are writing small enough programs that you do not need to be a “power-user” with any of the tools we are using. All that said, there are plenty of people who despise Emacs for various reasons unrelated to the material in this class, so use whatever you like.</p>
+<p>This document describes how to install, configure, and use Emacs, SML/NJ, and SML-Mode-for-emacs (henceforth SML Mode) on your computer. These instructions should work for recent versions of Windows, Mac OS X, and Linux.</p>
+<p>These instructions were last updated in June 2016. Details and version numbers may change in the future.</p>
+<p>Programming Languages Part B will use Racket and Programming Languages Part C will use Ruby. So there will be more software-installation in your future with instructions provided when we get there, but the instructions in this document are everything you need for Part A.</p>
+<h2 id="2-Emacs-Installation"><a href="#2-Emacs-Installation" class="headerlink" title="2. Emacs Installation"></a>2. Emacs Installation</h2><p>We strongly recommend Emacs version 24.X (for any X) so that you can use the most recent version of SML Mode. Earlier versions of SML Mode are fine, but they are more difficult to install. You can check the version of an Emacs installation in several ways, including the About Emacs option under the Help menu. Installing version 24 is easy, so we recommend doing so even if you already have an older version.</p>
+<p>Directions depend on your operating system:</p>
+<p><strong>Windows:</strong></p>
+<p>Download a zip archive of the most recent full version, currently Version 24.5, available at <a href="http://ftp.gnu.org/gnu/emacs/windows/emacs-24.5-bin-i686-mingw32.zip" target="_blank" rel="external">http://ftp.gnu.org/gnu/emacs/windows/emacs-24.5-bin-i686-mingw32.zip</a>. (More information and other versions of Emacs are available at the GNU Emacs website, <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">http://www.gnu.org/software/emacs/</a>.)</p>
+<p>Unpack the downloaded zip archive file 𝚎𝚖𝚊𝚌𝚜-𝟸𝟺.𝟻-𝚋𝚒𝚗-𝚒𝟼𝟾𝟼-𝚖𝚒𝚗𝚐𝚠𝟹𝟸.𝚣𝚒𝚙 by right-clicking it and choosing Extract All. This should produce a folder called 𝚎𝚖𝚊𝚌𝚜-𝟸𝟺.𝟻-𝚋𝚒𝚗-𝚒𝟼𝟾𝟼-𝚖𝚒𝚗𝚐𝚠𝟹𝟸. Move this folder wherever you want, but pick a permanent place (i.e., do not move it again after the next step).</p>
+<p>Once you have moved the folder to where you want, look inside to find 𝚋𝚒𝚗\𝚊𝚍𝚍𝚙𝚖.𝚎𝚡𝚎 (the .𝚎𝚡𝚎 extension might not be visible in the folder window depending on how you have Windows configured). Double click on this file to run it one time and it should add a Gnu Emacs folder to your Start menu and do some other setup operations. Open the Start menu and select Gnu Emacs then Emacs (or just type emacs in the search box) to launch Emacs.</p>
+<p><strong>Mac OS:</strong></p>
+<p>Download Emacs as a Mac OS X application from <a href="http://emacsformacosx.com/" target="_blank" rel="external">http://emacsformacosx.com/</a>. Open the disk image file (.dmg) and drag the Emacs application to your Applications folder. If you prefer another version of Emacs, such as the more primitive one on the command line or Aquamacs (<a href="http://aquamacs.org/" target="_blank" rel="external">http://aquamacs.org/</a>), you can use it, but make sure it is based on a version of Emacs 24.X or higher.</p>
+<p><strong>Linux:</strong></p>
+<p>A suitable version of Emacs is probably already installed. If not, use your package manager to install it. On Ubuntu and other Debian derivatives, try 𝚜𝚞𝚍𝚘 𝚊𝚙𝚝-𝚐𝚎𝚝 𝚒𝚗𝚜𝚝𝚊𝚕𝚕 𝚎𝚖𝚊𝚌𝚜. On Fedora, try 𝚜𝚞𝚍𝚘 𝚢𝚞𝚖 𝚒𝚗𝚜𝚝𝚊𝚕𝚕 𝚎𝚖𝚊𝚌𝚜.</p>
+<h2 id="3-Emacs-Basics"><a href="#3-Emacs-Basics" class="headerlink" title="3. Emacs Basics"></a>3. Emacs Basics</h2><p>Using Emacs feels a little different than using other editors; it can take some getting used to, especially the keyboard shortcuts. Fortunately, Emacs has buttons and menus to help you adjust if that is your style. The following is a short primer on Emacs terminology and keyboard commands.</p>
+<p>Beyond the basics described here, which should be all you need, there are countless free resources available. An introductory “tour” is at <a href="http://www.gnu.org/software/emacs/tour/" target="_blank" rel="external">http://www.gnu.org/software/emacs/tour/</a>. For more information, see the Emacs Reference Manual at \<br><a href="http://www.gnu.org/software/emacs/manual/html_node/emacs/index.html" target="_blank" rel="external">http://www.gnu.org/software/emacs/manual/html_node/emacs/index.html</a> (also available within Emacs from the Help Menu), the Emacs Wiki at <a href="http://www.emacswiki.org/" target="_blank" rel="external">http://www.emacswiki.org/</a>, or the Emacs Tutorial (within Emacs from the Help Menu).</p>
+<ul>
+<li>The cursor is a rectangular block and is referred to as the point.</li>
+<li>The mode line displays information about the buffer displayed in the current window. A buffer is a logical “thing” that you are working on. When you open a file, it will be loaded into a buffer, typically with the same name as the file.</li>
+<li>Every buffer is edited in a mode. The most basic mode is Fundamental, which provides only the most basic Emacs editing features. There are modes for many different programming languages.<br>There are many “special” buffers that do not correspond to loaded files. The one above is called <em>scratch</em>. This buffer runs in Lisp Interaction mode, which means that you can interactively type and evaluate expressions in the Lisp programming language. But we won’t do that.</li>
+</ul>
+<p>Emacs uses many key combinations involving the Control and Meta keys. Such key combinations are denoted C-x (Control-x (lowercase)) or M-x (Meta-x). On keyboards that don’t have Meta (just about all keyboards today), Alt should work on all systems, but on some Mac systems you might use the funny-symbol-with-four-circles or Option keys instead. (Emacs might complain about “Super” if you get the wrong one. If you or Emacs gets confused about what you are trying to type, use C-g to cancel your current command and start fresh.) If none of these work, use Esc, but when trying to type M-x, for example, you might need to type Esc then type x. (This is only if using Esc as Meta. The other Meta “substitutes” work as usual: hold while pressing the second key.)</p>
+<p>The most important commands in Emacs:</p>
+<ul>
+<li>C-x C-c: Quit Emacs</li>
+<li>C-g: Cancel the current action</li>
+<li>C-x C-f: Open a file (whether or not it already exists)</li>
+<li>C-x C-s: Save a file</li>
+<li>C-x C-w: Write a file (probably more familiar to you as Save as…)</li>
+</ul>
+<p>Cut, copy, paste:</p>
+<ul>
+<li>Highlight text with the mouse or by hitting C-Space to set a mark and then moving the cursor to highlight a region.</li>
+<li>C-w: Cut a highlighted region</li>
+<li>M-w: Copy a highlighted region</li>
+<li>C-k: Cut (kill) from the cursor to the end of the line</li>
+<li>C-y: Paste (yank)</li>
+</ul>
+<p>Some other useful commands:</p>
+<ul>
+<li>C-x 2: Split the window into 2 buffers, one above the other (Use the mouse or C-x o to switch between them)</li>
+<li>C-x 0: Undo window-splitting so there is only 1 buffer</li>
+<li>C-x b: Switch to another buffer by entering its name</li>
+<li>C-x C-b: See a list of all current buffers</li>
+</ul>
+<p>Getting help within Emacs: In addition to the help button/menu on the right…</p>
+<ul>
+<li>C-h: Hitting this will display a short message in the minibuffer: 𝙲-𝚑 (𝚃𝚢𝚙𝚎 ? 𝚏𝚘𝚛 𝚏𝚞𝚛𝚝𝚑𝚎𝚛 𝚘𝚙𝚝𝚒𝚘𝚗𝚜).</li>
+<li>C-h b: Key bindings. This lists all key bindings that are valid for the current mode. Note that key bindings change from mode to mode.</li>
+<li>C-h a: Command apropos. After typing 𝙲-𝚑 a you can type a symbol and a buffer will appear that lists all symbols and functions that match that phrase.</li>
+</ul>
+<p>More advanced Emacs hacks (optional):</p>
+<p>If you are curious, try some of these once you have finished the rest of the setup instructions. They are unnecessary for any of the work we will do, but may be convenient.</p>
+<ul>
+<li>Change the colors of your syntax highlighting. In version 24 of Emacs, 𝙼-𝚡 𝚌𝚞𝚜𝚝𝚘𝚖𝚒𝚣𝚎-𝚝𝚑𝚎𝚖𝚎𝚜 is a good place to start.</li>
+<li>General customization interface: Open the Options menu and choose the first item under Customize Emacs. This will let you customize Emacs through a sort-of-graphical interface. It saves all your settings in a file in your “home” directory, ~/.𝚎𝚖𝚊𝚌𝚜.</li>
+<li>Much, much, much more: Emacs calls itself an extensible editor for a reason.</li>
+</ul>
+<h2 id="4-SML-NJ-Installation"><a href="#4-SML-NJ-Installation" class="headerlink" title="4. SML/NJ Installation"></a>4. SML/NJ Installation</h2><p>Directions first vary by operating system, but then see “All Systems: Check your SML Installation” below.</p>
+<p>Note: The latest version of SML/NJ is 110.80 and that is the version used in these installation instructions. The course videos use SML/NJ 110.75. There are no language differences between the two versions (and 110.74 and earlier are fine too), so if you already have SML/NJ 110.75 or earlier installed, that is fine. The installation instructions for Mac OS X 10.6 or later changed slightly between versions, affecting the directories where files are installed.</p>
+<p><strong>Windows:</strong></p>
+<p>Download and run the 𝚜𝚖𝚕𝚗𝚓.𝚖𝚜𝚒 installer available at <a href="http://www.smlnj.org/dist/working/110.80/" target="_blank" rel="external">http://www.smlnj.org/dist/working/110.80/</a>. This will add an item for SML of New Jersey to your Start menu and add a command 𝚜𝚖𝚕 that you can use at the command line.</p>
+<p><strong>Mac OS:</strong></p>
+<p>The instructions here assume your operating system is Mac OS X 10.6 (which released in August 2009) or higher. See below if you have an older operating system.</p>
+<p>Download and run the 𝚜𝚖𝚕𝚗𝚓-𝚡𝟾𝟼-𝟷𝟷𝟶.𝟾𝟶.𝚙𝚔𝚐 installer available at <a href="http://www.smlnj.org/dist/working/110.80/" target="_blank" rel="external">http://www.smlnj.org/dist/working/110.80/</a>. Do not use the .𝚍𝚖𝚐 file available; that is for older computers. We recommend you not choose a “custom install location” though you can if you adjust the instructions that follow appropriately. If you have Mac OS Sierra, you likely need 110.80 and not an older version.</p>
+<p>Once the installation is complete, use Emacs or another text editor to edit the file .𝚋𝚊𝚜𝚑<em>𝚙𝚛𝚘𝚏𝚒𝚕𝚎 in your home folder. (In Emacs you can do this via: 𝙲-𝚡 𝙲-𝚏 ~/.𝚋𝚊𝚜𝚑</em>𝚙𝚛𝚘𝚏𝚒𝚕𝚎, notice the three characters “tilde, slash, dot.”) If the file does not already exist, create it. Add this line to the file:</p>
+<p>[Math Processing Error]<code>export PATH=&quot;$PATH:/usr/local/smlnj/bin&quot;
+[Math Processing Error]</code></p>
+<p>This tells your shell (the program that you interact with in the terminal) to add the SML/NJ directory to the paths it searches to find programs. (If you are not using the bash shell, which Mac OS X has used by default since 10.3, the syntax will be different.)</p>
+<p>Finally, you will need to run your .𝚋𝚊𝚜𝚑_𝚙𝚛𝚘𝚏𝚒𝚕𝚎 to deploy the changes you have made into your environment for the present session. To do this, run:</p>
+<p>[Math Processing Error]source.bashprofi≤</p>
+<p>You need to do this only once. Afterwards, each new terminal that you open will automatically run .𝚋𝚊𝚜𝚑_𝚙𝚛𝚘𝚏𝚒𝚕𝚎 for you.</p>
+<p>Now skip to “All Systems: Check your SML Installation” – the rest of this section is for Mac users with an operating system older than OS X 10.6.</p>
+<p><strong>If your operating system is Mac OS X 10.5:</strong></p>
+<ul>
+<li>If you have an Intel chip (which is the case if your computer was new in 2007 or later, or possibly in 2006), then you will need to follow the Unix instructions at <a href="http://www.smlnj.org/dist/working/110.80/" target="_blank" rel="external">http://www.smlnj.org/dist/working/110.80/</a>.</li>
+<li>If you have a PowerPC chip (which is the case if your computer was new in 2005 or earlier, or possibly in 2006), then you can use the 𝚜𝚖𝚕𝚗𝚓-𝚙𝚙𝚌-𝟷𝟷𝟶.𝟾𝟶.𝚍𝚖𝚐 installer at <a href="http://www.smlnj.org/dist/working/110.80/" target="_blank" rel="external">http://www.smlnj.org/dist/working/110.80/</a>. Follow the instructions above for Mac OS 10.6 or higher except (a) using the different installer and (b) making the contents of your .𝚋𝚊𝚜𝚑_𝚙𝚛𝚘𝚏𝚒𝚕𝚎 file include the line:</li>
+</ul>
+<p>[Math Processing Error]<code>export PATH=&quot;$PATH:/usr/local/smlnj-110.80/bin&quot;
+[Math Processing Error]</code></p>
+<p>If your operating system is Mac OS X 10.4 or earlier: You will need to follow the Unix instructions at <a href="http://www.smlnj.org/dist/working/110.80/" target="_blank" rel="external">http://www.smlnj.org/dist/working/110.80/</a>.</p>
+<p><strong>Linux:</strong></p>
+<p>If your package manager has a package for SML/NJ, install it. If it installs an older version such as SML/NJ 110.72, that should be fine. Otherwise, follow the Unix instructions at <a href="http://www.smlnj.org/dist/working/110.80/" target="_blank" rel="external">http://www.smlnj.org/dist/working/110.80/</a>.</p>
+<p><strong>All Systems: Check your SML Installation</strong></p>
+<ol>
+<li>Open a terminal window and type 𝚜𝚖𝚕 followed by Enter/Return. To open a terminal window:</li>
+</ol>
+<ul>
+<li>Windows: Start then All Programs then Accessories then Command Prompt, or Windows 7/8/10 just use the Start Menu to search for the 𝚌𝚖𝚍.𝚎𝚡𝚎 program and run it.</li>
+<li>Mac OS: Open Applications/Utilities/Terminal.app.</li>
+<li>Linux: Various ways: any shell should be fine.</li>
+</ul>
+<ol>
+<li>You should see a prompt that looks like this:</li>
+</ol>
+<p>[Math Processing Error]<code>Standard ML of New Jersey v110.80 [built: ...]
+[Math Processing Error]</code></p>
+<p>If you do not, then see below.</p>
+<ol>
+<li>Make sure everything is working by typing a very simple SML program at the prompt (notice the semicolon):</li>
+</ol>
+<p>[Math Processing Error]<code>1 + 1;
+[Math Processing Error]</code></p>
+<ol>
+<li>Hit Enter/Return. In response, the SML interpreter should print:</li>
+</ol>
+<p>[Math Processing Error]<code>val it = 2 : int
+[Math Processing Error]</code></p>
+<ol>
+<li>To exit the interpreter, type Control-Z and then Return on Windows and Control-D on Mac or Linux.</li>
+</ol>
+<p>If everything worked, skip to the next section. Else if the 𝚜𝚖𝚕 command caused an error, then most likely SML/NJ is installed but is not being found in your “PATH”.</p>
+<p>For Windows, the PATH should have been set by the installer, but if it was not for some reason, you can set it manually as follows:</p>
+<ul>
+<li>Go to Start Menu, then Control Panel, then System, then Advanced System Settings, then Advanced (the tab that should be selected by default), then Environment Variables.</li>
+<li>Now change the user variable 𝚙𝚊𝚝𝚑 to be everything already there followed by:</li>
+</ul>
+<p>[Math Processing Error]<code>C:\Program Files (x86)\SMLNJ\bin
+[Math Processing Error]</code></p>
+<p>For Mac OS X (or Linux), double-check that you edited your .𝚋𝚊𝚜𝚑<em>𝚙𝚛𝚘𝚏𝚒𝚕𝚎 file correctly. Depending on your user settings, you may need to make the same additions to a file that is in the same directory as .𝚋𝚊𝚜𝚑</em>𝚙𝚛𝚘𝚏𝚒𝚕𝚎 but is called .𝚋𝚊𝚜𝚑𝚛𝚌 or .𝚙𝚛𝚘𝚏𝚒𝚕𝚎 instead. (This is particularly likely if you have MacPorts installed.)</p>
+<h2 id="5-SML-Mode-for-Emacs-Installation"><a href="#5-SML-Mode-for-Emacs-Installation" class="headerlink" title="5. SML Mode for Emacs Installation"></a>5. SML Mode for Emacs Installation</h2><p>SML Mode is an extension to Emacs that is not Emacs itself or SML/NJ itself. It displays SML code nicely with syntax coloring and clean indentation, and provides a way to run SML from within Emacs. (Thanks to Stefan Monnier for maintaining SML Mode. The website is \<br><a href="http://www.iro.umontreal.ca/~monnier/elisp/" target="_blank" rel="external">http://www.iro.umontreal.ca/~monnier/elisp/</a>, but you do not need to go there to install SML Mode.)</p>
+<p>To install the current version of SML Mode (currently 6.7), follow these instructions from within Emacs:</p>
+<ul>
+<li>Run the command 𝙼-𝚡 𝚕𝚒𝚜𝚝-𝚙𝚊𝚌𝚔𝚊𝚐𝚎𝚜 (and then Return/Enter). If the 𝚕𝚒𝚜𝚝-𝚙𝚊𝚌𝚔𝚊𝚐𝚎𝚜 command does not exist, your Emacs version is too old. You can upgrade Emacs or follow more difficult SML Mode installation instructions below.</li>
+<li>Find 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎 and click on it with your mouse. If that worked, then click on 𝚒𝚗𝚜𝚝𝚊𝚕𝚕 with your mouse then move to the next step. If you could not find 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎, first note that while package names are mostly alphabetized, they may be in more than one group, making it seem like 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎 is not present. Check the entire buffer. You can most easily search using 𝙲-𝚜 in Emacs. If you still do not see 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎, try killing the buffer (𝙲-𝚡 𝚔) and trying the previous step again (some users have reported having to try several times, frustratingly). If you still do not see SML Mode, then you can follow these more manual steps instead:</li>
+</ul>
+<ol>
+<li>Visit <a href="http://elpa.gnu.org/packages/sml-mode.html" target="_blank" rel="external">http://elpa.gnu.org/packages/sml-mode.html</a> .</li>
+<li>Locate, and download the latest version (currently sml-mode-6.7.el) from that page.</li>
+<li>In Emacs type 𝙼-𝚡 𝚙𝚊𝚌𝚔𝚊𝚐𝚎-𝚒𝚗𝚜𝚝𝚊𝚕𝚕-𝚏𝚒𝚕𝚎 𝙴𝙽𝚃𝙴𝚁.</li>
+<li>At the prompt 𝙿𝚊𝚌𝚔𝚊𝚐𝚎 𝚏𝚒𝚕𝚎 𝚗𝚊𝚖𝚎: give the path to the just downloaded 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎-𝟼.𝟽.𝚎𝚕, and type 𝙴𝙽𝚃𝙴𝚁.</li>
+<li>This will split the window, and show the <em>𝙲𝚘𝚖𝚙𝚒𝚕𝚎-𝚕𝚘𝚐</em> with some lines about 𝙲𝚘𝚖𝚙𝚒𝚕𝚒𝚗𝚐 𝚏𝚒𝚕𝚎, and perhaps a warning. If there are no errors, 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎 should now be installed.</li>
+</ol>
+<ul>
+<li>Exit and restart Emacs.</li>
+<li>Read below to see if you need to follow a couple more steps (more likely under Mac and Linux).</li>
+</ul>
+<p>To verify that SML Mode is properly installed, let us check that it does indentation/coloring for SML files and that you can create the SML read-eval-print-loop (REPL) from within Emacs.</p>
+<p>First, edit an existing or new SML file (try 𝙲-𝚡 𝙲-𝚏 𝚝𝚎𝚜𝚝.𝚜𝚖𝚕 to create a new file if nothing else is handy). You should see the mode display at the bottom of the Emacs window change from Fundamental (or whatever it was) to SML. If you enter a line of code like 𝚟𝚊𝚕 𝚗 = 𝟷; you should see colors highlighting the keywords and variable names. When you are editing code, whenever you hit the Tab key, Emacs will try to reindent the current line appropriately.</p>
+<p>Second, while the cursor is in an SML buffer (i.e., you are editing an SML file), run 𝙲-𝚌 𝙲-𝚜 and press Enter/Return. This should split the window and create an SML prompt in a new buffer. In that buffer, you should be able to type 𝟷+𝟷; and then Enter/Return at the prompt and see 2 as the result.</p>
+<p>If you are seeing syntax highlighting, but the 𝙲-𝚌 𝙲-𝚜 command fails with an error message, Emacs is probably having trouble finding the SML program. You can hopefully fix this as follows:</p>
+<p>Mac OS: In Emacs, edit your .𝚎𝚖𝚊𝚌𝚜 file by 𝙲-𝚡 𝙲-𝚏 ~/.𝚎𝚖𝚊𝚌𝚜 (that is tilde, slash, dot, emacs) to open the file. Paste in these lines if you have Mac OS X 10.6 or later:</p>
+<p>[Math Processing Error]<code>(setenv &quot;PATH&quot; (concat &quot;/usr/local/smlnj/bin:&quot; (getenv &quot;PATH&quot;)))
+(setq exec-path (cons &quot;/usr/local/smlnj/bin&quot;  exec-path))
+[Math Processing Error]</code></p>
+<p>and these lines if you have Mac OS X 10.5:</p>
+<p>[Math Processing Error]<code>(setenv &quot;PATH&quot; (concat &quot;/usr/local/smlnj-110.80/bin:&quot; (getenv &quot;PATH&quot;)))
+(setq exec-path (cons &quot;/usr/local/smlnj-110.80/bin&quot;  exec-path))
+[Math Processing Error]</code></p>
+<p>(Adjust the lines above accordingly if you installed SML/NJ in a different directory.) Save the file (𝙲-𝚡 𝙲-𝚜). Exit and restart Emacs.</p>
+<ul>
+<li>Linux: Find where 𝚜𝚖𝚕𝚗𝚓-𝟷𝟷𝟶.𝟾𝟶 was installed. Then follow the Mac OS instructions above, but replacing /𝚞𝚜𝚛/𝚕𝚘𝚌𝚊𝚕 with the appropriate path.</li>
+</ul>
+<h2 id="6-Manual-SML-Mode-Installation-for-Older-Emacs-Versions-–-Probably-Skip-This"><a href="#6-Manual-SML-Mode-Installation-for-Older-Emacs-Versions-–-Probably-Skip-This" class="headerlink" title="6. Manual SML Mode Installation for Older Emacs Versions – Probably Skip This!"></a>6. Manual SML Mode Installation for Older Emacs Versions – Probably Skip This!</h2><p>If you are using Emacs 24.X, you should be able to skip this section. These instructions are only for people who want to use an older version of Emacs, which requires using an older version of SML Mode and following different installation instructions.</p>
+<p>If you are on Linux, your package manager may include an 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎 package. For example, on Ubuntu, the command 𝚜𝚞𝚍𝚘 𝚊𝚙𝚝-𝚐𝚎𝚝 𝚒𝚗𝚜𝚝𝚊𝚕𝚕 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎 may be all you need and you might be able to skip the rest of this section. Otherwise…</p>
+<p>Go to <a href="http://www.iro.umontreal.ca/~monnier/elisp/" target="_blank" rel="external">http://www.iro.umontreal.ca/~monnier/elisp/</a> and download version 5.0 (see link “Download 5.0” or just download directly (<a href="http://www.iro.umontreal.ca/~monnier/elisp/sml-mode-5.0.tar.gz" target="_blank" rel="external">http://www.iro.umontreal.ca/~monnier/elisp/sml-mode-5.0.tar.gz</a>). Unpack it:</p>
+<ul>
+<li>Windows: You need some program that can handle a .𝚝𝚊𝚛.𝚐𝚣 file. The Cygwin tools (<a href="http://www.cygwin.com" target="_blank" rel="external">http://www.cygwin.com</a>) suffice, or an easier-to-use program is 7-Zip (<a href="http://www.7-zip.org/" target="_blank" rel="external">http://www.7-zip.org/</a>). For 7-zip, install it. Then right-click the .𝚝𝚊𝚛.𝚐𝚣 file and choose 7-Zip then Extract Here. If this creates a .𝚝𝚊𝚛 file instead of a folder, do 7-Zip then Extract Here on that file as well.</li>
+<li>Mac OS: double-click the .𝚝𝚊𝚛.𝚐𝚣 file.</li>
+<li>Linux: Either:</li>
+</ul>
+<ol>
+<li><p>When downloading, choose Open with [Archive Manager] if given the option. Otherwise, save the file and double-click it, which should open it in Archive Manager. Drag the 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎-𝟻.𝟶 folder to the Desktop or wherever you want to store it.<br>Save the file. In a terminal, 𝚌𝚍 into the directory where you saved it and run 𝚝𝚊𝚛 -𝚡𝚏𝚣 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎.𝚝𝚊𝚛.𝚐𝚣.<br>You should get a folder named 𝚜𝚖𝚕-𝚖𝚘𝚍𝚎-𝟻.𝟶. You can place this folder anywhere you like.</p>
+</li>
+<li><p>To get SML Mode to work with Emacs, you need to create/edit a .𝚎𝚖𝚊𝚌𝚜 file in your “home” directory/folder that Emacs searches when it starts up. Open this file in Emacs via the command 𝙲-𝚡 𝙲-𝚏 ~/.𝚎𝚖𝚊𝚌𝚜.</p>
+</li>
+</ol>
+<p>Add the following line to the .𝚎𝚖𝚊𝚌𝚜 file:</p>
+<p>[Math Processing Error]<code>(load &quot;/path/to/where/you/stored/sml-mode-5.0/sml-mode-startup&quot;)
+[Math Processing Error]</code></p>
+<p>but replacing path/to/where/you/stored with the appropriate path:</p>
+<ul>
+<li>Windows: Hold down the Shift key as you right-click the sml-mode-5.0 folder and choose Copy As Path. Paste this into Emacs. Then replace each \ with / because \ is a special character in Emacs settings files. And add /sml-mode-startup at the end. So you might end up with something like Z:/look/here/sml-mode-startup.</li>
+<li>Mac OS: Select the folder in the Finder and choose File then Get Info. Copy the Where: field and add /sml-mode-startup. Now also add the following to your .emacs file in addition to the line above:</li>
+</ul>
+<p>[Math Processing Error]`<br>(setenv “PATH” (concat “/usr/local/smlnj/bin:” (getenv “PATH”)))</p>
+<p>(setq exec-path (cons “/usr/local/smlnj/bin”  exec-path))<br>[Math Processing Error]`</p>
+<p>(But if you have Mac OS X 10.5, use smlnj-110.77 in place of smlnj in the two lines above. Or, more generally, adjust the lines above appropriately if you installed SML/NJ in a different directory.)</p>
+<ul>
+<li>Linux: If SML Mode seems to work, but you cannot get the SML REPL to run in Emacs, then find where smlnj-110.77 was installed and add the two lines under the Mac OS instructions above, but replacing /usr/local with the appropriate path.</li>
+</ul>
+<p>(There are much more elaborate installation instructions in the documentation included in the sml-mode-5.0 folder, but these are aimed at system administrators who might want to install SML Mode for an entire site instead of a single user. You do not need these.)</p>
+<p>Now verify that SML Mode is properly installed, following the instructions in the previous section.</p>
+<p>Finally, if you are in SML Mode but your SML code does not have syntax coloring, add this line to your ~/.emacs file and then restart Emacs:</p>
+<p>[Math Processing Error]<code>(global-font-lock-mode t)
+[Math Processing Error]</code></p>
+<p>This should be necessary only if your Emacs version is older than 23.X.</p>
+<h2 id="7-Using-the-SML-NJ-REPL-Read-Eval-Print-Loop-in-Emacs"><a href="#7-Using-the-SML-NJ-REPL-Read-Eval-Print-Loop-in-Emacs" class="headerlink" title="7. Using the SML/NJ REPL (Read-Eval-Print Loop) in Emacs"></a>7. Using the SML/NJ REPL (Read-Eval-Print Loop) in Emacs</h2><p>At this point, we are done installing! This section shows you how to run SML programs from within Emacs. It assumes you already have an SML file or can write your own SML program in a new one.</p>
+<ul>
+<li>Edit a file with extension .𝚜𝚖𝚕. You should be in SML-mode, using Tab to indent your code well.</li>
+<li>To create the <em>𝚜𝚖𝚕</em> buffer (which holds the REPL), type 𝙲-𝚌 𝙲-𝚜 (and then Return/Enter) in the buffer with the .sml file. (Note: This will not work in the <em>𝚜𝚌𝚛𝚊𝚝𝚌𝚑</em> buffer that Emacs starts in because this buffer is not in SML Mode.)</li>
+<li>Keep the .sml file(s) you are working with for a particular assignment in the same folder. When you type 𝙲-𝚌 𝙲-𝚜 to start the REPL from a buffer for foo.sml, the REPL will look in the right folder for 𝚏𝚘𝚘.𝚜𝚖𝚕 when you type 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”; and will look in the same folder for any other file you use such as 𝚏𝚘𝚘_𝚝𝚎𝚜𝚝𝚜.𝚜𝚖𝚕. This is less confusing than trying to keep track of different folders and paths while using the REPL although that is possible.</li>
+<li>To end and restart a REPL session, type 𝙲-𝚍 (to end it) and 𝙲-𝚌 𝙲-𝚜 (and then Return/Enter) (to restart it). You must type 𝙲-𝚍 while in the <em>𝚜𝚖𝚕</em> buffer; you can type 𝙲-𝚌 𝙲-𝚜 from the <em>𝚜𝚖𝚕</em> buffer or a buffer with a .sml file.</li>
+<li>By ending and restarting a session, the new session has an empty environment. Your earlier interactions are still in the <em>𝚜𝚖𝚕</em> buffer, so you can save them, cut-paste them, etc., but they have no effect on the evaluation in the restarted REPL session.</li>
+<li>Evaluation can go into an infinite loop.</li>
+</ul>
+<ol>
+<li>This has likely occurred if you are not getting the “-“ prompt back and nothing appears to be happening.</li>
+<li>𝙲-𝚌 𝙲-𝚌 will interrupt evaluation and get you your prompt back.</li>
+</ol>
+<ul>
+<li>If you forget to end your binding with a “;” character, the REPL will print an “=” character on the next line, which is just its way of saying, “you are not done – continue your binding,” so type a “;” and hit Return/Enter. This is not an infinite loop (nothing is being evaluated; the REPL is waiting for you) so 𝙲-𝚌 𝙲-𝚌 does not do anything.</li>
+<li>If the printed result looks “pretty good,” but part of what you expected to see has been replaced by a “#” or “ …” this is normal. The REPL has a limit on how many characters it prints, which is good since you might make a large value, such as a list with tens of thousands of elements. You can adjust the limit if you want.</li>
+<li>Two keyboard commands are particularly useful in the REPL: 𝙼-𝚙 will print the previous line you used in the REPL, which you can then run again or edit before running. Repeating 𝙼-𝚙 will cycle through previous REPL lines, allowing you to bring back up any of your previous REPL expressions. The p stands for previous. 𝙼-𝚗 (repeatedly) does the same thing in the opposite direction, with the n standing for next.</li>
+</ul>
+<p><strong>Advice You Will Wish You Followed!</strong></p>
+<p>In each REPL session, follow this pattern:</p>
+<ul>
+<li>First type 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”; for any SML files you want to use.</li>
+<li>Then use the REPL manually as long as you wish.</li>
+<li>After using the REPL to test something, do not use use to load (or reload) any more files.</li>
+<li>When tempted to violate the previous point, end and restart your REPL session before continuing.</li>
+</ul>
+<p>Why: 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”; has a very simple semantics: it adds the ML bindings in the file to the environment in order. These may or may not shadow ML bindings from the last time you typed 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”;, depending on how foo.sml changed. This confuses even expert programmers until they train themselves to follow the pattern above.</p>
+<p>If you find yourself typing the same non-trivial things repeatedly in the REPL, stop wasting your time.</p>
+<p>Move the repeated parts to a second file, e.g., 𝚝𝚎𝚜𝚝.𝚜𝚖𝚕.<br>Then, when you restart your session, begin with 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”; 𝚞𝚜𝚎 “𝚝𝚎𝚜𝚝.𝚜𝚖𝚕”;.<br>In fact, there is an even faster way:</p>
+<ol>
+<li>Begin test.sml with the expression 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”;</li>
+<li>Then begin your session with 𝚞𝚜𝚎 “𝚝𝚎𝚜𝚝.𝚜𝚖𝚕”;</li>
+</ol>
+<p>Note: Do not put 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”; in 𝚝𝚎𝚜𝚝.𝚜𝚖𝚕 and begin your session with 𝚞𝚜𝚎 “𝚏𝚘𝚘.𝚜𝚖𝚕”; 𝚞𝚜𝚎 “𝚝𝚎𝚜𝚝.𝚜𝚖𝚕”;. That will evaluate the ML bindings in 𝚏𝚘𝚘.𝚜𝚖𝚕 twice, which is confusing.</p>
+<p>If you develop some emotional attachment to the transcript of your <em>𝚜𝚖𝚕</em> buffer, you can save it to a file just like any other buffer. But after you do, it is not an <em>𝚜𝚖𝚕</em> buffer anymore, so you will have to create a new <em>𝚜𝚖𝚕</em> buffer from a buffer in SML Mode via 𝙲-𝚌 𝙲-𝚜.</p>
+<p>Acknowledgments: These instructions were prepared starting with material created by Ben Wood, adapted from prior materials by Dan Grossman and Hal Perkins. Stefan Monnier provided fantastic feedback on this document and even created SML Mode version 6 to simplify SML Mode installation substantially. John Reppy provided excellent improvements to the SML/NJ installation instructions.</p>
+<p>-from coursera</p>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    <div class="content">
+        
+<span class="post-time">
+    Last updated: <time datetime="2017-05-06T05:31:47.000Z" itemprop="dateUpdated">2017-05-06 05:31:47</time>
+</span><br>
+
+
+        
+        转载请注明出处：<a href="/2017/02/23/Emacs配置/" target="_blank" rel="external">http://kingle.online/2017/02/23/Emacs配置/</a>
+        
+    </div>
+    <footer>
+        <a href="http://kingle.online">
+            <img src="/img/avatar.jpg" alt="kingle">
+            kingle
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Emacs/">Emacs</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://kingle.online/2017/02/23/Emacs配置/&title=《Emacs配置》 — kingle blog&pic=http://kingle.online/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://kingle.online/2017/02/23/Emacs配置/&title=《Emacs配置》 — kingle blog&source=
+title: emacs 配置date: 2017-02-24 00:43:20
+tags: emacsContents
+Overview
+Emacs ..." data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://kingle.online/2017/02/23/Emacs配置/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Emacs配置》 — kingle blog&url=http://kingle.online/2017/02/23/Emacs配置/&via=http://kingle.online" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://kingle.online/2017/02/23/Emacs配置/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between">
+  
+    <div class="waves-block waves-effect prev">
+      <a href="/2017/03/07/Python笔记-Requests库网络爬取实战/" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">Python笔记-Requests库网络爬取实战</h4>
+      </a>
+    </div>
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2017/02/03/预览应用扩展增强工具/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">预览应用扩展增强工具</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+<div class="comments" id="comments">
+    <div class="ds-thread" data-thread-key="Emacs配置" data-title="Emacs配置" data-url="http://kingle.online/2017/02/23/Emacs配置/"></div>
+</div>
+<script>
+lazyScripts.push('//cdn.bootcss.com/marked/0.3.6/marked.min.js');
+
+var duoshuoQuery = {short_name:'kinlge', theme: 'none'};
+lazyScripts.push('//unpkg.com/hexo-theme-material-indigo@latest/js/embed.min.js');
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        请我吃冰棍~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <ul class="reward-items">
+        
+        <li>
+            <img src="/img/wechat.jpg" title="微信打赏二维码" alt="微信打赏二维码">
+            <p>微信</p>
+        </li>
+        
+
+        
+        <li>
+            <img src="/img/alipay.jpg" title="支付宝打赏二维码" alt="支付宝打赏二维码">
+            <p>支付宝</p>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>This blog is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p>
+            <span>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></span>
+            <span>kingle &copy; 2017</span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://kingle.online/2017/02/23/Emacs配置/&title=《Emacs配置》 — kingle blog&pic=http://kingle.online/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://kingle.online/2017/02/23/Emacs配置/&title=《Emacs配置》 — kingle blog&source=
+title: emacs 配置date: 2017-02-24 00:43:20
+tags: emacsContents
+Overview
+Emacs ..." data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://kingle.online/2017/02/23/Emacs配置/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Emacs配置》 — kingle blog&url=http://kingle.online/2017/02/23/Emacs配置/&via=http://kingle.online" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://kingle.online/2017/02/23/Emacs配置/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACM0lEQVR42u3aQU7EMAwFUO5/6bJhgYRa/ndmEE1fViPUTvqK5LEdf3zE6/i2Ztf//Hz2nfku9cLAwLgt47hc+TXvgBX7YmBgPIBxtnF+TRua89eX7IuBgYGRP9Z1MJ3di4GBgTFjJKF2luphYGBgrBSx13cloflf1OIYGBg3ZOTNsr///JbzDQwMjFsxjnK1xWr+l9nzfN2LgYGxNaNtpSXjEbOEsh22wMDAwMjLy7atth6yi64hBgbGFow8jCZf2iaC+Xf+8roxMDC2ZqyMarVhOkkHV0Y0MDAwdmXkyVx+YLDSbstTVQwMjOcw8hK0HaRYGcsYNuMwMDA2ZbQN/ZVjyLxAzRPE098NDAyMTRmz9G6W/NW19XVQxsDAeBhjZeO8AJ51BOuBMAwMjC0Y64eIKyXryoTI6f8EAwNjO0Ye8tqitC1u82+IilgMDIwHMGbbzw4SZo224kQCAwNjC0abkBVZ50LJWlyJgYGxNSOfWMhTw5VDhXx24pfJEQwMjO0Yx+VqQ/PssWYNvtOuIQYGxqaMlY3zQ8f8BdVpKAYGxiMZK42zWWcsv7eezsDAwLgt4yjXbGzi+qFfEIIxMDC2ZsyCXd5ua5PLtt1WYzAwMG7LaINs3vpvg28ecKPbMDAwtmPkh5p5oMxDcDtsEbXbMDAwHs9YTxyTMF08DwYGBsaocG2bZW2AftnvBgYGxk0YK2NhSWBtX1Z9aIqBgbE1Iy8dk/bZ+rFl+yQYGBhbMz4BK+X6CNVku6IAAAAASUVORK5CYII=" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+<script>
+(function() {
+    var OriginTitile = document.title, titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '死鬼去哪里了！';
+            clearTimeout(titleTime);
+        } else {
+            document.title = '(つェ⊂)咦!又好了!';
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            },2000);
+        }
+    });
+})();
+</script>
+
+
+
+</body>
+</html>
