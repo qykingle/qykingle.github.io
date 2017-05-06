@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kingle.online/"/>
-  <updated>2017-05-06T06:15:12.000Z</updated>
+  <updated>2017-05-06T14:00:08.000Z</updated>
   <id>http://kingle.online/</id>
   
   <author>
@@ -14,6 +14,93 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>atom/sublimeText/vscode插件</title>
+    <link href="http://kingle.online/2017/05/07/atom-sublimeText-vscode/"/>
+    <id>http://kingle.online/2017/05/07/atom-sublimeText-vscode/</id>
+    <published>2017-05-06T21:57:39.000Z</published>
+    <updated>2017-05-06T14:00:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="atom"><a href="#atom" class="headerlink" title="atom"></a>atom</h2><ul>
+<li>atom-beautify</li>
+<li>autocomplete-paths</li>
+<li>busy-signal</li>
+<li>color-picker</li>
+<li>csscomb</li>
+<li>docblockr</li>
+<li>emmet</li>
+<li>file-icons</li>
+<li>git-plus</li>
+<li>intentions</li>
+<li>javascript-snippets</li>
+<li>linter</li>
+<li>linter-eslint</li>
+<li>linter-ui-default</li>
+<li>livestyle-atom</li>
+<li>minimap</li>
+<li>pigments</li>
+<li>platformio-ide-terminal</li>
+</ul>
+<hr>
+<h2 id="sublime-text"><a href="#sublime-text" class="headerlink" title="sublime-text"></a>sublime-text</h2><ul>
+<li>A File Icon</li>
+<li>Alignment</li>
+<li>All Autocomplete</li>
+<li>AutoFileName</li>
+<li>Autoprefixer</li>
+<li>Bootstrap 3 Snippets</li>
+<li>BracketHighlighter</li>
+<li>Color Highlighter</li>
+<li>Emmet</li>
+<li>Git</li>
+<li>HTML-CSS-JS Prettify</li>
+<li>HTML5</li>
+<li>Jquery</li>
+<li>Markdown Preview</li>
+<li>One Dark Material - Theme</li>
+<li>Package Control</li>
+<li>Sass</li>
+<li>SideBarEnhancements</li>
+<li>SublimeLinter</li>
+<li>SublimeLinter-contrib-eslint</li>
+<li>Terminal</li>
+<li>Theme -Soda</li>
+</ul>
+<hr>
+<p>##vscode</p>
+<ul>
+<li>Auto Rename Tag</li>
+<li>AutoFileName</li>
+<li>Beautify</li>
+<li>c/c++</li>
+<li>Color Picker</li>
+<li>ESLint</li>
+<li>Git History</li>
+<li>HTML CSS Support</li>
+<li>jQuery Code Snippets</li>
+<li>motss HTML snippets</li>
+<li>vscode-icons</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;atom&quot;&gt;&lt;a href=&quot;#atom&quot; class=&quot;headerlink&quot; title=&quot;atom&quot;&gt;&lt;/a&gt;atom&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;atom-beautify&lt;/li&gt;
+&lt;li&gt;autocomplete-paths&lt;/li&gt;
+&lt;li&gt;busy-
+    
+    </summary>
+    
+    
+      <category term="atom" scheme="http://kingle.online/tags/atom/"/>
+    
+      <category term="sublimeText" scheme="http://kingle.online/tags/sublimeText/"/>
+    
+      <category term="vscode" scheme="http://kingle.online/tags/vscode/"/>
+    
+  </entry>
   
   <entry>
     <title>iTerm2快捷键</title>
@@ -180,9 +267,9 @@
     </summary>
     
     
-      <category term="numpy" scheme="http://kingle.online/tags/numpy/"/>
-    
       <category term="python" scheme="http://kingle.online/tags/python/"/>
+    
+      <category term="numpy" scheme="http://kingle.online/tags/numpy/"/>
     
   </entry>
   
@@ -284,9 +371,9 @@
     </summary>
     
     
-      <category term="numpy" scheme="http://kingle.online/tags/numpy/"/>
-    
       <category term="python" scheme="http://kingle.online/tags/python/"/>
+    
+      <category term="numpy" scheme="http://kingle.online/tags/numpy/"/>
     
   </entry>
   
