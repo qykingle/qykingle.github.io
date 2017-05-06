@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>kingle blog</title>
+  <subtitle>web</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://kingle.online/"/>
+  <updated>2017-05-06T05:05:56.000Z</updated>
+  <id>http://kingle.online/</id>
+  
+  <author>
+    <name>kingle</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>预览应用扩展增强工具</title>
+    <link href="http://kingle.online/2017/05/06/%E9%A2%84%E8%A7%88%E5%BA%94%E7%94%A8%E6%89%A9%E5%B1%95%E5%A2%9E%E5%BC%BA%E5%B7%A5%E5%85%B7/"/>
+    <id>http://kingle.online/2017/05/06/预览应用扩展增强工具/</id>
+    <published>2017-05-06T12:57:45.000Z</published>
+    <updated>2017-05-06T05:05:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>针对mac系统的预览工具，快捷键是<strong>空格键</strong><br>Mac上的预览工具，本身就非常好用，大多数文件，比如图片、Office文档、MP3等文件在文件夹上，选中后，按一下空格就可以快速预览到内容。</p>
+</blockquote>
+<p>但是，你还可以拓展它的功能，让它更加好用 。下面是简介和安装方法：</p>
+<p>1、预览查看图片分辨率&amp;大小</p>
+<p><img src="http://ojlmcfp94.bkt.clouddn.com/image/size.png" height="200"></p>
+<p>2、代码语法高亮</p>
+<p><img src="http://ojlmcfp94.bkt.clouddn.com/image/codecolor.png"><br>3、快速预览zip压缩包内容</p>
+<p><img src="http://ojlmcfp94.bkt.clouddn.com/image/zip.png"><br>4、快速预览markdown格式内容</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://ojlmcfp94.bkt.clouddn.com/img-markdownpreview.png"></h2><p>还有很多有意思的插件，比如查看安卓的apk信息、MD文件等，具体可以看<a href="https://github.com/sindresorhus/quick-look-plugins" target="_blank" rel="external">sindresorhus/quick-look-plugins</a>的介绍。</p>
+<p>那么如何安装这些插件呢？简单2步：</p>
+<p>打开Mac的 “终端” 工具（可右上角 放大镜 搜 终端）：</p>
+<p>需要先安装HomeBrew工具。</p>
+<p>安装好上面的工具后，再安装插件。如果需要更多其他插件，就在后面加插件名：</p>
+<p>brew cask install qlcolorcode betterzipql qlimagesize qlmarkdown</p>
+<p>安装过程中，可能需要多次输入系统密码，请留意。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;针对mac系统的预览工具，快捷键是&lt;strong&gt;空格键&lt;/strong&gt;&lt;br&gt;Mac上的预览工具，本身就非常好用，大多数文件，比如图片、Office文档、MP3等文件在文件夹上，选中后，按一下空格就可以快速预览到内容。&lt;/p&gt;
+&lt;/blockq
+    
+    </summary>
+    
+    
+      <category term="mac" scheme="http://kingle.online/tags/mac/"/>
+    
+      <category term="tool" scheme="http://kingle.online/tags/tool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://kingle.online/2017/05/04/hello-world/"/>
+    <id>http://kingle.online/2017/05/04/hello-world/</id>
+    <published>2017-05-03T16:31:26.000Z</published>
+    <updated>2017-05-03T16:36:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
