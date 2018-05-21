@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    <title>python-Matplotlib基础绘图函数 | kingle blog | web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="python,Matplotlib">
+    <meta name="description" content="pyplot的基础图标函数列表一共有16种                pyplot饼图的绘制plt.pie()代码：12345678910import matplotlib.pyplot as pltlabels = &apos;Frogs&apos;, &apos;Hogs&apos;, &apos;Dogs&apos;, &apos;Logs&apos;sizes = [15, 30, 45, 10]explode = (0, 0.1, 0, 0)plt.pie(si">
+<meta name="keywords" content="python,Matplotlib">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python-Matplotlib基础绘图函数">
+<meta property="og:url" content="http://kingle.online/2017/05/14/python-Matplotlib基础绘图函数/index.html">
+<meta property="og:site_name" content="kingle blog">
+<meta property="og:description" content="pyplot的基础图标函数列表一共有16种                pyplot饼图的绘制plt.pie()代码：12345678910import matplotlib.pyplot as pltlabels = &apos;Frogs&apos;, &apos;Hogs&apos;, &apos;Dogs&apos;, &apos;Logs&apos;sizes = [15, 30, 45, 10]explode = (0, 0.1, 0, 0)plt.pie(si">
+<meta property="og:image" content="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.1.png">
+<meta property="og:image" content="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.2.png">
+<meta property="og:image" content="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.3.png">
+<meta property="og:image" content="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.4.png">
+<meta property="og:image" content="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.5.png">
+<meta property="og:image" content="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.6.png">
+<meta property="og:image" content="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.7.png">
+<meta property="og:updated_time" content="2017-05-13T09:33:02.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="python-Matplotlib基础绘图函数">
+<meta name="twitter:description" content="pyplot的基础图标函数列表一共有16种                pyplot饼图的绘制plt.pie()代码：12345678910import matplotlib.pyplot as pltlabels = &apos;Frogs&apos;, &apos;Hogs&apos;, &apos;Dogs&apos;, &apos;Logs&apos;sizes = [15, 30, 45, 10]explode = (0, 0.1, 0, 0)plt.pie(si">
+<meta name="twitter:image" content="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.1.png">
+    
+        <link rel="alternate" type="application/atom+xml" title="kingle blog" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/avatar.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">kingle</h5>
+          <a href="mailto:kingleiu@yahoo.com" title="kingleiu@yahoo.com" class="mail">kingleiu@yahoo.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                Archives
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                Tags
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com/memedaqyk" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="http://www.weibo.com/kingleiu" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                Weibo
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">python-Matplotlib基础绘图函数</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="Search">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">python-Matplotlib基础绘图函数</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2017-05-13T16:48:37.000Z" itemprop="datePublished" class="page-time">
+  2017-05-13
+</time>
+
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#pyplot的基础图标函数列表"><span class="post-toc-number">1.</span> <span class="post-toc-text">pyplot的基础图标函数列表</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#pyplot饼图的绘制"><span class="post-toc-number">2.</span> <span class="post-toc-text">pyplot饼图的绘制</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#pyplot直方图的绘制"><span class="post-toc-number">3.</span> <span class="post-toc-text">pyplot直方图的绘制</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#pyplot极坐标图的绘制"><span class="post-toc-number">4.</span> <span class="post-toc-text">pyplot极坐标图的绘制</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#pyplot散点图的绘制"><span class="post-toc-number">5.</span> <span class="post-toc-text">pyplot散点图的绘制</span></a></li></ol>
+        </nav>
+    </aside>
+    
+<article id="post-python-Matplotlib基础绘图函数"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">python-Matplotlib基础绘图函数</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2017-05-13 16:48:37" datetime="2017-05-13T16:48:37.000Z"  itemprop="datePublished">2017-05-13</time>
+
+            
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+            
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h2 id="pyplot的基础图标函数列表"><a href="#pyplot的基础图标函数列表" class="headerlink" title="pyplot的基础图标函数列表"></a>pyplot的基础图标函数列表</h2><p>一共有16种</p>
+<div style="text-align: center"><br>    <img src="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.1.png" width="" height="" alt="picture is gone"><br></div><br><div style="text-align: center"><br>    <img src="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.2.png" width="" height="" alt="picture is gone"><br></div><br><div style="text-align: center"><br>    <img src="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.3.png" width="" height="" alt="picture is gone"><br></div>
+
+<hr>
+<h2 id="pyplot饼图的绘制"><a href="#pyplot饼图的绘制" class="headerlink" title="pyplot饼图的绘制"></a>pyplot饼图的绘制</h2><p><code>plt.pie()</code><br>代码：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</div><div class="line"></div><div class="line">labels = <span class="string">'Frogs'</span>, <span class="string">'Hogs'</span>, <span class="string">'Dogs'</span>, <span class="string">'Logs'</span></div><div class="line">sizes = [<span class="number">15</span>, <span class="number">30</span>, <span class="number">45</span>, <span class="number">10</span>]</div><div class="line">explode = (<span class="number">0</span>, <span class="number">0.1</span>, <span class="number">0</span>, <span class="number">0</span>)</div><div class="line"></div><div class="line">plt.pie(sizes, explode=explode, labels=labels, autopct=<span class="string">'%1.1f%%'</span>, shadow=<span class="keyword">False</span>, startangle=<span class="number">90</span>)</div><div class="line"></div><div class="line">plt.axis(<span class="string">'equal'</span>)</div><div class="line">plt.show()</div></pre></td></tr></table></figure></p>
+<p>效果：</p>
+<div style="text-align: center"><br>    <img src="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.4.png" width="500px" height="400px" alt="picture is gone"><br></div>
+
+<h2 id="pyplot直方图的绘制"><a href="#pyplot直方图的绘制" class="headerlink" title="pyplot直方图的绘制"></a>pyplot直方图的绘制</h2><p><code>plt.hist()</code><br>代码：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</div><div class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</div><div class="line"></div><div class="line">np.random.seed(<span class="number">0</span>)</div><div class="line">mu, sigma = <span class="number">100</span>, <span class="number">20</span> <span class="comment">#均值和标准差</span></div><div class="line">a = np.random.normal(mu, sigma, size = <span class="number">100</span>)</div><div class="line"></div><div class="line"><span class="comment"># 20可以控制区间分级的数量,即直方图的个数</span></div><div class="line">plt.hist(a, <span class="number">20</span>, normed = <span class="number">1</span>, histtype = <span class="string">'stepfilled'</span>, facecolor=<span class="string">'b'</span>, alpha=<span class="number">0.75</span>)</div><div class="line">plt.title(<span class="string">'Histogram'</span>)</div><div class="line">plt.show()</div></pre></td></tr></table></figure></p>
+<p>效果：</p>
+<div style="text-align: center"><br>    <img src="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.5.png" width="500px" height="400px" alt="picture is gone"><br></div>
+
+<h2 id="pyplot极坐标图的绘制"><a href="#pyplot极坐标图的绘制" class="headerlink" title="pyplot极坐标图的绘制"></a>pyplot极坐标图的绘制</h2><p>代码：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</div><div class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</div><div class="line"></div><div class="line">N = <span class="number">20</span></div><div class="line">theta = np.linspace(<span class="number">0.0</span>, <span class="number">2</span> * np.pi, N, endpoint = <span class="keyword">False</span>)</div><div class="line">radii = <span class="number">10</span> * np.random.rand(N)</div><div class="line">width = np.pi / <span class="number">4</span> * np.random.rand(N)</div><div class="line"></div><div class="line">ax = plt.subplot(<span class="number">111</span>, projection=<span class="string">'polar'</span>)</div><div class="line">bars = ax.bar(theta, radii, width=width, bottom=<span class="number">0.0</span>) <span class="comment">#分别对应left, height, width</span></div><div class="line"><span class="keyword">for</span> r, bar <span class="keyword">in</span> zip(radii, bars):</div><div class="line">    bar.set_facecolor(plt.cm.viridis(r / <span class="number">10.</span>))</div><div class="line">    bar.set_alpha(<span class="number">0.5</span>)</div><div class="line"></div><div class="line">plt.show()</div></pre></td></tr></table></figure></p>
+<p>效果:</p>
+<div style="text-align: center"><br>    <img src="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.6.png" width="500px" height="400px" alt="picture is gone"><br></div>
+
+<h2 id="pyplot散点图的绘制"><a href="#pyplot散点图的绘制" class="headerlink" title="pyplot散点图的绘制"></a>pyplot散点图的绘制</h2><p>代码：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</div><div class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</div><div class="line"></div><div class="line">fig, ax = plt.subplots()</div><div class="line">ax.plot(<span class="number">10</span> * np.random.randn(<span class="number">100</span>), <span class="number">10</span> * np.random.randn(<span class="number">100</span>), <span class="string">'o'</span>)</div><div class="line">ax.set_title(<span class="string">'Simple Scatter'</span>)</div><div class="line"></div><div class="line">plt.show()</div></pre></td></tr></table></figure></p>
+<div style="text-align: center"><br>    <img src="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.7.png" width="500px" height="400px" alt="picture is gone"><br></div>
+
+
+
+        </div>
+
+        <blockquote class="post-copyright">
+    <div class="content">
+        
+<span class="post-time">
+    Last updated: <time datetime="2017-05-13T09:33:02.000Z" itemprop="dateUpdated">2017-05-13 09:33:02</time>
+</span><br>
+
+
+        
+        转载请注明出处：<a href="/2017/05/14/python-Matplotlib基础绘图函数/" target="_blank" rel="external">http://kingle.online/2017/05/14/python-Matplotlib基础绘图函数/</a>
+        
+    </div>
+    <footer>
+        <a href="http://kingle.online">
+            <img src="/img/avatar.jpg" alt="kingle">
+            kingle
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Matplotlib/">Matplotlib</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://kingle.online/2017/05/14/python-Matplotlib基础绘图函数/&title=《python-Matplotlib基础绘图函数》 — kingle blog&pic=http://kingle.online/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://kingle.online/2017/05/14/python-Matplotlib基础绘图函数/&title=《python-Matplotlib基础绘图函数》 — kingle blog&source=革命仍未胜利,同志仍需努力" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://kingle.online/2017/05/14/python-Matplotlib基础绘图函数/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《python-Matplotlib基础绘图函数》 — kingle blog&url=http://kingle.online/2017/05/14/python-Matplotlib基础绘图函数/&via=http://kingle.online" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://kingle.online/2017/05/14/python-Matplotlib基础绘图函数/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between">
+  
+    <div class="waves-block waves-effect prev">
+      <a href="/2017/05/29/Debian8-Server安装LEMP-nginx-MySQL-MariaDB-PHP (kingle的MacBook Pro 的冲突副本 2018-04-09)/" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">Debian8-Server安装LEMP-nginx,MySQL/MariaDB,PHP</h4>
+      </a>
+    </div>
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2017/05/13/python-Matplotlib库入门笔记/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">python-Matplotlib库入门笔记</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+<section class="comments" id="comments">
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = 'kingle.online';
+    lazyScripts.push('//' + disqus_shortname + '.disqus.com/embed.js')
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        请我吃冰棍~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <ul class="reward-items">
+        
+        <li>
+            <img src="/img/wechat.jpg" title="微信打赏二维码" alt="微信打赏二维码">
+            <p>微信</p>
+        </li>
+        
+
+        
+        <li>
+            <img src="/img/alipay.jpg" title="支付宝打赏二维码" alt="支付宝打赏二维码">
+            <p>支付宝</p>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+    </div>
+    <div class="bottom">
+        <p>
+            <span>kingle &copy; 2017 - 2018</span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://kingle.online/2017/05/14/python-Matplotlib基础绘图函数/&title=《python-Matplotlib基础绘图函数》 — kingle blog&pic=http://kingle.online/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://kingle.online/2017/05/14/python-Matplotlib基础绘图函数/&title=《python-Matplotlib基础绘图函数》 — kingle blog&source=革命仍未胜利,同志仍需努力" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://kingle.online/2017/05/14/python-Matplotlib基础绘图函数/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《python-Matplotlib基础绘图函数》 — kingle blog&url=http://kingle.online/2017/05/14/python-Matplotlib基础绘图函数/&via=http://kingle.online" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://kingle.online/2017/05/14/python-Matplotlib基础绘图函数/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACsElEQVR42u3ay27DMAwEwP7/T7fXHup0l5T6AManIEhtjQtIxJJvb/H1/ul6+v7pevrl5++TJz798sCFh4eHt1h6vrinB7e/zJHJU764Dx4eHt413tOtk8+z6/Wzkm9erxkPDw/vv/Bmi85Ldjw8PLz/yGvL6Nd3mJHw8PDw/gIvDxFmhe8s5G1fKB4eHt7P8PIu0t/5fKW/h4eHh7fuqm8OidkIwuYw+GK1eHh4eBd4+Yabh637YrqNbr95fXh4eHgXeLO6tB2NSlpieUGfR8x4eHh4N3j5ppwsaBb4bl7HNy8IDw8P7yjvbItrU+AW4UJe7uPh4eFd4+3b8G1ZPCvW8z0fDw8P7zZv1nDahAWzQ6WNgPHw8PBu8NoNug0dNgNVbRRSn354eHh4I16+7c4WOmubtcgia8HDw8Nb8/LmU77cfYzbHjNRSwwPDw/vKG8/StWGC/noVTvWgIeHh/czvPZg2GPaxlgbbaxKajw8PLyYl99iVvjmAcfs6cW4Ax4eHt6C10aibbCbt/nb5lZSguPh4eHd4xV/ULb5k4MnL8rzYwMPDw/vHi8PJjZtsE2Mm191GIGHh4c34uVRbLIR59v95r+RH2B4eHh493ibLX7/IvISPC+s8fDw8O7x9jHEJrZIGm+zZlt0+uHh4eGteW0o0G7xeWScxCLFi8PDw8O7xpsVr/mowdmiuRg+wMPDw7vMmzWl8jGsTcl+rDOGh4eHt4a1g6T7plc7FDs7ZvDw8PBu8GZ77CYmaIdNi0bXqSMEDw8Pb1155kvJj4HkKbPnPoYReHh4eBd4s4hh85pOteLqrAUPDw/vV3l5Cz9vWW2Gtw4fDHh4eHiHeHmzP/kmh9VDA3h4eHiXebPl5tRkKKEOGpJCHA8PD+8CbzZW1W7x+zj44oWHh4eXXh9HFwMn9WAU8AAAAABJRU5ErkJggg==" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+<script>
+(function() {
+    var OriginTitile = document.title, titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '死鬼去哪里了！';
+            clearTimeout(titleTime);
+        } else {
+            document.title = '(つェ⊂)咦!又好了!';
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            },2000);
+        }
+    });
+})();
+</script>
+
+
+
+</body>
+</html>
