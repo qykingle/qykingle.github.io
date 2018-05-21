@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kingle.online/"/>
-  <updated>2018-05-21T06:01:22.000Z</updated>
+  <updated>2018-05-21T06:30:27.000Z</updated>
   <id>http://kingle.online/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://kingle.online/2018/05/13/iTerm2%E6%8F%92%E4%BB%B6git%E7%9A%84%E7%BC%A9%E5%86%99%E5%A4%A7%E5%85%A8/"/>
     <id>http://kingle.online/2018/05/13/iTerm2插件git的缩写大全/</id>
     <published>2018-05-13T15:45:42.000Z</published>
-    <updated>2018-05-21T06:01:22.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="iTerm2终端集成git缩写意思"><a href="#iTerm2终端集成git缩写意思" class="headerlink" title="iTerm2终端集成git缩写意思"></a>iTerm2终端集成git缩写意思</h2><p><a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git" target="_blank" rel="external">oh-my-zsh git</a></p>
 <p>The <a href="https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git" target="_blank" rel="external">git</a> plugin provides many <a href="#aliases">aliases</a> and a few useful <a href="#functions">functions</a>.</p>
@@ -660,7 +660,7 @@
     <link href="http://kingle.online/2018/05/11/Spacemacs-Rocks%E7%AC%AC%E4%BA%8C%E5%AD%A3/"/>
     <id>http://kingle.online/2018/05/11/Spacemacs-Rocks第二季/</id>
     <published>2018-05-11T11:09:32.000Z</published>
-    <updated>2018-05-21T06:01:22.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Table-of-Contents"><a href="#Table-of-Contents" class="headerlink" title="Table of Contents"></a>Table of Contents</h1><p><code>转载自子龙山人</code>  <a href="https://github.com/emacs-china/Spacemacs-rocks" target="_blank" rel="external">GitHub</a></p>
 <ul>
@@ -2658,7 +2658,7 @@ ctags -e a.js
     <link href="http://kingle.online/2018/04/16/Atom%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
     <id>http://kingle.online/2018/04/16/Atom无法安装插件的解决方案/</id>
     <published>2018-04-15T17:20:30.000Z</published>
-    <updated>2018-05-21T06:01:22.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<p>众所周知 Atom安装插件经常失败，全局SS也没什么用。终于找到了两个可靠的方法，分享一下。</p>
 <h2 id="第一种"><a href="#第一种" class="headerlink" title="第一种"></a>第一种</h2><p>以Linter为例，到<a href="https://atom.io/packages" target="_blank" rel="external">Atom官方插件库</a>中搜索出Linter，点击<a href="https://atom.io/packages/linter" target="_blank" rel="external">插件详情页</a>中的Repo，进入该插件的<a href="https://github.com/steelbrain/linter" target="_blank" rel="external">Github仓库</a>，clone该项目到你的Atom插件目录（Win： C:\Users\你的用户名.atom\packages，Mac： ~/.atom/packages），然后cd到该插件目录下，执行 npm install，安装完成。</p>
@@ -2687,7 +2687,7 @@ ctags -e a.js
     <link href="http://kingle.online/2018/03/30/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%95%99%E7%A8%8B/"/>
     <id>http://kingle.online/2018/03/30/正则表达式教程/</id>
     <published>2018-03-30T15:00:18.000Z</published>
-    <updated>2018-03-30T09:31:53.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="常见匹配模式"><a href="#常见匹配模式" class="headerlink" title="常见匹配模式"></a>常见匹配模式</h2><table>
 <thead>
@@ -2974,7 +2974,7 @@ https://read.douban.com/ebook/31154855/?dcs=book-hot&amp;amp;dcm=douban&amp;amp;
     <link href="http://kingle.online/2018/03/25/BeautifulSoup%E5%BA%93%E8%AF%A6%E8%A7%A3/"/>
     <id>http://kingle.online/2018/03/25/BeautifulSoup库详解/</id>
     <published>2018-03-24T17:24:05.000Z</published>
-    <updated>2018-03-30T09:31:53.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="BeautifulSoup"><a href="#BeautifulSoup" class="headerlink" title="BeautifulSoup"></a>BeautifulSoup</h1><h2 id="解析库"><a href="#解析库" class="headerlink" title="解析库"></a>解析库</h2><table>
 <thead>
@@ -3274,7 +3274,7 @@ Bar
     <link href="http://kingle.online/2018/03/18/python%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%BC%BA%E5%8C%96note3/"/>
     <id>http://kingle.online/2018/03/18/python进阶与强化note3/</id>
     <published>2018-03-18T15:19:40.000Z</published>
-    <updated>2018-03-30T09:31:53.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="note3"><a href="#note3" class="headerlink" title="note3"></a>note3</h1><h2 id="拆分字符串"><a href="#拆分字符串" class="headerlink" title="拆分字符串"></a>拆分字符串</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 普通拆分，可以使用map函数</span></div><div class="line">s = <span class="string">'ab;cd|efg|hi,jkl|mn\topq;rst,uvw\txyz'</span></div><div class="line">res = s.split(<span class="string">';'</span>)</div><div class="line">t = []</div><div class="line"><span class="comment"># 将res中的每一项用|分隔符，分割之后，添加到t列表中去</span></div><div class="line">map(<span class="keyword">lambda</span> x: t.extend(x.split(<span class="string">'|'</span>)), res)</div><div class="line"></div><div class="line"><span class="comment">#总结为一个函数</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">mySplit</span><span class="params">(s, ds)</span>:</span></div><div class="line">    res = [s]</div><div class="line">    <span class="keyword">for</span> d <span class="keyword">in</span> ds:</div><div class="line">        t = []</div><div class="line">        map(<span class="keyword">lambda</span> x: t.extend(x.split(d)), res)</div><div class="line">        res = t</div><div class="line">    <span class="keyword">return</span> [x <span class="keyword">for</span> x <span class="keyword">in</span> res <span class="keyword">if</span> x]</div><div class="line"></div><div class="line">s = <span class="string">'ab;cd|efg|hi,jkl|mn\topq;rst,uvw\txyz'</span></div><div class="line">mySplit(s, <span class="string">';|,\t'</span>)</div></pre></td></tr></table></figure>
 <p>直接使用正则表达式<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> re</div><div class="line"><span class="comment"># 速度慢一些</span></div><div class="line">re.split(<span class="string">r'[,;\t|]+'</span>, s)</div></pre></td></tr></table></figure></p>
@@ -3305,7 +3305,7 @@ Bar
     <link href="http://kingle.online/2018/03/13/%E7%99%BE%E5%BA%A6%E4%BA%91%E9%99%90%E9%80%9F%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95-%E6%94%AF%E6%8C%81Windows%E5%92%8CMac/"/>
     <id>http://kingle.online/2018/03/13/百度云限速解决办法-支持Windows和Mac/</id>
     <published>2018-03-13T14:30:01.000Z</published>
-    <updated>2018-03-13T07:04:28.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="安装说明"><a href="#安装说明" class="headerlink" title="安装说明"></a>安装说明</h2><p>本软件需要安装浏览器插件和客户端</p>
 <p><strong>下载地址</strong><br>链接：<a href="https://share.weiyun.com/d10ce31c7b58645340c3d8ac85cfae0a" target="_blank" rel="external">https://share.weiyun.com/d10ce31c7b58645340c3d8ac85cfae0a</a> 密码：n3k2tn</p>
@@ -3359,7 +3359,7 @@ Bar
     <link href="http://kingle.online/2018/03/03/Requests%E5%BA%93%E8%AF%A6%E8%A7%A3/"/>
     <id>http://kingle.online/2018/03/03/Requests库详解/</id>
     <published>2018-03-02T17:27:05.000Z</published>
-    <updated>2018-03-30T09:31:53.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="requests"><a href="#requests" class="headerlink" title="requests"></a>requests</h1><h2 id="实例引入"><a href="#实例引入" class="headerlink" title="实例引入"></a>实例引入</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> requests</div><div class="line"></div><div class="line">response = requests.get(<span class="string">'https://www.baidu.com/'</span>)</div><div class="line">print(type(response))</div><div class="line">print(response.status_code)</div><div class="line">print(type(response.text))</div><div class="line">print(response.text)</div><div class="line">print(response.cookies)</div></pre></td></tr></table></figure>
 <h2 id="各种请求方式"><a href="#各种请求方式" class="headerlink" title="各种请求方式"></a>各种请求方式</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> requests</div><div class="line">requests.post(<span class="string">'http://httpbin.org/post'</span>)</div><div class="line">requests.put(<span class="string">'http://httpbin.org/put'</span>)</div><div class="line">requests.delete(<span class="string">'http://httpbin.org/delete'</span>)</div><div class="line">requests.head(<span class="string">'http://httpbin.org/get'</span>)</div><div class="line">requests.options(<span class="string">'http://httpbin.org/get'</span>)</div></pre></td></tr></table></figure>
@@ -3414,7 +3414,7 @@ Bar
     <link href="http://kingle.online/2018/01/17/JavaScript%E5%B8%B8%E7%94%A8API%E5%90%88%E9%9B%86/"/>
     <id>http://kingle.online/2018/01/17/JavaScript常用API合集/</id>
     <published>2018-01-16T21:34:42.000Z</published>
-    <updated>2018-03-30T09:31:53.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="JavaScript常用API合集"><a href="#JavaScript常用API合集" class="headerlink" title="JavaScript常用API合集"></a>JavaScript常用API合集</h1><h2 id="一、节点"><a href="#一、节点" class="headerlink" title="一、节点"></a>一、节点</h2><h3 id="1-1-节点属性"><a href="#1-1-节点属性" class="headerlink" title="1.1 节点属性"></a>1.1 节点属性</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">Node.nodeName  <span class="comment">//返回节点名称，只读</span></div><div class="line">Node.nodeType  <span class="comment">//返回节点类型的常数值，只读</span></div><div class="line">Node.nodeValue  <span class="comment">//返回Text或Comment节点的文本值，只读</span></div><div class="line">Node.textContent  <span class="comment">//返回当前节点和它的所有后代节点的文本内容，可读写</span></div><div class="line">Node.baseURI    <span class="comment">//返回当前网页的绝对路径</span></div><div class="line"></div><div class="line">Node.ownerDocument  <span class="comment">//返回当前节点所在的顶层文档对象，即document</span></div><div class="line">Node.nextSibling  <span class="comment">//返回紧跟在当前节点后面的第一个兄弟节点</span></div><div class="line">Node.previousSibling  <span class="comment">//返回当前节点前面的、距离最近的一个兄弟节点</span></div><div class="line">Node.parentNode  <span class="comment">//返回当前节点的父节点</span></div><div class="line">Node.parentElement  <span class="comment">//返回当前节点的父Element节点</span></div><div class="line">Node.childNodes  <span class="comment">//返回当前节点的所有子节点</span></div><div class="line">Node.firstChild  <span class="comment">//返回当前节点的第一个子节点</span></div><div class="line">Node.lastChild  <span class="comment">//返回当前节点的最后一个子节点</span></div><div class="line"></div><div class="line"><span class="comment">//parentNode接口</span></div><div class="line">Node.children  <span class="comment">//返回指定节点的所有Element子节点</span></div><div class="line">Node.firstElementChild  <span class="comment">//返回当前节点的第一个Element子节点</span></div><div class="line">Node.lastElementChild  <span class="comment">//返回当前节点的最后一个Element子节点</span></div><div class="line">Node.childElementCount  <span class="comment">//返回当前节点所有Element子节点的数目。</span></div></pre></td></tr></table></figure>
 <h3 id="1-2-操作"><a href="#1-2-操作" class="headerlink" title="1.2 操作"></a>1.2 操作</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">ppendChild(node)  <span class="comment">//向节点添加最后一个子节点</span></div><div class="line">Node.hasChildNodes()  <span class="comment">//返回布尔值，表示当前节点是否有子节点</span></div><div class="line">Node.cloneNode(<span class="literal">true</span>);  <span class="comment">// 默认为false(克隆节点), true(克隆节点及其属性，以及后代)</span></div><div class="line">Node.insertBefore(newNode,oldNode)  <span class="comment">// 在指定子节点之前插入新的子节点</span></div><div class="line">Node.removeChild(node)  <span class="comment">//删除节点，在要删除节点的父节点上操作</span></div><div class="line">Node.replaceChild(newChild,oldChild)  <span class="comment">//替换节点</span></div><div class="line">Node.contains(node)  <span class="comment">//返回一个布尔值，表示参数节点是否为当前节点的后代节点。</span></div><div class="line">Node.compareDocumentPosition(node)  <span class="comment">//返回一个7个比特位的二进制值，表示参数节点和当前节点的关系</span></div><div class="line">Node.isEqualNode(noe)  <span class="comment">//返回布尔值，用于检查两个节点是否相等。所谓相等的节点，指的是两个节点的类型相同、属性相同、子节点相同。</span></div><div class="line">Node.normalize()  <span class="comment">//用于清理当前节点内部的所有Text节点。它会去除空的文本节点，并且将毗邻的文本节点合并成一个。</span></div><div class="line"></div><div class="line"><span class="comment">//ChildNode接口</span></div><div class="line">Node.remove()  <span class="comment">//用于删除当前节点</span></div><div class="line">Node.before()  <span class="comment">//</span></div><div class="line">Node.after()</div><div class="line">Node.replaceWith()</div></pre></td></tr></table></figure>
@@ -3555,7 +3555,7 @@ Bar
     <link href="http://kingle.online/2018/01/16/Mac%E7%B3%BB%E7%BB%9F%E4%B8%8B%E9%9D%9E%E5%B8%B8%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%92%8C%E5%B7%A5%E5%85%B7/"/>
     <id>http://kingle.online/2018/01/16/Mac系统下非常好用的软件和工具/</id>
     <published>2018-01-15T20:04:08.000Z</published>
-    <updated>2018-01-15T12:10:20.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Awesome-Mac"><a href="#Awesome-Mac" class="headerlink" title="Awesome Mac"></a>Awesome Mac</h1><p>这个仓库主要是收集非常好用的Mac应用程序、软件以及工具，主要面向开发者和设计师。</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
@@ -4264,7 +4264,7 @@ Bar
     <link href="http://kingle.online/2018/01/13/%E4%B8%89%E6%A0%8F%E5%B8%83%E5%B1%80/"/>
     <id>http://kingle.online/2018/01/13/三栏布局/</id>
     <published>2018-01-13T14:32:15.000Z</published>
-    <updated>2018-01-15T12:10:09.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="三栏布局"><a href="#三栏布局" class="headerlink" title="三栏布局"></a>三栏布局</h2><p>问题描述：假设高度已知，请写出三栏布局，其中左栏、右栏宽度各位300px，中间自适应.</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div><div class="line">128</div><div class="line">129</div><div class="line">130</div><div class="line">131</div><div class="line">132</div><div class="line">133</div><div class="line">134</div><div class="line">135</div><div class="line">136</div><div class="line">137</div><div class="line">138</div><div class="line">139</div><div class="line">140</div><div class="line">141</div><div class="line">142</div><div class="line">143</div><div class="line">144</div><div class="line">145</div><div class="line">146</div><div class="line">147</div><div class="line">148</div><div class="line">149</div><div class="line">150</div><div class="line">151</div><div class="line">152</div><div class="line">153</div><div class="line">154</div><div class="line">155</div><div class="line">156</div><div class="line">157</div><div class="line">158</div><div class="line">159</div><div class="line">160</div><div class="line">161</div><div class="line">162</div><div class="line">163</div><div class="line">164</div><div class="line">165</div><div class="line">166</div><div class="line">167</div><div class="line">168</div><div class="line">169</div><div class="line">170</div><div class="line">171</div><div class="line">172</div><div class="line">173</div><div class="line">174</div><div class="line">175</div><div class="line">176</div><div class="line">177</div><div class="line">178</div><div class="line">179</div><div class="line">180</div><div class="line">181</div><div class="line">182</div><div class="line">183</div><div class="line">184</div><div class="line">185</div><div class="line">186</div><div class="line">187</div><div class="line">188</div><div class="line">189</div><div class="line">190</div><div class="line">191</div><div class="line">192</div><div class="line">193</div><div class="line">194</div><div class="line">195</div><div class="line">196</div><div class="line">197</div><div class="line">198</div><div class="line">199</div><div class="line">200</div><div class="line">201</div><div class="line">202</div><div class="line">203</div><div class="line">204</div><div class="line">205</div><div class="line">206</div><div class="line">207</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Layout<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">style</span> <span class="attr">media</span>=<span class="string">"screen"</span>&gt;</span><span class="undefined"></span></div><div class="line">      html *&#123;</div><div class="line">        padding: 0;</div><div class="line">        margin: 0;</div><div class="line">      &#125;</div><div class="line">      .layout article div&#123;</div><div class="line">        min-height: 100px;</div><div class="line">      &#125;</div><div class="line">    <span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--浮动布局  --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">section</span> <span class="attr">class</span>=<span class="string">"layout float"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">style</span> <span class="attr">media</span>=<span class="string">"screen"</span>&gt;</span><span class="undefined"></span></div><div class="line">      .layout.float .left&#123;</div><div class="line">        float:left;</div><div class="line">        width:300px;</div><div class="line">        background: red;</div><div class="line">      &#125;</div><div class="line">      .layout.float .center&#123;</div><div class="line">        background: yellow;</div><div class="line">      &#125;</div><div class="line">      .layout.float .right&#123;</div><div class="line">        float:right;</div><div class="line">        width:300px;</div><div class="line">        background: blue;</div><div class="line">      &#125;</div><div class="line">      <span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">h1</span>&gt;</span>三栏布局<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">article</span> <span class="attr">class</span>=<span class="string">"left-right-center"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"left"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"right"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"center"</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">h2</span>&gt;</span>浮动解决方案<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></div><div class="line">          1.这是三栏布局的浮动解决方案；</div><div class="line">          2.这是三栏布局的浮动解决方案；</div><div class="line">          3.这是三栏布局的浮动解决方案；</div><div class="line">          4.这是三栏布局的浮动解决方案；</div><div class="line">          5.这是三栏布局的浮动解决方案；</div><div class="line">          6.这是三栏布局的浮动解决方案；</div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">article</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">section</span>&gt;</span></div><div class="line"></div><div class="line">    <span class="comment">&lt;!-- 绝对布局 --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">section</span> <span class="attr">class</span>=<span class="string">"layout absolute"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></div><div class="line">        .layout.absolute .left-center-right&gt;div&#123;</div><div class="line">          position: absolute;</div><div class="line">        &#125;</div><div class="line">        .layout.absolute .left&#123;</div><div class="line">          left:0;</div><div class="line">          width: 300px;</div><div class="line">          background: red;</div><div class="line">        &#125;</div><div class="line">        .layout.absolute .center&#123;</div><div class="line">          left: 300px;</div><div class="line">          right: 300px;</div><div class="line">          background: yellow;</div><div class="line">        &#125;</div><div class="line">        .layout.absolute .right&#123;</div><div class="line">          right:0;</div><div class="line">          width: 300px;</div><div class="line">          background: blue;</div><div class="line">        &#125;</div><div class="line">      <span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">h1</span>&gt;</span>三栏布局<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">article</span> <span class="attr">class</span>=<span class="string">"left-center-right"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"left"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"center"</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">h2</span>&gt;</span>绝对定位解决方案<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></div><div class="line">          1.这是三栏布局的浮动解决方案；</div><div class="line">          2.这是三栏布局的浮动解决方案；</div><div class="line">          3.这是三栏布局的浮动解决方案；</div><div class="line">          4.这是三栏布局的浮动解决方案；</div><div class="line">          5.这是三栏布局的浮动解决方案；</div><div class="line">          6.这是三栏布局的浮动解决方案；</div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"right"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">article</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">section</span>&gt;</span></div><div class="line"></div><div class="line"></div><div class="line">    <span class="comment">&lt;!-- flexbox布局 --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">section</span> <span class="attr">class</span>=<span class="string">"layout flexbox"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></div><div class="line">        .layout.flexbox&#123;</div><div class="line">          margin-top: 110px;</div><div class="line">        &#125;</div><div class="line">        .layout.flexbox .left-center-right&#123;</div><div class="line">          display: flex;</div><div class="line">        &#125;</div><div class="line">        .layout.flexbox .left&#123;</div><div class="line">          width: 300px;</div><div class="line">          background: red;</div><div class="line">        &#125;</div><div class="line">        .layout.flexbox .center&#123;</div><div class="line">          flex:1;</div><div class="line">          background: yellow;</div><div class="line">        &#125;</div><div class="line">        .layout.flexbox .right&#123;</div><div class="line">          width: 300px;</div><div class="line">          background: blue;</div><div class="line">        &#125;</div><div class="line">      <span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">h1</span>&gt;</span>三栏布局<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">article</span> <span class="attr">class</span>=<span class="string">"left-center-right"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"left"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"center"</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">h2</span>&gt;</span>flexbox解决方案<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></div><div class="line">          1.这是三栏布局的浮动解决方案；</div><div class="line">          2.这是三栏布局的浮动解决方案；</div><div class="line">          3.这是三栏布局的浮动解决方案；</div><div class="line">          4.这是三栏布局的浮动解决方案；</div><div class="line">          5.这是三栏布局的浮动解决方案；</div><div class="line">          6.这是三栏布局的浮动解决方案；</div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"right"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">article</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">section</span>&gt;</span></div><div class="line"></div><div class="line"></div><div class="line">    <span class="comment">&lt;!-- 表格布局 --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">section</span> <span class="attr">class</span>=<span class="string">"layout table"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></div><div class="line">        .layout.table .left-center-right&#123;</div><div class="line">          width:100%;</div><div class="line">          height: 100px;</div><div class="line">          display: table;</div><div class="line">        &#125;</div><div class="line">        .layout.table .left-center-right&gt;div&#123;</div><div class="line">          display: table-cell;</div><div class="line">        &#125;</div><div class="line">        .layout.table .left&#123;</div><div class="line">          width: 300px;</div><div class="line">          background: red;</div><div class="line">        &#125;</div><div class="line">        .layout.table .center&#123;</div><div class="line">          background: yellow;</div><div class="line">        &#125;</div><div class="line">        .layout.table .right&#123;</div><div class="line">          width: 300px;</div><div class="line">          background: blue;</div><div class="line">        &#125;</div><div class="line">      <span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">h1</span>&gt;</span>三栏布局<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">article</span> <span class="attr">class</span>=<span class="string">"left-center-right"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"left"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"center"</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">h2</span>&gt;</span>表格布局解决方案<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></div><div class="line">          1.这是三栏布局的浮动解决方案；</div><div class="line">          2.这是三栏布局的浮动解决方案；</div><div class="line">          3.这是三栏布局的浮动解决方案；</div><div class="line">          4.这是三栏布局的浮动解决方案；</div><div class="line">          5.这是三栏布局的浮动解决方案；</div><div class="line">          6.这是三栏布局的浮动解决方案；</div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"right"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">article</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">section</span>&gt;</span></div><div class="line"></div><div class="line">    <span class="comment">&lt;!-- 网格布局 --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">section</span> <span class="attr">class</span>=<span class="string">"layout grid"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></div><div class="line">        .layout.grid .left-center-right&#123;</div><div class="line">          width:100%;</div><div class="line">          display: grid;</div><div class="line">          grid-template-rows: 100px;</div><div class="line">          grid-template-columns: 300px auto 300px;</div><div class="line">        &#125;</div><div class="line">        .layout.grid .left-center-right&gt;div&#123;</div><div class="line"></div><div class="line">        &#125;</div><div class="line">        .layout.grid .left&#123;</div><div class="line">          width: 300px;</div><div class="line">          background: red;</div><div class="line">        &#125;</div><div class="line">        .layout.grid .center&#123;</div><div class="line">          background: yellow;</div><div class="line">        &#125;</div><div class="line">        .layout.grid .right&#123;</div><div class="line"></div><div class="line">          background: blue;</div><div class="line">        &#125;</div><div class="line">      <span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">h1</span>&gt;</span>三栏布局<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">article</span> <span class="attr">class</span>=<span class="string">"left-center-right"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"left"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"center"</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">h2</span>&gt;</span>网格布局解决方案<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></div><div class="line">          1.这是三栏布局的浮动解决方案；</div><div class="line">          2.这是三栏布局的浮动解决方案；</div><div class="line">          3.这是三栏布局的浮动解决方案；</div><div class="line">          4.这是三栏布局的浮动解决方案；</div><div class="line">          5.这是三栏布局的浮动解决方案；</div><div class="line">          6.这是三栏布局的浮动解决方案；</div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"right"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">article</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">section</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
@@ -4294,7 +4294,7 @@ Bar
     <link href="http://kingle.online/2018/01/10/%E7%99%BE%E5%BA%A6%E4%BA%91%E5%80%8D%E9%80%9F%E6%92%AD%E6%94%BE%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
     <id>http://kingle.online/2018/01/10/百度云倍速播放解决办法/</id>
     <published>2018-01-10T15:50:28.000Z</published>
-    <updated>2018-03-30T09:31:53.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<p>我平时在慕课或者其他视频网站上学习的时候，非常需要将速度加快播放，但是一些在百度云保存的视频用它网络自带的播放器一般都不能倍速播放。于是….</p>
 <h2 id="chrome-Firefox插件安装"><a href="#chrome-Firefox插件安装" class="headerlink" title="chrome/Firefox插件安装"></a>chrome/Firefox插件安装</h2><ul>
@@ -4364,10 +4364,10 @@ Bar
   
   <entry>
     <title>Debian8-Server安装LEMP-nginx,MySQL/MariaDB,PHP</title>
-    <link href="http://kingle.online/2017/05/29/Debian8-Server%E5%AE%89%E8%A3%85LEMP-nginx-MySQL-MariaDB-PHP/"/>
-    <id>http://kingle.online/2017/05/29/Debian8-Server安装LEMP-nginx-MySQL-MariaDB-PHP/</id>
+    <link href="http://kingle.online/2017/05/29/Debian8-Server%E5%AE%89%E8%A3%85LEMP-nginx-MySQL-MariaDB-PHP%20(kingle%E7%9A%84MacBook%20Pro%20%E7%9A%84%E5%86%B2%E7%AA%81%E5%89%AF%E6%9C%AC%202018-04-09)/"/>
+    <id>http://kingle.online/2017/05/29/Debian8-Server安装LEMP-nginx-MySQL-MariaDB-PHP (kingle的MacBook Pro 的冲突副本 2018-04-09)/</id>
     <published>2017-05-28T22:29:29.000Z</published>
-    <updated>2017-06-01T07:10:31.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<p>转载自linux大神博客</p>
 <p><a href="https://www.linuxdashen.com/debian8-jessie" target="_blank" rel="external">原文链接</a></p>
@@ -4463,10 +4463,10 @@ Bar
   
   <entry>
     <title>Debian8-Server安装LEMP-nginx,MySQL/MariaDB,PHP</title>
-    <link href="http://kingle.online/2017/05/29/Debian8-Server%E5%AE%89%E8%A3%85LEMP-nginx-MySQL-MariaDB-PHP%20(kingle%E7%9A%84MacBook%20Pro%20%E7%9A%84%E5%86%B2%E7%AA%81%E5%89%AF%E6%9C%AC%202018-04-09)/"/>
-    <id>http://kingle.online/2017/05/29/Debian8-Server安装LEMP-nginx-MySQL-MariaDB-PHP (kingle的MacBook Pro 的冲突副本 2018-04-09)/</id>
+    <link href="http://kingle.online/2017/05/29/Debian8-Server%E5%AE%89%E8%A3%85LEMP-nginx-MySQL-MariaDB-PHP/"/>
+    <id>http://kingle.online/2017/05/29/Debian8-Server安装LEMP-nginx-MySQL-MariaDB-PHP/</id>
     <published>2017-05-28T22:29:29.000Z</published>
-    <updated>2017-05-28T14:55:59.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<p>转载自linux大神博客</p>
 <p><a href="https://www.linuxdashen.com/debian8-jessie" target="_blank" rel="external">原文链接</a></p>
@@ -4565,7 +4565,7 @@ Bar
     <link href="http://kingle.online/2017/05/14/python-Matplotlib%E5%9F%BA%E7%A1%80%E7%BB%98%E5%9B%BE%E5%87%BD%E6%95%B0/"/>
     <id>http://kingle.online/2017/05/14/python-Matplotlib基础绘图函数/</id>
     <published>2017-05-13T16:48:37.000Z</published>
-    <updated>2017-05-13T09:33:02.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="pyplot的基础图标函数列表"><a href="#pyplot的基础图标函数列表" class="headerlink" title="pyplot的基础图标函数列表"></a>pyplot的基础图标函数列表</h2><p>一共有16种</p>
 <div style="text-align: center"><br>    <img src="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.1.png" width="" height="" alt="picture is gone"><br></div><br><div style="text-align: center"><br>    <img src="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.2.png" width="" height="" alt="picture is gone"><br></div><br><div style="text-align: center"><br>    <img src="http://ojlmcfp94.bkt.clouddn.com/image/pyplot2.3.png" width="" height="" alt="picture is gone"><br></div>
@@ -4608,7 +4608,7 @@ Bar
     <link href="http://kingle.online/2017/05/13/python-Matplotlib%E5%BA%93%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/"/>
     <id>http://kingle.online/2017/05/13/python-Matplotlib库入门笔记/</id>
     <published>2017-05-12T21:33:28.000Z</published>
-    <updated>2017-05-13T09:33:50.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<p><a href="http://matplotlib.org/" target="_blank" rel="external">http://matplotlib.org/</a></p>
 <p>Matplotlib库由各种可视化类构成，内部结构复杂，受Matlab启发 matplotlib.pyplot是绘制各类可视化图形的命令子库，相当于快捷方式</p>
@@ -4777,7 +4777,7 @@ Bar
     <link href="http://kingle.online/2017/05/07/atom-sublimeText-vscode/"/>
     <id>http://kingle.online/2017/05/07/atom-sublimeText-vscode/</id>
     <published>2017-05-06T21:57:39.000Z</published>
-    <updated>2017-05-06T14:20:59.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="atom"><a href="#atom" class="headerlink" title="atom"></a>atom</h2><ul>
 <li>atom-beautify</li>
@@ -4863,7 +4863,7 @@ Bar
     <link href="http://kingle.online/2017/05/01/iTerm2%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     <id>http://kingle.online/2017/05/01/iTerm2快捷键/</id>
     <published>2017-05-01T14:12:17.000Z</published>
-    <updated>2017-05-06T06:41:15.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a><a href="#标签" title="标签"></a>标签</h2><p>新建标签：<strong>command + t</strong></p>
 <p>关闭标签：<strong>command + w</strong></p>
@@ -4939,7 +4939,7 @@ Bar
     <link href="http://kingle.online/2017/04/29/Numpy%E6%95%B0%E6%8D%AE%E5%AD%98%E5%8F%96%E4%B8%8E%E5%87%BD%E6%95%B0/"/>
     <id>http://kingle.online/2017/04/29/Numpy数据存取与函数/</id>
     <published>2017-04-29T14:07:43.000Z</published>
-    <updated>2017-05-06T06:41:15.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="数据的CSV文件存取"><a href="#数据的CSV文件存取" class="headerlink" title="数据的CSV文件存取"></a><a href="#数据的CSV文件存取" title="数据的CSV文件存取"></a>数据的CSV文件存取</h2><p>CSV (Comma‐Separated Value, 逗号分隔值) CSV是一种常见的文件格式，用来存储批量数据</p>
 <ul>
@@ -5034,7 +5034,7 @@ Bar
     <link href="http://kingle.online/2017/04/17/Python-numpy%E5%BA%93/"/>
     <id>http://kingle.online/2017/04/17/Python-numpy库/</id>
     <published>2017-04-17T13:43:15.000Z</published>
-    <updated>2017-05-06T06:41:15.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="列表和数组"><a href="#列表和数组" class="headerlink" title="列表和数组"></a>列表和数组</h2><p>区别:</p>
 <ul>
@@ -5138,7 +5138,7 @@ Bar
     <link href="http://kingle.online/2017/03/31/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0-c-c++%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
     <id>http://kingle.online/2017/03/31/算法笔记-c-c++快速入门/</id>
     <published>2017-03-31T13:39:53.000Z</published>
-    <updated>2017-05-06T06:41:15.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="c-c-快速入门"><a href="#c-c-快速入门" class="headerlink" title="c/c++快速入门"></a>c/c++快速入门</h2><ol>
 <li>在C++标准中，stdio.h更为推荐的等价方法是：cstdio</li>
@@ -5189,7 +5189,7 @@ Bar
     <link href="http://kingle.online/2017/03/29/vim%E9%85%8D%E7%BD%AE/"/>
     <id>http://kingle.online/2017/03/29/vim配置/</id>
     <published>2017-03-29T13:38:35.000Z</published>
-    <updated>2017-05-06T06:41:15.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>所需即所获：像 IDE 一样使用 vim, 参考<a href="https://github.com/yangyangwithgnu/use_vim_as_ide#01-vimrc-文件" target="_blank" rel="external">https://github.com/yangyangwithgnu/use_vim_as_ide#01-vimrc-文件</a></p>
@@ -5297,7 +5297,7 @@ Bar
     <link href="http://kingle.online/2017/03/22/python%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%BC%BA%E5%8C%96note2/"/>
     <id>http://kingle.online/2017/03/22/python进阶与强化note2/</id>
     <published>2017-03-22T15:19:37.000Z</published>
-    <updated>2018-03-30T09:31:53.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="note2"><a href="#note2" class="headerlink" title="note2"></a>note2</h1><h2 id="如何实现可迭代对象和迭代器对象"><a href="#如何实现可迭代对象和迭代器对象" class="headerlink" title="如何实现可迭代对象和迭代器对象"></a>如何实现可迭代对象和迭代器对象</h2><p>应用场景:</p>
 <ul>
@@ -5331,7 +5331,7 @@ Bar
     <link href="http://kingle.online/2017/03/18/python%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%BC%BA%E5%8C%96note1/"/>
     <id>http://kingle.online/2017/03/18/python进阶与强化note1/</id>
     <published>2017-03-18T15:19:30.000Z</published>
-    <updated>2018-03-30T09:31:53.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="note1"><a href="#note1" class="headerlink" title="note1"></a>note1</h2><h2 id="过滤"><a href="#过滤" class="headerlink" title="过滤"></a>过滤</h2><p><code>list</code>过滤<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#生成-10到10范围内的十个数</span></div><div class="line">data = [randint(<span class="number">-10</span>, <span class="number">10</span>) <span class="keyword">for</span> _ <span class="keyword">in</span> range(<span class="number">10</span>)]</div><div class="line"></div><div class="line"><span class="comment">#过滤</span></div><div class="line">filter(<span class="keyword">lambda</span> x: x &gt;= <span class="number">0</span>, data)</div><div class="line"></div><div class="line"><span class="comment"># 列表解析过滤 更快</span></div><div class="line">[x <span class="keyword">for</span> x <span class="keyword">in</span> data <span class="keyword">if</span> x &gt;= <span class="number">0</span>]</div></pre></td></tr></table></figure></p>
 <p><code>dict</code>过滤<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 生成一个1-20号，分数为60-100的成绩</span></div><div class="line">student = &#123;x: randint(<span class="number">60</span>, <span class="number">100</span>) <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">1</span>, <span class="number">21</span>)&#125;</div><div class="line"></div><div class="line"><span class="comment">#迭代键和值并过滤</span></div><div class="line">&#123;k:v <span class="keyword">for</span> k, v <span class="keyword">in</span> d.items() <span class="keyword">if</span> v &gt; <span class="number">90</span>&#125;</div></pre></td></tr></table></figure></p>
@@ -5366,7 +5366,7 @@ Bar
     <link href="http://kingle.online/2017/03/14/Python%E7%AC%94%E8%AE%B0-BeautifulSoup%E5%BA%93%E5%85%A5%E9%97%A8/"/>
     <id>http://kingle.online/2017/03/14/Python笔记-BeautifulSoup库入门/</id>
     <published>2017-03-14T13:36:40.000Z</published>
-    <updated>2017-05-06T06:41:15.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Beautiful-Soup库的安装"><a href="#Beautiful-Soup库的安装" class="headerlink" title="Beautiful Soup库的安装"></a>Beautiful Soup库的安装</h2><p>Win平台: “以管理员身份运行”cmd 执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip install beautifulsoup4</div></pre></td></tr></table></figure></p>
 <h2 id="最简单的测试："><a href="#最简单的测试：" class="headerlink" title="最简单的测试："></a>最简单的测试：</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> requests</div><div class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</div><div class="line">r = requests.get(<span class="string">"http://www.baidu.com"</span>)</div><div class="line">demo = r.text</div><div class="line">soup = BeautifulSoup(demo, <span class="string">'html.parser'</span>)</div><div class="line">print(soup.prettify())</div></pre></td></tr></table></figure>
@@ -5404,7 +5404,7 @@ Bar
     <link href="http://kingle.online/2017/03/07/Python%E7%AC%94%E8%AE%B0-Requests%E5%BA%93%E7%BD%91%E7%BB%9C%E7%88%AC%E5%8F%96%E5%AE%9E%E6%88%98/"/>
     <id>http://kingle.online/2017/03/07/Python笔记-Requests库网络爬取实战/</id>
     <published>2017-03-07T13:34:48.000Z</published>
-    <updated>2017-05-06T06:41:15.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="实例1-京东商品页面的爬取"><a href="#实例1-京东商品页面的爬取" class="headerlink" title="实例1:京东商品页面的爬取"></a>实例1:京东商品页面的爬取</h2><p>代码：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> requests</div><div class="line">url = <span class="string">"https://item.jd.com/2967929.html"</span></div><div class="line"><span class="keyword">try</span>:</div><div class="line">    r = requests.get(url)</div><div class="line">    r.raise_for_status()</div><div class="line">    r.encoding = r.apparent_encoding</div><div class="line">    print(r.text[:<span class="number">1000</span>]</div><div class="line"><span class="keyword">except</span>:</div><div class="line">print(<span class="string">"爬取失败"</span>)</div></pre></td></tr></table></figure></p>
 <hr>
@@ -5432,7 +5432,7 @@ Bar
     <link href="http://kingle.online/2017/02/23/Emacs%E9%85%8D%E7%BD%AE/"/>
     <id>http://kingle.online/2017/02/23/Emacs配置/</id>
     <published>2017-02-23T13:31:20.000Z</published>
-    <updated>2017-05-06T06:41:15.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Contents"><a href="#Contents" class="headerlink" title="Contents"></a>Contents</h1><ol>
 <li>Overview</li>
@@ -5695,7 +5695,7 @@ Bar
     <link href="http://kingle.online/2017/02/03/%E9%A2%84%E8%A7%88%E5%BA%94%E7%94%A8%E6%89%A9%E5%B1%95%E5%A2%9E%E5%BC%BA%E5%B7%A5%E5%85%B7/"/>
     <id>http://kingle.online/2017/02/03/预览应用扩展增强工具/</id>
     <published>2017-02-03T12:57:45.000Z</published>
-    <updated>2017-05-06T06:41:15.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>针对mac系统的预览工具，快捷键是<strong>空格键</strong><br>Mac上的预览工具，本身就非常好用，大多数文件，比如图片、Office文档、MP3等文件在文件夹上，选中后，按一下空格就可以快速预览到内容。</p>
@@ -5735,7 +5735,7 @@ Bar
     <link href="http://kingle.online/2017/01/26/windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
     <id>http://kingle.online/2017/01/26/windows软件推荐/</id>
     <published>2017-01-26T13:53:33.000Z</published>
-    <updated>2017-05-06T06:41:15.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="一、软件推荐"><a href="#一、软件推荐" class="headerlink" title="一、软件推荐"></a><a href="#一、软件推荐" title="一、软件推荐"></a>一、软件推荐</h3><h4 id="1-1-Listary"><a href="#1-1-Listary" class="headerlink" title="1.1 Listary"></a><a href="#1-1-Listary" title="1.1  Listary"></a>1.1 <a href="http://www.listary.com/" target="_blank" rel="external">Listary</a></h4><figure class="image-bubble">
                 <div class="img-lightbox">
@@ -6016,7 +6016,7 @@ Bar
     <link href="http://kingle.online/2017/01/11/techshare1/"/>
     <id>http://kingle.online/2017/01/11/techshare1/</id>
     <published>2017-01-11T13:54:32.000Z</published>
-    <updated>2017-01-11T07:23:31.000Z</updated>
+    <updated>2018-05-21T06:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="一、软件推荐"><a href="#一、软件推荐" class="headerlink" title="一、软件推荐"></a>一、软件推荐</h3><h4 id="1-1-Listary"><a href="#1-1-Listary" class="headerlink" title="1.1  Listary"></a>1.1  <a href="http://www.listary.com/" target="_blank" rel="external">Listary</a></h4><p><img src="http://ojlmcfp94.bkt.clouddn.com/Listary.png" width="200" height="200" alt="Listry"></p>
 <a id="more"></a>
